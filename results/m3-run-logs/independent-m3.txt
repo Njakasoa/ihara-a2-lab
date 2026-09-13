@@ -1,0 +1,7 @@
+M3_INDEPENDENT_VALIDATION=PASS
+REFINED_COUNTS={"pairs_tested": 11384, "relation_rejected": 3521, "splitting_rejected": 7862}
+REFINED_SURVIVOR={"A": 266, "C_max": 2280, "C_min": 2236, "n": 0, "t_max": 192, "t_min": 192}
+RAY_MATRIX={"independent_units": ["x", "x+1", "y", "y+1", "y+x"], "jacobian_v2": 51, "local_dimension": 266, "places": 37, "projection_ranks": [0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5], "rank": 5, "single_block_intersections": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+LOCAL_FIXTURES=15
+MUTATIONS={"changed_GS_margin": "REJECTED", "changed_frobenius_vector": "REJECTED", "changed_group_rank": "REJECTED", "changed_nu": "REJECTED", "changed_place_degree": "REJECTED", "changed_proof_cap": "REJECTED", "changed_proof_constant": "REJECTED", "changed_support_multiplicity": "REJECTED", "changed_survivors": "REJECTED"}
+RUNTIME_SECONDS=0.351771

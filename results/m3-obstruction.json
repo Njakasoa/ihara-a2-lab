@@ -1,0 +1,2069 @@
+{
+  "experiment_id": "m3-all-depth-rational-obstruction",
+  "UTC": "2026-09-13T13:18:05.029908+00:00",
+  "commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "software_versions": {
+    "Python": "3.12.3"
+  },
+  "input_hashes": {
+    "certificates/m2-frozen.json": "593cf13d676caabadbb562ea52b5cebabf15e2a75e14478b1e58a6b4423337a3",
+    "curves/k343-place-counts-30.json": "8aaa507b68f0cf60be9786ef63ac9f411c1e413a7d830d6c8617cab110759bf7",
+    "certificates/m2-tower.json": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+    "proofs/M3_NONUNIFORM_OBSTRUCTION.md": "35a6bd7e16645470714164759a59e9c701865b300e2accd0bbf448bee999393a",
+    "experiments/m3_obstruction.py": "fc8fa8e9ddf7108513dce7d22cbf940b11215283194e86f6e97ae17bd6da8936"
+  },
+  "curve_hash": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+  "output_payload_sha256": "c410f7e7cc0b248060187b0e3ad921c8a2107b017eb360709a0176bde40fc84f",
+  "runtime_seconds": 0.062968,
+  "agent": "Astra root",
+  "verification_status": "production arithmetic PASS; independent review separate",
+  "data": {
+    "base_field": "F2",
+    "genus": 343,
+    "rational_places": 192,
+    "baseline": "196608/620201",
+    "scope": "fixed conservative DM score; all finite supports including rational; all integer nu>=2; variable t",
+    "finite_certificate": {
+      "counts": {
+        "pairs_tested": 9861,
+        "splitting_rejected": 7374,
+        "relation_rejected": 2486
+      },
+      "by_rational_support": [
+        {
+          "rational_support": 0,
+          "strict_A_endpoint": "90787/341",
+          "A_cap": 266,
+          "pairs_tested": 267
+        },
+        {
+          "rational_support": 1,
+          "strict_A_endpoint": "51771415/196416",
+          "A_cap": 263,
+          "pairs_tested": 263
+        },
+        {
+          "rational_support": 2,
+          "strict_A_endpoint": "25624759/98208",
+          "A_cap": 260,
+          "pairs_tested": 259
+        },
+        {
+          "rational_support": 3,
+          "strict_A_endpoint": "16909207/65472",
+          "A_cap": 258,
+          "pairs_tested": 256
+        },
+        {
+          "rational_support": 4,
+          "strict_A_endpoint": "12551431/49104",
+          "A_cap": 255,
+          "pairs_tested": 252
+        },
+        {
+          "rational_support": 5,
+          "strict_A_endpoint": "49683827/196416",
+          "A_cap": 252,
+          "pairs_tested": 248
+        },
+        {
+          "rational_support": 6,
+          "strict_A_endpoint": "8193655/32736",
+          "A_cap": 250,
+          "pairs_tested": 245
+        },
+        {
+          "rational_support": 7,
+          "strict_A_endpoint": "48640033/196416",
+          "A_cap": 247,
+          "pairs_tested": 241
+        },
+        {
+          "rational_support": 8,
+          "strict_A_endpoint": "546797/2232",
+          "A_cap": 244,
+          "pairs_tested": 237
+        },
+        {
+          "rational_support": 9,
+          "strict_A_endpoint": "5288471/21824",
+          "A_cap": 242,
+          "pairs_tested": 234
+        },
+        {
+          "rational_support": 10,
+          "strict_A_endpoint": "23537171/98208",
+          "A_cap": 239,
+          "pairs_tested": 230
+        },
+        {
+          "rational_support": 11,
+          "strict_A_endpoint": "46552445/196416",
+          "A_cap": 237,
+          "pairs_tested": 227
+        },
+        {
+          "rational_support": 12,
+          "strict_A_endpoint": "3835879/16368",
+          "A_cap": 234,
+          "pairs_tested": 223
+        },
+        {
+          "rational_support": 13,
+          "strict_A_endpoint": "1468021/6336",
+          "A_cap": 231,
+          "pairs_tested": 219
+        },
+        {
+          "rational_support": 14,
+          "strict_A_endpoint": "22493377/98208",
+          "A_cap": 229,
+          "pairs_tested": 216
+        },
+        {
+          "rational_support": 15,
+          "strict_A_endpoint": "14821619/65472",
+          "A_cap": 226,
+          "pairs_tested": 212
+        },
+        {
+          "rational_support": 16,
+          "strict_A_endpoint": "2746435/12276",
+          "A_cap": 223,
+          "pairs_tested": 208
+        },
+        {
+          "rational_support": 17,
+          "strict_A_endpoint": "43421063/196416",
+          "A_cap": 221,
+          "pairs_tested": 205
+        },
+        {
+          "rational_support": 18,
+          "strict_A_endpoint": "2383287/10912",
+          "A_cap": 218,
+          "pairs_tested": 201
+        },
+        {
+          "rational_support": 19,
+          "strict_A_endpoint": "3852479/17856",
+          "A_cap": 215,
+          "pairs_tested": 197
+        },
+        {
+          "rational_support": 20,
+          "strict_A_endpoint": "10463843/49104",
+          "A_cap": 213,
+          "pairs_tested": 194
+        },
+        {
+          "rational_support": 21,
+          "strict_A_endpoint": "13777825/65472",
+          "A_cap": 210,
+          "pairs_tested": 190
+        },
+        {
+          "rational_support": 22,
+          "strict_A_endpoint": "20405789/98208",
+          "A_cap": 207,
+          "pairs_tested": 186
+        },
+        {
+          "rational_support": 23,
+          "strict_A_endpoint": "40289681/196416",
+          "A_cap": 205,
+          "pairs_tested": 183
+        },
+        {
+          "rational_support": 24,
+          "strict_A_endpoint": "1656991/8184",
+          "A_cap": 202,
+          "pairs_tested": 179
+        },
+        {
+          "rational_support": 25,
+          "strict_A_endpoint": "39245887/196416",
+          "A_cap": 199,
+          "pairs_tested": 175
+        },
+        {
+          "rational_support": 26,
+          "strict_A_endpoint": "19361995/98208",
+          "A_cap": 197,
+          "pairs_tested": 172
+        },
+        {
+          "rational_support": 27,
+          "strict_A_endpoint": "4244677/21824",
+          "A_cap": 194,
+          "pairs_tested": 168
+        },
+        {
+          "rational_support": 28,
+          "strict_A_endpoint": "9420049/49104",
+          "A_cap": 191,
+          "pairs_tested": 164
+        },
+        {
+          "rational_support": 29,
+          "strict_A_endpoint": "37158299/196416",
+          "A_cap": 189,
+          "pairs_tested": 161
+        },
+        {
+          "rational_support": 30,
+          "strict_A_endpoint": "555097/2976",
+          "A_cap": 186,
+          "pairs_tested": 157
+        },
+        {
+          "rational_support": 31,
+          "strict_A_endpoint": "36114505/196416",
+          "A_cap": 183,
+          "pairs_tested": 153
+        },
+        {
+          "rational_support": 32,
+          "strict_A_endpoint": "1112269/6138",
+          "A_cap": 181,
+          "pairs_tested": 150
+        },
+        {
+          "rational_support": 33,
+          "strict_A_endpoint": "11690237/65472",
+          "A_cap": 178,
+          "pairs_tested": 146
+        },
+        {
+          "rational_support": 34,
+          "strict_A_endpoint": "17274407/98208",
+          "A_cap": 175,
+          "pairs_tested": 142
+        },
+        {
+          "rational_support": 35,
+          "strict_A_endpoint": "34026917/196416",
+          "A_cap": 173,
+          "pairs_tested": 139
+        },
+        {
+          "rational_support": 36,
+          "strict_A_endpoint": "930695/5456",
+          "A_cap": 170,
+          "pairs_tested": 135
+        },
+        {
+          "rational_support": 37,
+          "strict_A_endpoint": "32983123/196416",
+          "A_cap": 167,
+          "pairs_tested": 131
+        },
+        {
+          "rational_support": 38,
+          "strict_A_endpoint": "16230613/98208",
+          "A_cap": 165,
+          "pairs_tested": 128
+        },
+        {
+          "rational_support": 39,
+          "strict_A_endpoint": "10646443/65472",
+          "A_cap": 162,
+          "pairs_tested": 124
+        },
+        {
+          "rational_support": 40,
+          "strict_A_endpoint": "3927179/24552",
+          "A_cap": 159,
+          "pairs_tested": 120
+        },
+        {
+          "rational_support": 41,
+          "strict_A_endpoint": "2808685/17856",
+          "A_cap": 157,
+          "pairs_tested": 117
+        },
+        {
+          "rational_support": 42,
+          "strict_A_endpoint": "5062273/32736",
+          "A_cap": 154,
+          "pairs_tested": 113
+        },
+        {
+          "rational_support": 43,
+          "strict_A_endpoint": "29851741/196416",
+          "A_cap": 151,
+          "pairs_tested": 109
+        },
+        {
+          "rational_support": 44,
+          "strict_A_endpoint": "236531/1584",
+          "A_cap": 149,
+          "pairs_tested": 106
+        },
+        {
+          "rational_support": 45,
+          "strict_A_endpoint": "3200883/21824",
+          "A_cap": 146,
+          "pairs_tested": 102
+        },
+        {
+          "rational_support": 46,
+          "strict_A_endpoint": "14143025/98208",
+          "A_cap": 144,
+          "pairs_tested": 99
+        },
+        {
+          "rational_support": 47,
+          "strict_A_endpoint": "27764153/196416",
+          "A_cap": 141,
+          "pairs_tested": 95
+        },
+        {
+          "rational_support": 48,
+          "strict_A_endpoint": "567547/4092",
+          "A_cap": 138,
+          "pairs_tested": 91
+        },
+        {
+          "rational_support": 49,
+          "strict_A_endpoint": "26720359/196416",
+          "A_cap": 136,
+          "pairs_tested": 88
+        },
+        {
+          "rational_support": 50,
+          "strict_A_endpoint": "13099231/98208",
+          "A_cap": 133,
+          "pairs_tested": 84
+        },
+        {
+          "rational_support": 51,
+          "strict_A_endpoint": "8558855/65472",
+          "A_cap": 130,
+          "pairs_tested": 80
+        },
+        {
+          "rational_support": 52,
+          "strict_A_endpoint": "571697/4464",
+          "A_cap": 128,
+          "pairs_tested": 77
+        },
+        {
+          "rational_support": 53,
+          "strict_A_endpoint": "24632771/196416",
+          "A_cap": 125,
+          "pairs_tested": 73
+        },
+        {
+          "rational_support": 54,
+          "strict_A_endpoint": "1339493/10912",
+          "A_cap": 122,
+          "pairs_tested": 69
+        },
+        {
+          "rational_support": 55,
+          "strict_A_endpoint": "23588977/196416",
+          "A_cap": 120,
+          "pairs_tested": 66
+        },
+        {
+          "rational_support": 56,
+          "strict_A_endpoint": "2883385/24552",
+          "A_cap": 117,
+          "pairs_tested": 62
+        },
+        {
+          "rational_support": 57,
+          "strict_A_endpoint": "7515061/65472",
+          "A_cap": 114,
+          "pairs_tested": 58
+        },
+        {
+          "rational_support": 58,
+          "strict_A_endpoint": "11011643/98208",
+          "A_cap": 112,
+          "pairs_tested": 55
+        },
+        {
+          "rational_support": 59,
+          "strict_A_endpoint": "21501389/196416",
+          "A_cap": 109,
+          "pairs_tested": 51
+        },
+        {
+          "rational_support": 60,
+          "strict_A_endpoint": "1748291/16368",
+          "A_cap": 106,
+          "pairs_tested": 47
+        },
+        {
+          "rational_support": 61,
+          "strict_A_endpoint": "20457595/196416",
+          "A_cap": 104,
+          "pairs_tested": 44
+        },
+        {
+          "rational_support": 62,
+          "strict_A_endpoint": "9967849/98208",
+          "A_cap": 101,
+          "pairs_tested": 40
+        },
+        {
+          "rational_support": 63,
+          "strict_A_endpoint": "196099/1984",
+          "A_cap": 98,
+          "pairs_tested": 36
+        },
+        {
+          "rational_support": 64,
+          "strict_A_endpoint": "295186/3069",
+          "A_cap": 96,
+          "pairs_tested": 33
+        },
+        {
+          "rational_support": 65,
+          "strict_A_endpoint": "18370007/196416",
+          "A_cap": 93,
+          "pairs_tested": 29
+        },
+        {
+          "rational_support": 66,
+          "strict_A_endpoint": "2974685/32736",
+          "A_cap": 90,
+          "pairs_tested": 25
+        },
+        {
+          "rational_support": 67,
+          "strict_A_endpoint": "17326213/196416",
+          "A_cap": 88,
+          "pairs_tested": 22
+        },
+        {
+          "rational_support": 68,
+          "strict_A_endpoint": "4201079/49104",
+          "A_cap": 85,
+          "pairs_tested": 18
+        },
+        {
+          "rational_support": 69,
+          "strict_A_endpoint": "5427473/65472",
+          "A_cap": 82,
+          "pairs_tested": 14
+        },
+        {
+          "rational_support": 70,
+          "strict_A_endpoint": "7880261/98208",
+          "A_cap": 80,
+          "pairs_tested": 11
+        },
+        {
+          "rational_support": 71,
+          "strict_A_endpoint": "15238625/196416",
+          "A_cap": 77,
+          "pairs_tested": 7
+        },
+        {
+          "rational_support": 72,
+          "strict_A_endpoint": "204399/2728",
+          "A_cap": 74,
+          "pairs_tested": 3
+        },
+        {
+          "rational_support": 73,
+          "strict_A_endpoint": "14194831/196416",
+          "A_cap": 72,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 74,
+          "strict_A_endpoint": "621497/8928",
+          "A_cap": 69,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 75,
+          "strict_A_endpoint": "141409/2112",
+          "A_cap": 66,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 76,
+          "strict_A_endpoint": "3157285/49104",
+          "A_cap": 64,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 77,
+          "strict_A_endpoint": "12107243/196416",
+          "A_cap": 61,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 78,
+          "strict_A_endpoint": "1930891/32736",
+          "A_cap": 58,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 79,
+          "strict_A_endpoint": "11063449/196416",
+          "A_cap": 56,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 80,
+          "strict_A_endpoint": "658847/12276",
+          "A_cap": 53,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 81,
+          "strict_A_endpoint": "1113295/21824",
+          "A_cap": 51,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 82,
+          "strict_A_endpoint": "4748879/98208",
+          "A_cap": 48,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 83,
+          "strict_A_endpoint": "8975861/196416",
+          "A_cap": 45,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 84,
+          "strict_A_endpoint": "704497/16368",
+          "A_cap": 43,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 85,
+          "strict_A_endpoint": "721097/17856",
+          "A_cap": 40,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 86,
+          "strict_A_endpoint": "3705085/98208",
+          "A_cap": 37,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 87,
+          "strict_A_endpoint": "2296091/65472",
+          "A_cap": 35,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 88,
+          "strict_A_endpoint": "795797/24552",
+          "A_cap": 32,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 89,
+          "strict_A_endpoint": "5844479/196416",
+          "A_cap": 29,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 90,
+          "strict_A_endpoint": "295699/10912",
+          "A_cap": 27,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 91,
+          "strict_A_endpoint": "4800685/196416",
+          "A_cap": 24,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 92,
+          "strict_A_endpoint": "1069697/49104",
+          "A_cap": 21,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 93,
+          "strict_A_endpoint": "1252297/65472",
+          "A_cap": 19,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 94,
+          "strict_A_endpoint": "1617497/98208",
+          "A_cap": 16,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 95,
+          "strict_A_endpoint": "2713097/196416",
+          "A_cap": 13,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 96,
+          "strict_A_endpoint": "2075/186",
+          "A_cap": 11,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 97,
+          "strict_A_endpoint": "1669303/196416",
+          "A_cap": 8,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 98,
+          "strict_A_endpoint": "573703/98208",
+          "A_cap": 5,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 99,
+          "strict_A_endpoint": "69501/21824",
+          "A_cap": 3,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 100,
+          "strict_A_endpoint": "25903/49104",
+          "A_cap": 0,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 101,
+          "strict_A_endpoint": "-418285/196416",
+          "A_cap": -3,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 102,
+          "strict_A_endpoint": "-156697/32736",
+          "A_cap": -5,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 103,
+          "strict_A_endpoint": "-1462079/196416",
+          "A_cap": -8,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 104,
+          "strict_A_endpoint": "-247997/24552",
+          "A_cap": -11,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 105,
+          "strict_A_endpoint": "-835291/65472",
+          "A_cap": -13,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 106,
+          "strict_A_endpoint": "-48835/3168",
+          "A_cap": -16,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 107,
+          "strict_A_endpoint": "-322697/17856",
+          "A_cap": -19,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 108,
+          "strict_A_endpoint": "-113099/5456",
+          "A_cap": -21,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 109,
+          "strict_A_endpoint": "-4593461/196416",
+          "A_cap": -24,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 110,
+          "strict_A_endpoint": "-2557679/98208",
+          "A_cap": -27,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 111,
+          "strict_A_endpoint": "-1879085/65472",
+          "A_cap": -29,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 112,
+          "strict_A_endpoint": "-384947/12276",
+          "A_cap": -32,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 113,
+          "strict_A_endpoint": "-6681049/196416",
+          "A_cap": -35,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 114,
+          "strict_A_endpoint": "-1200491/32736",
+          "A_cap": -37,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 115,
+          "strict_A_endpoint": "-7724843/196416",
+          "A_cap": -40,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 116,
+          "strict_A_endpoint": "-2061685/49104",
+          "A_cap": -42,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 117,
+          "strict_A_endpoint": "-974293/21824",
+          "A_cap": -45,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 118,
+          "strict_A_endpoint": "-422297/8928",
+          "A_cap": -48,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 119,
+          "strict_A_endpoint": "-9812431/196416",
+          "A_cap": -50,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 120,
+          "strict_A_endpoint": "-430597/8184",
+          "A_cap": -53,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 121,
+          "strict_A_endpoint": "-10856225/196416",
+          "A_cap": -56,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 122,
+          "strict_A_endpoint": "-5689061/98208",
+          "A_cap": -58,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 123,
+          "strict_A_endpoint": "-3966673/65472",
+          "A_cap": -61,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 124,
+          "strict_A_endpoint": "-3105479/49104",
+          "A_cap": -64,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 125,
+          "strict_A_endpoint": "-12943813/196416",
+          "A_cap": -66,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 126,
+          "strict_A_endpoint": "-748095/10912",
+          "A_cap": -69,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 127,
+          "strict_A_endpoint": "-13987607/196416",
+          "A_cap": -72,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 128,
+          "strict_A_endpoint": "-226711/3069",
+          "A_cap": -74,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 129,
+          "strict_A_endpoint": "-455497/5952",
+          "A_cap": -77,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 130,
+          "strict_A_endpoint": "-7776649/98208",
+          "A_cap": -80,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 131,
+          "strict_A_endpoint": "-16075195/196416",
+          "A_cap": -82,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 132,
+          "strict_A_endpoint": "-1383091/16368",
+          "A_cap": -85,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 133,
+          "strict_A_endpoint": "-17118989/196416",
+          "A_cap": -88,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 134,
+          "strict_A_endpoint": "-8820443/98208",
+          "A_cap": -90,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 135,
+          "strict_A_endpoint": "-2018087/21824",
+          "A_cap": -93,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 136,
+          "strict_A_endpoint": "-2335585/24552",
+          "A_cap": -96,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 137,
+          "strict_A_endpoint": "-619567/6336",
+          "A_cap": -98,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 138,
+          "strict_A_endpoint": "-3288079/32736",
+          "A_cap": -101,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 139,
+          "strict_A_endpoint": "-20250371/196416",
+          "A_cap": -104,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 140,
+          "strict_A_endpoint": "-472097/4464",
+          "A_cap": -106,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 141,
+          "strict_A_endpoint": "-7098055/65472",
+          "A_cap": -109,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 142,
+          "strict_A_endpoint": "-10908031/98208",
+          "A_cap": -112,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 143,
+          "strict_A_endpoint": "-22337959/196416",
+          "A_cap": -114,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 144,
+          "strict_A_endpoint": "-158749/1364",
+          "A_cap": -117,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 145,
+          "strict_A_endpoint": "-23381753/196416",
+          "A_cap": -120,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 146,
+          "strict_A_endpoint": "-11951825/98208",
+          "A_cap": -122,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 147,
+          "strict_A_endpoint": "-8141849/65472",
+          "A_cap": -125,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 148,
+          "strict_A_endpoint": "-6236861/49104",
+          "A_cap": -128,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 149,
+          "strict_A_endpoint": "-25469341/196416",
+          "A_cap": -130,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 150,
+          "strict_A_endpoint": "-4331873/32736",
+          "A_cap": -133,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 151,
+          "strict_A_endpoint": "-2410285/17856",
+          "A_cap": -135,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 152,
+          "strict_A_endpoint": "-3379379/24552",
+          "A_cap": -138,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 153,
+          "strict_A_endpoint": "-3061881/21824",
+          "A_cap": -141,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 154,
+          "strict_A_endpoint": "-14039413/98208",
+          "A_cap": -143,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 155,
+          "strict_A_endpoint": "-28600723/196416",
+          "A_cap": -146,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 156,
+          "strict_A_endpoint": "-2426885/16368",
+          "A_cap": -149,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 157,
+          "strict_A_endpoint": "-29644517/196416",
+          "A_cap": -151,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 158,
+          "strict_A_endpoint": "-15083207/98208",
+          "A_cap": -154,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 159,
+          "strict_A_endpoint": "-10229437/65472",
+          "A_cap": -157,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 160,
+          "strict_A_endpoint": "-975319/6138",
+          "A_cap": -159,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 161,
+          "strict_A_endpoint": "-31732105/196416",
+          "A_cap": -162,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 162,
+          "strict_A_endpoint": "-162899/992",
+          "A_cap": -165,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 163,
+          "strict_A_endpoint": "-32775899/196416",
+          "A_cap": -167,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 164,
+          "strict_A_endpoint": "-8324449/49104",
+          "A_cap": -170,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 165,
+          "strict_A_endpoint": "-11273231/65472",
+          "A_cap": -173,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 166,
+          "strict_A_endpoint": "-17170795/98208",
+          "A_cap": -175,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 167,
+          "strict_A_endpoint": "-34863487/196416",
+          "A_cap": -178,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 168,
+          "strict_A_endpoint": "-47561/264",
+          "A_cap": -181,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 169,
+          "strict_A_endpoint": "-35907281/196416",
+          "A_cap": -183,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 170,
+          "strict_A_endpoint": "-18214589/98208",
+          "A_cap": -186,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 171,
+          "strict_A_endpoint": "-4105675/21824",
+          "A_cap": -189,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 172,
+          "strict_A_endpoint": "-9368243/49104",
+          "A_cap": -191,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 173,
+          "strict_A_endpoint": "-3454079/17856",
+          "A_cap": -194,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 174,
+          "strict_A_endpoint": "-6419461/32736",
+          "A_cap": -197,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 175,
+          "strict_A_endpoint": "-39038663/196416",
+          "A_cap": -199,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 176,
+          "strict_A_endpoint": "-2472535/12276",
+          "A_cap": -202,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 177,
+          "strict_A_endpoint": "-13360819/65472",
+          "A_cap": -205,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 178,
+          "strict_A_endpoint": "-20302177/98208",
+          "A_cap": -207,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 179,
+          "strict_A_endpoint": "-41126251/196416",
+          "A_cap": -210,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 180,
+          "strict_A_endpoint": "-1156893/5456",
+          "A_cap": -213,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 181,
+          "strict_A_endpoint": "-42170045/196416",
+          "A_cap": -215,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 182,
+          "strict_A_endpoint": "-21345971/98208",
+          "A_cap": -218,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 183,
+          "strict_A_endpoint": "-14404613/65472",
+          "A_cap": -221,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 184,
+          "strict_A_endpoint": "-496997/2232",
+          "A_cap": -223,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 185,
+          "strict_A_endpoint": "-44257633/196416",
+          "A_cap": -226,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 186,
+          "strict_A_endpoint": "-7463255/32736",
+          "A_cap": -228,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 187,
+          "strict_A_endpoint": "-45301427/196416",
+          "A_cap": -231,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 188,
+          "strict_A_endpoint": "-11455831/49104",
+          "A_cap": -234,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 189,
+          "strict_A_endpoint": "-5149469/21824",
+          "A_cap": -236,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 190,
+          "strict_A_endpoint": "-23433559/98208",
+          "A_cap": -239,
+          "pairs_tested": 0
+        },
+        {
+          "rational_support": 191,
+          "strict_A_endpoint": "-47389015/196416",
+          "A_cap": -242,
+          "pairs_tested": 0
+        }
+      ],
+      "survivors": [
+        {
+          "rational_support": 0,
+          "A": 266,
+          "t_min": 192,
+          "t_max": 192,
+          "C_min": 2236,
+          "C_max": 2280
+        }
+      ]
+    },
+    "minimum_deep_penalty": 155,
+    "remaining_relation_slack": 44,
+    "terminal_dependency": "proofs/NU2_OBSTRUCTION.md and its frozen independent certificate",
+    "illustrative_assignments": [
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 266,
+        "C": 2260,
+        "D": 75,
+        "GS_margin": 41,
+        "conductor_average_bound": "269993/512",
+        "genus_denominator": "620201/1024",
+        "exact_score": "196608/620201",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 267,
+        "C": 2262,
+        "D": 77,
+        "GS_margin": 337,
+        "conductor_average_bound": "270505/512",
+        "genus_denominator": "620713/1024",
+        "exact_score": "195584/620713",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            4
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 268,
+        "C": 2272,
+        "D": 78,
+        "GS_margin": 468,
+        "conductor_average_bound": "271529/512",
+        "genus_denominator": "621737/1024",
+        "exact_score": "195584/621737",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 269,
+        "C": 2290,
+        "D": 79,
+        "GS_margin": 585,
+        "conductor_average_bound": "272553/512",
+        "genus_denominator": "622761/1024",
+        "exact_score": "195584/622761",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            2
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 268,
+        "C": 2264,
+        "D": 79,
+        "GS_margin": 641,
+        "conductor_average_bound": "271017/512",
+        "genus_denominator": "621225/1024",
+        "exact_score": "38912/124245",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 270,
+        "C": 2284,
+        "D": 81,
+        "GS_margin": 913,
+        "conductor_average_bound": "273065/512",
+        "genus_denominator": "623273/1024",
+        "exact_score": "194560/623273",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            6
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 272,
+        "C": 2320,
+        "D": 83,
+        "GS_margin": 1161,
+        "conductor_average_bound": "275113/512",
+        "genus_denominator": "625321/1024",
+        "exact_score": "194560/625321",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            2
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 270,
+        "C": 2268,
+        "D": 83,
+        "GS_margin": 1273,
+        "conductor_average_bound": "272041/512",
+        "genus_denominator": "622249/1024",
+        "exact_score": "192512/622249",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            4
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 274,
+        "C": 2308,
+        "D": 87,
+        "GS_margin": 1857,
+        "conductor_average_bound": "276137/512",
+        "genus_denominator": "626345/1024",
+        "exact_score": "192512/626345",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 278,
+        "C": 2380,
+        "D": 91,
+        "GS_margin": 2409,
+        "conductor_average_bound": "280233/512",
+        "genus_denominator": "630441/1024",
+        "exact_score": "192512/630441",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            1,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            5,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 271,
+        "C": 2470,
+        "D": 80,
+        "GS_margin": 376,
+        "conductor_average_bound": "8806091/16384",
+        "genus_denominator": "20012747/32768",
+        "exact_score": "6291456/20012747",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            1,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            5,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 276,
+        "C": 2880,
+        "D": 85,
+        "GS_margin": 361,
+        "conductor_average_bound": "9185211819/16777216",
+        "genus_denominator": "20660827563/33554432",
+        "exact_score": "2147483648/6886942521",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            15,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            6,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 272,
+        "C": 2560,
+        "D": 81,
+        "GS_margin": 353,
+        "conductor_average_bound": "35351581/65536",
+        "genus_denominator": "80178205/131072",
+        "exact_score": "25165824/80178205",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            15,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            6,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 278,
+        "C": 3148,
+        "D": 87,
+        "GS_margin": 161,
+        "conductor_average_bound": "148021307293/268435456",
+        "genus_denominator": "331631159197/536870912",
+        "exact_score": "103079215104/331631159197",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            15,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            8,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 274,
+        "C": 2788,
+        "D": 83,
+        "GS_margin": 217,
+        "conductor_average_bound": "569755519/1048576",
+        "genus_denominator": "1286981503/2097152",
+        "exact_score": "402653184/1286981503",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            15,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            8,
+            1,
+            6
+          ]
+        ],
+        "T_size": 189,
+        "rational_support": 0,
+        "A": 282,
+        "C": 3828,
+        "D": 94,
+        "GS_margin": 52,
+        "conductor_average_bound": "38439009353599/68719476736",
+        "genus_denominator": "85443131441023/137438953472",
+        "exact_score": "25975962206208/85443131441023",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            1,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            10,
+            1,
+            4
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 0,
+        "A": 276,
+        "C": 3080,
+        "D": 86,
+        "GS_margin": 132,
+        "conductor_average_bound": "146925417979/268435456",
+        "genus_denominator": "330535269883/536870912",
+        "exact_score": "102542344192/330535269883",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            1,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            10,
+            1,
+            6
+          ]
+        ],
+        "T_size": 184,
+        "rational_support": 0,
+        "A": 286,
+        "C": 4700,
+        "D": 103,
+        "GS_margin": 65,
+        "conductor_average_bound": "159691966619579899/281474976710656",
+        "genus_denominator": "352220850689668603/562949953421312",
+        "exact_score": "103582791429521408/352220850689668603",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            4
+          ]
+        ],
+        "T_size": 189,
+        "rational_support": 0,
+        "A": 278,
+        "C": 3436,
+        "D": 90,
+        "GS_margin": 116,
+        "conductor_average_bound": "4735914469373/8589934592",
+        "genus_denominator": "10611429730301/17179869184",
+        "exact_score": "3246995275776/10611429730301",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            6
+          ]
+        ],
+        "T_size": 178,
+        "rational_support": 0,
+        "A": 290,
+        "C": 5764,
+        "D": 113,
+        "GS_margin": 81,
+        "conductor_average_bound": "82914224524041906173/144115188075855872",
+        "genus_denominator": "181489013167927322621/288230376151711744",
+        "exact_score": "51305006955004690432/181489013167927322621",
+        "Ihara_bound_status": "arithmetic score only; concrete geometry and tower proof required"
+      }
+    ],
+    "conclusion": "No strict score improvement; baseline attained. Not an upper bound on actual tower ratios or A(2)."
+  }
+}

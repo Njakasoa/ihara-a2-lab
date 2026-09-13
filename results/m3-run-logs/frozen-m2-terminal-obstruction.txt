@@ -1,0 +1,5 @@
+INDEPENDENT_OBSTRUCTION=PASS
+CAPS={"A_cap": 266, "A_endpoint": "90787/341", "C_cap": 2280, "continuous_survivors": [{"A": 266, "C_max": 2280, "C_min": 2236, "t_min": 192}], "degree_cap": 47, "strict_cost_cap": "269993/1024", "valid_A_rows": 109}
+ENUMERATION={"candidate_count": 2, "candidates": [{"A": 266, "C": 2252, "GS_margin": 57, "cost": "33751/128", "ratio": "24576/77527", "rows": [[5, 2], [6, 16], [8, 15], [10, 4]]}, {"A": 266, "C": 2260, "GS_margin": 41, "cost": "269993/1024", "ratio": "196608/620201", "rows": [[5, 2], [6, 16], [8, 16], [10, 2], [12, 1]]}], "equal_incumbent_count": 1, "low_cases": 7, "low_pruned": 860, "low_total": 867, "maximum_ratio": "196608/620201", "partition_nodes": 107, "partition_pruned": 32, "strict_improvement_count": 0}
+CERTIFICATE_NEGATIVE_CASES={"changed_A_cap": "REJECTED", "changed_C_cap": "REJECTED", "changed_conclusion": "REJECTED", "changed_degree_cap": "REJECTED", "changed_relaxation_rule": "REJECTED", "changed_result_ratio": "REJECTED"}
+CERTIFICATE=PASS

@@ -1,0 +1,227 @@
+{
+  "experiment_id": "M3-complete-bounded-reproduction",
+  "UTC": "2026-09-13T13:18:00.930898+00:00",
+  "commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "agent": "Astra root integration of independent Luna/Astra work",
+  "software_versions": {
+    "Python": "3.12.3",
+    "Sage": "runtime version in ray-components receipt"
+  },
+  "input_hashes": {
+    "certificates/m2-frozen.json": "593cf13d676caabadbb562ea52b5cebabf15e2a75e14478b1e58a6b4423337a3",
+    "experiments/m3_local_units.py": "189b3a3fb345431c2b93eb7202338bd40e13592f0742298aaf6d2bdcb47d9f1b",
+    "experiments/m3_obstruction.py": "fc8fa8e9ddf7108513dce7d22cbf940b11215283194e86f6e97ae17bd6da8936",
+    "experiments/m3_ray_structure.py": "646852c742b77df2bd333a84013e4be301d5d483894e4fa80ef40b1ec0eecd23",
+    "experiments/m3_refined_obstruction.py": "9aa1fc8811939f24d7c743ceddfacef52bcf0b2339c3612bb844c1aeaccebdfa",
+    "experiments/m3_sage_maximal_order_pilot.py": "dfb99e6a244c5c8741c53cbaa9e2b9d7551b7b2b7f6ae23485f6acacdd6086a1",
+    "experiments/record_m3_pilot.py": "9c4035f3277111805d736e3ee623e4f0d2a1f534500b871ef58d3802cba64187",
+    "experiments/run_m3.py": "1ffdb04edb2ea20370e58cce8b7465a192218bab5e017829535b0c06cc209d4c",
+    "proofs/CONSERVATIVE_GAPS.md": "cd3985383e0deb54a69bbea2c29fcd15110cb0a83a9d05a12f75c9eb5d2e9bf8",
+    "proofs/EXCHANGE_LEMMAS_M3.md": "94adc08b8cd1db68eb718ed41c6e5ef6d9df80a15659b15d409efd7418997562",
+    "proofs/M3_NONUNIFORM_OBSTRUCTION.md": "35a6bd7e16645470714164759a59e9c701865b300e2accd0bbf448bee999393a",
+    "proofs/M3_RAY_DUALITY.md": "fb0a827705152aeb6f78c2e25f0a86cc84197c96371835d1174b3e586349df2e",
+    "proofs/M3_REFINED_OBSTRUCTION.md": "570648ca5a439d6ce02d81b8591b98795a846ac9b471530a74c5f12de18f0c69",
+    "proofs/M3_REFINED_RAY_CRITERION.md": "6e85a4abc2b0c36199fd709ba8b9a3ea544ced2c1d246179a39d7005f7e9b48f",
+    "proofs/NONUNIFORM_CONDUCTOR_LOCAL_THEORY.md": "2c8b666e0522565fea424aeb2fab39dabcd89ccbf581244b2fd5a3f644519874",
+    "src/m3_local_units.py": "b705cf4e38abff4db758fd0e01214b8cfc902e22f15d90ee78448f5a09dcea2c",
+    "tests/independent_candidate.py": "21efdee8c9a06acf8c3572256d4229ba8b6a433d35b5d775c37024bd9a05d66f",
+    "tests/independent_m3.py": "11fa5e2ad22f8a123380195b279322c9a92ce9422f38fe94a7a277c8baa51dfd",
+    "tests/independent_obstruction.py": "bbf4dbfd91d66c9a7c7c01d6c027a08a9ccac0df37356f24ed20f0485a43af28",
+    "tests/test_m3_local_units.py": "49ff8d74e3819a804f8364db02f1c22c52cf3624d910fc655b3ef100ec4b4284"
+  },
+  "frozen_M2": {
+    "source_commit": "28ea44a0fa0ff353f53cd410faa74ef8bb4048d6",
+    "bound": "196608/620201",
+    "genus": 343,
+    "rational_places": 192,
+    "degrees": [
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "multiplicities": [
+      2,
+      16,
+      16,
+      2,
+      1
+    ],
+    "nu": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "A": 266,
+    "C": 2260,
+    "D": 75,
+    "I": 41,
+    "denominator": "620201/1024",
+    "files_sha256": {
+      "proofs/IMPROVED_BOUND.md": "b160daef63bc9c7dfcda1d746b2c4e8e8a82d97a1b4941bdf939a3bb298dc21d",
+      "proofs/NU2_OBSTRUCTION.md": "93a68d2e3998bd6cd9df8c6fe24bd9d202945a5daddf2f2759591f2f94b463e0",
+      "proofs/CONDUCTOR_FILTRATION.md": "c70ae51165cb01392e6e750c004ac8a8f095b52c6b6a424a2d74aa1432fb2226",
+      "certificates/m2-tower.json": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+      "certificates/k343-zeta.json": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+      "curves/k343-places.json": "d8da6742ee578fa6d1480abd2675d82f267e2c958086ee685eefd8146102f14c",
+      "curves/k343-degree12-places.json": "e6d074f2db535d8a084b30aeec10bbf1c2605c4ab8838737e29a053339ad242a",
+      "src/theorem_search.py": "e5072322b97dc5110ceab6b61388774d33450735eff89df7219e9874fd30adce",
+      "publication/main.tex": "e1fd7f708206ec4e5d50800bb543163f2809b4438c133b80ff91130599ab5911",
+      "publication/main.pdf": "56119b83a13ecfa6f47352e870c9a74beba7e65042cfd70b05d84b24d028bed2"
+    }
+  },
+  "base_field": "F2",
+  "base_genus": 343,
+  "curve_hash": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+  "baseline_context": {
+    "T": 192,
+    "degrees": [
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "support": [
+      2,
+      16,
+      16,
+      2,
+      1
+    ],
+    "nu": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "GS_margin": 41,
+    "genus_bound_per_degree": "620201/1024",
+    "exact_score": "196608/620201",
+    "Ihara_bound": "196608/620201"
+  },
+  "scope": "Local fixtures have no T or tower score; global obstructions cover all finite S, nu>=2 and disjoint T of size 1..192. Per-assignment quantities are in their output receipts.",
+  "historical_pilot": "Recorded separately; no maximal-order pilot rerun.",
+  "commands": [
+    {
+      "experiment_id": "local-units",
+      "command": [
+        "/usr/bin/python3",
+        "experiments/m3_local_units.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:03.961166+00:00",
+      "runtime_seconds": 3.025091,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/local-units.txt": "bdd5c5a5e60b8145288c4c37a6c690643c41b8284b228bf3f92ae1241af5fc47",
+        "results/m3-local-units.json": "2095e6fa5d06773f1d08fdf50371cee65bed243fcbabbfefd93badc78ad7247b"
+      }
+    },
+    {
+      "experiment_id": "ray-components",
+      "command": [
+        "scripts/sage-python",
+        "experiments/m3_ray_structure.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:04.941955+00:00",
+      "runtime_seconds": 0.980028,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/ray-components.txt": "93cd60e449d87e632bb52b32aab8a924b2c9e852ea1642ea61ca90abd80eeef7",
+        "results/m3-ray-structure.json": "6dccc2543c8358d67c0cae5b124d7928e7c98786b7dde86ce121d9bb4a14257e"
+      }
+    },
+    {
+      "experiment_id": "full-ray-obstruction",
+      "command": [
+        "/usr/bin/python3",
+        "experiments/m3_obstruction.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:05.040199+00:00",
+      "runtime_seconds": 0.097418,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/full-ray-obstruction.txt": "b7608debe206417b4ba1955189c529be1d393e8ea556af5cd168fcaf46a9dbaa",
+        "results/m3-obstruction.json": "34f0d0874d916a33f1106ea2cc20fc71921c35944e761bb2dae55d8f21c542ce"
+      }
+    },
+    {
+      "experiment_id": "refined-obstruction",
+      "command": [
+        "/usr/bin/python3",
+        "experiments/m3_refined_obstruction.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:05.136081+00:00",
+      "runtime_seconds": 0.095026,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/refined-obstruction.txt": "bcb42a9765b5194e8f02063dced330ea87d32ee36de67d1e005bd60eaa1131ad",
+        "results/m3-refined-obstruction.json": "6b035907f294cf0d878a37d52f0da4f3cfa9ea80330e578a09179906ed2e1ef1"
+      }
+    },
+    {
+      "experiment_id": "unit-tests",
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "UTC_finished": "2026-09-13T13:18:08.566173+00:00",
+      "runtime_seconds": 3.429247,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/unit-tests.txt": "5d4c84fa1fd41b4c351f6ed5ed46d704b32ccc3b98ecb1f7e5cb4d0f6a8c5510"
+      }
+    },
+    {
+      "experiment_id": "independent-m3",
+      "command": [
+        "/usr/bin/python3",
+        "tests/independent_m3.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:08.968639+00:00",
+      "runtime_seconds": 0.401693,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/independent-m3.txt": "d2499b9aec801fc86ef8444f233a4961ce59a3234e8308e9db967837e2a4d7d9",
+        "results/m3-independent.json": "24aa3913b83d4ea306aa525b64dd5792271ae2a4e9881af2daa8e3d1257f0618"
+      }
+    },
+    {
+      "experiment_id": "independent-m2-geometry",
+      "command": [
+        "scripts/sage-python",
+        "tests/independent_candidate.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:10.568138+00:00",
+      "runtime_seconds": 1.59879,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/independent-m2-geometry.txt": "5f6d2d6b032cb586e3b92b12c41da0d85cde2d2466baab1ff8fc0e0a738897ca"
+      }
+    },
+    {
+      "experiment_id": "frozen-m2-terminal-obstruction",
+      "command": [
+        "/usr/bin/python3",
+        "tests/independent_obstruction.py"
+      ],
+      "UTC_finished": "2026-09-13T13:18:10.602377+00:00",
+      "runtime_seconds": 0.03357,
+      "exit_code": 0,
+      "output_hashes": {
+        "results/m3-run-logs/frozen-m2-terminal-obstruction.txt": "b0e3e5253e9aaa655eb61bb740c45eb51072fb4cb83958df3c22429e47de05b8"
+      }
+    }
+  ],
+  "verification_status": "PASS",
+  "runtime_seconds": 9.674212
+}

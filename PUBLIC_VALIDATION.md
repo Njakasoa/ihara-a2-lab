@@ -25,3 +25,6 @@ without the original Git history, session settings or third-party paper copies.
 This is local reproducibility and internal scientific review, not an external
 peer-review report or proof of publication priority. Reproduce the portable
 core with the commands in README.md; optionally install Sage for its checks.
+
+M3 update: see M3_PUBLIC_VALIDATION.md for the public-copy eight-command
+replay,40 unit tests, independent nine-mutation gate and unchanged M2 hashes.

@@ -1,0 +1,1 @@
+{"output": "results/m3-local-units.json", "runtime_seconds": 2.960625961000005, "status": "EXACT FINITE LOCAL ARITHMETIC PASS"}

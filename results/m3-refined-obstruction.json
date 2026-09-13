@@ -1,0 +1,1902 @@
+{
+  "experiment_id": "m3-refined-elementary-ray-obstruction",
+  "UTC": "2026-09-13T13:18:05.125526+00:00",
+  "commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "input_hashes": {
+    "experiments/m3_refined_obstruction.py": "9aa1fc8811939f24d7c743ceddfacef52bcf0b2339c3612bb844c1aeaccebdfa",
+    "proofs/M3_REFINED_RAY_CRITERION.md": "6e85a4abc2b0c36199fd709ba8b9a3ea544ced2c1d246179a39d7005f7e9b48f",
+    "proofs/M3_REFINED_OBSTRUCTION.md": "570648ca5a439d6ce02d81b8591b98795a846ac9b471530a74c5f12de18f0c69",
+    "certificates/m2-frozen.json": "593cf13d676caabadbb562ea52b5cebabf15e2a75e14478b1e58a6b4423337a3",
+    "curves/k343-place-counts-30.json": "8aaa507b68f0cf60be9786ef63ac9f411c1e413a7d830d6c8617cab110759bf7",
+    "results/m3-obstruction.json": "34f0d0874d916a33f1106ea2cc20fc71921c35944e761bb2dae55d8f21c542ce"
+  },
+  "curve_hash": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+  "output_payload_sha256": "ee3c61a3934870f99d35245d12f5a573c8e24a6cc27c31cd453b4bcbc0a4d2b5",
+  "runtime_seconds": 0.060644,
+  "software_versions": {
+    "Python": "3.12.3"
+  },
+  "agent": "Astra root",
+  "verification_status": "production arithmetic PASS; independent proof/implementation review separate",
+  "data": {
+    "base_field": "F2",
+    "genus": 343,
+    "N1": 192,
+    "baseline": "196608/620201",
+    "beta": "1290176/608685",
+    "scope": "refined elementary-ray conservative score; all finite supports including rational; all nu>=2; t optimized",
+    "counts": {
+      "pairs_tested": 11384,
+      "splitting_rejected": 7862,
+      "relation_rejected": 3521
+    },
+    "caps": [
+      {
+        "n": 0,
+        "strict_A_endpoint": "165661829429/622684160",
+        "A_cap": 266
+      },
+      {
+        "n": 1,
+        "strict_A_endpoint": "10516373187801/39851786240",
+        "A_cap": 263
+      },
+      {
+        "n": 2,
+        "strict_A_endpoint": "5215194646073/19925893120",
+        "A_cap": 261
+      },
+      {
+        "n": 3,
+        "strict_A_endpoint": "10344405396491/39851786240",
+        "A_cap": 259
+      },
+      {
+        "n": 4,
+        "strict_A_endpoint": "2564605375209/9962946560",
+        "A_cap": 257
+      },
+      {
+        "n": 5,
+        "strict_A_endpoint": "10172437605181/39851786240",
+        "A_cap": 255
+      },
+      {
+        "n": 6,
+        "strict_A_endpoint": "5043226854763/19925893120",
+        "A_cap": 253
+      },
+      {
+        "n": 7,
+        "strict_A_endpoint": "10000469813871/39851786240",
+        "A_cap": 250
+      },
+      {
+        "n": 8,
+        "strict_A_endpoint": "16976859449/68239360",
+        "A_cap": 248
+      },
+      {
+        "n": 9,
+        "strict_A_endpoint": "9828502022561/39851786240",
+        "A_cap": 246
+      },
+      {
+        "n": 10,
+        "strict_A_endpoint": "4871259063453/19925893120",
+        "A_cap": 244
+      },
+      {
+        "n": 11,
+        "strict_A_endpoint": "9656534231251/39851786240",
+        "A_cap": 242
+      },
+      {
+        "n": 12,
+        "strict_A_endpoint": "2392637583899/9962946560",
+        "A_cap": 240
+      },
+      {
+        "n": 13,
+        "strict_A_endpoint": "9484566439941/39851786240",
+        "A_cap": 237
+      },
+      {
+        "n": 14,
+        "strict_A_endpoint": "4699291272143/19925893120",
+        "A_cap": 235
+      },
+      {
+        "n": 15,
+        "strict_A_endpoint": "9312598648631/39851786240",
+        "A_cap": 233
+      },
+      {
+        "n": 16,
+        "strict_A_endpoint": "576663422061/2490736640",
+        "A_cap": 231
+      },
+      {
+        "n": 17,
+        "strict_A_endpoint": "9140630857321/39851786240",
+        "A_cap": 229
+      },
+      {
+        "n": 18,
+        "strict_A_endpoint": "4527323480833/19925893120",
+        "A_cap": 227
+      },
+      {
+        "n": 19,
+        "strict_A_endpoint": "8968663066011/39851786240",
+        "A_cap": 225
+      },
+      {
+        "n": 20,
+        "strict_A_endpoint": "2220669792589/9962946560",
+        "A_cap": 222
+      },
+      {
+        "n": 21,
+        "strict_A_endpoint": "8796695274701/39851786240",
+        "A_cap": 220
+      },
+      {
+        "n": 22,
+        "strict_A_endpoint": "4355355689523/19925893120",
+        "A_cap": 218
+      },
+      {
+        "n": 23,
+        "strict_A_endpoint": "8624727483391/39851786240",
+        "A_cap": 216
+      },
+      {
+        "n": 24,
+        "strict_A_endpoint": "1067342948467/4981473280",
+        "A_cap": 214
+      },
+      {
+        "n": 25,
+        "strict_A_endpoint": "8452759692081/39851786240",
+        "A_cap": 212
+      },
+      {
+        "n": 26,
+        "strict_A_endpoint": "4183387898213/19925893120",
+        "A_cap": 209
+      },
+      {
+        "n": 27,
+        "strict_A_endpoint": "8280791900771/39851786240",
+        "A_cap": 207
+      },
+      {
+        "n": 28,
+        "strict_A_endpoint": "2048702001279/9962946560",
+        "A_cap": 205
+      },
+      {
+        "n": 29,
+        "strict_A_endpoint": "8108824109461/39851786240",
+        "A_cap": 203
+      },
+      {
+        "n": 30,
+        "strict_A_endpoint": "4011420106903/19925893120",
+        "A_cap": 201
+      },
+      {
+        "n": 31,
+        "strict_A_endpoint": "7936856318151/39851786240",
+        "A_cap": 199
+      },
+      {
+        "n": 32,
+        "strict_A_endpoint": "245339763203/1245368320",
+        "A_cap": 197
+      },
+      {
+        "n": 33,
+        "strict_A_endpoint": "7764888526841/39851786240",
+        "A_cap": 194
+      },
+      {
+        "n": 34,
+        "strict_A_endpoint": "3839452315593/19925893120",
+        "A_cap": 192
+      },
+      {
+        "n": 35,
+        "strict_A_endpoint": "7592920735531/39851786240",
+        "A_cap": 190
+      },
+      {
+        "n": 36,
+        "strict_A_endpoint": "1876734209969/9962946560",
+        "A_cap": 188
+      },
+      {
+        "n": 37,
+        "strict_A_endpoint": "7420952944221/39851786240",
+        "A_cap": 186
+      },
+      {
+        "n": 38,
+        "strict_A_endpoint": "3667484524283/19925893120",
+        "A_cap": 184
+      },
+      {
+        "n": 39,
+        "strict_A_endpoint": "7248985152911/39851786240",
+        "A_cap": 181
+      },
+      {
+        "n": 40,
+        "strict_A_endpoint": "895375157157/4981473280",
+        "A_cap": 179
+      },
+      {
+        "n": 41,
+        "strict_A_endpoint": "7077017361601/39851786240",
+        "A_cap": 177
+      },
+      {
+        "n": 42,
+        "strict_A_endpoint": "3495516732973/19925893120",
+        "A_cap": 175
+      },
+      {
+        "n": 43,
+        "strict_A_endpoint": "6905049570291/39851786240",
+        "A_cap": 173
+      },
+      {
+        "n": 44,
+        "strict_A_endpoint": "1704766418659/9962946560",
+        "A_cap": 171
+      },
+      {
+        "n": 45,
+        "strict_A_endpoint": "6733081778981/39851786240",
+        "A_cap": 168
+      },
+      {
+        "n": 46,
+        "strict_A_endpoint": "3323548941663/19925893120",
+        "A_cap": 166
+      },
+      {
+        "n": 47,
+        "strict_A_endpoint": "6561113987671/39851786240",
+        "A_cap": 164
+      },
+      {
+        "n": 48,
+        "strict_A_endpoint": "404695630751/2490736640",
+        "A_cap": 162
+      },
+      {
+        "n": 49,
+        "strict_A_endpoint": "6389146196361/39851786240",
+        "A_cap": 160
+      },
+      {
+        "n": 50,
+        "strict_A_endpoint": "3151581150353/19925893120",
+        "A_cap": 158
+      },
+      {
+        "n": 51,
+        "strict_A_endpoint": "6217178405051/39851786240",
+        "A_cap": 156
+      },
+      {
+        "n": 52,
+        "strict_A_endpoint": "1532798627349/9962946560",
+        "A_cap": 153
+      },
+      {
+        "n": 53,
+        "strict_A_endpoint": "6045210613741/39851786240",
+        "A_cap": 151
+      },
+      {
+        "n": 54,
+        "strict_A_endpoint": "2979613359043/19925893120",
+        "A_cap": 149
+      },
+      {
+        "n": 55,
+        "strict_A_endpoint": "5873242822431/39851786240",
+        "A_cap": 147
+      },
+      {
+        "n": 56,
+        "strict_A_endpoint": "723407365847/4981473280",
+        "A_cap": 145
+      },
+      {
+        "n": 57,
+        "strict_A_endpoint": "5701275031121/39851786240",
+        "A_cap": 143
+      },
+      {
+        "n": 58,
+        "strict_A_endpoint": "2807645567733/19925893120",
+        "A_cap": 140
+      },
+      {
+        "n": 59,
+        "strict_A_endpoint": "5529307239811/39851786240",
+        "A_cap": 138
+      },
+      {
+        "n": 60,
+        "strict_A_endpoint": "1360830836039/9962946560",
+        "A_cap": 136
+      },
+      {
+        "n": 61,
+        "strict_A_endpoint": "5357339448501/39851786240",
+        "A_cap": 134
+      },
+      {
+        "n": 62,
+        "strict_A_endpoint": "2635677776423/19925893120",
+        "A_cap": 132
+      },
+      {
+        "n": 63,
+        "strict_A_endpoint": "5185371657191/39851786240",
+        "A_cap": 130
+      },
+      {
+        "n": 64,
+        "strict_A_endpoint": "39838966887/311342080",
+        "A_cap": 127
+      },
+      {
+        "n": 65,
+        "strict_A_endpoint": "5013403865881/39851786240",
+        "A_cap": 125
+      },
+      {
+        "n": 66,
+        "strict_A_endpoint": "2463709985113/19925893120",
+        "A_cap": 123
+      },
+      {
+        "n": 67,
+        "strict_A_endpoint": "4841436074571/39851786240",
+        "A_cap": 121
+      },
+      {
+        "n": 68,
+        "strict_A_endpoint": "1188863044729/9962946560",
+        "A_cap": 119
+      },
+      {
+        "n": 69,
+        "strict_A_endpoint": "4669468283261/39851786240",
+        "A_cap": 117
+      },
+      {
+        "n": 70,
+        "strict_A_endpoint": "2291742193803/19925893120",
+        "A_cap": 115
+      },
+      {
+        "n": 71,
+        "strict_A_endpoint": "4497500491951/39851786240",
+        "A_cap": 112
+      },
+      {
+        "n": 72,
+        "strict_A_endpoint": "551439574537/4981473280",
+        "A_cap": 110
+      },
+      {
+        "n": 73,
+        "strict_A_endpoint": "4325532700641/39851786240",
+        "A_cap": 108
+      },
+      {
+        "n": 74,
+        "strict_A_endpoint": "2119774402493/19925893120",
+        "A_cap": 106
+      },
+      {
+        "n": 75,
+        "strict_A_endpoint": "4153564909331/39851786240",
+        "A_cap": 104
+      },
+      {
+        "n": 76,
+        "strict_A_endpoint": "1016895253419/9962946560",
+        "A_cap": 102
+      },
+      {
+        "n": 77,
+        "strict_A_endpoint": "3981597118021/39851786240",
+        "A_cap": 99
+      },
+      {
+        "n": 78,
+        "strict_A_endpoint": "1947806611183/19925893120",
+        "A_cap": 97
+      },
+      {
+        "n": 79,
+        "strict_A_endpoint": "3809629326711/39851786240",
+        "A_cap": 95
+      },
+      {
+        "n": 80,
+        "strict_A_endpoint": "232727839441/2490736640",
+        "A_cap": 93
+      },
+      {
+        "n": 81,
+        "strict_A_endpoint": "49830979937/545914880",
+        "A_cap": 91
+      },
+      {
+        "n": 82,
+        "strict_A_endpoint": "1775838819873/19925893120",
+        "A_cap": 89
+      },
+      {
+        "n": 83,
+        "strict_A_endpoint": "3465693744091/39851786240",
+        "A_cap": 86
+      },
+      {
+        "n": 84,
+        "strict_A_endpoint": "844927462109/9962946560",
+        "A_cap": 84
+      },
+      {
+        "n": 85,
+        "strict_A_endpoint": "3293725952781/39851786240",
+        "A_cap": 82
+      },
+      {
+        "n": 86,
+        "strict_A_endpoint": "1603871028563/19925893120",
+        "A_cap": 80
+      },
+      {
+        "n": 87,
+        "strict_A_endpoint": "3121758161471/39851786240",
+        "A_cap": 78
+      },
+      {
+        "n": 88,
+        "strict_A_endpoint": "379471783227/4981473280",
+        "A_cap": 76
+      },
+      {
+        "n": 89,
+        "strict_A_endpoint": "2949790370161/39851786240",
+        "A_cap": 74
+      },
+      {
+        "n": 90,
+        "strict_A_endpoint": "1431903237253/19925893120",
+        "A_cap": 71
+      },
+      {
+        "n": 91,
+        "strict_A_endpoint": "2777822578851/39851786240",
+        "A_cap": 69
+      },
+      {
+        "n": 92,
+        "strict_A_endpoint": "672959670799/9962946560",
+        "A_cap": 67
+      },
+      {
+        "n": 93,
+        "strict_A_endpoint": "2605854787541/39851786240",
+        "A_cap": 65
+      },
+      {
+        "n": 94,
+        "strict_A_endpoint": "1259935445943/19925893120",
+        "A_cap": 63
+      },
+      {
+        "n": 95,
+        "strict_A_endpoint": "2433886996231/39851786240",
+        "A_cap": 61
+      },
+      {
+        "n": 96,
+        "strict_A_endpoint": "73371971893/1245368320",
+        "A_cap": 58
+      },
+      {
+        "n": 97,
+        "strict_A_endpoint": "2261919204921/39851786240",
+        "A_cap": 56
+      },
+      {
+        "n": 98,
+        "strict_A_endpoint": "1087967654633/19925893120",
+        "A_cap": 54
+      },
+      {
+        "n": 99,
+        "strict_A_endpoint": "2089951413611/39851786240",
+        "A_cap": 52
+      },
+      {
+        "n": 100,
+        "strict_A_endpoint": "500991879489/9962946560",
+        "A_cap": 50
+      },
+      {
+        "n": 101,
+        "strict_A_endpoint": "1917983622301/39851786240",
+        "A_cap": 48
+      },
+      {
+        "n": 102,
+        "strict_A_endpoint": "915999863323/19925893120",
+        "A_cap": 45
+      },
+      {
+        "n": 103,
+        "strict_A_endpoint": "1746015830991/39851786240",
+        "A_cap": 43
+      },
+      {
+        "n": 104,
+        "strict_A_endpoint": "207503991917/4981473280",
+        "A_cap": 41
+      },
+      {
+        "n": 105,
+        "strict_A_endpoint": "1574048039681/39851786240",
+        "A_cap": 39
+      },
+      {
+        "n": 106,
+        "strict_A_endpoint": "744032072013/19925893120",
+        "A_cap": 37
+      },
+      {
+        "n": 107,
+        "strict_A_endpoint": "1402080248371/39851786240",
+        "A_cap": 35
+      },
+      {
+        "n": 108,
+        "strict_A_endpoint": "329024088179/9962946560",
+        "A_cap": 33
+      },
+      {
+        "n": 109,
+        "strict_A_endpoint": "1230112457061/39851786240",
+        "A_cap": 30
+      },
+      {
+        "n": 110,
+        "strict_A_endpoint": "572064280703/19925893120",
+        "A_cap": 28
+      },
+      {
+        "n": 111,
+        "strict_A_endpoint": "1058144665751/39851786240",
+        "A_cap": 26
+      },
+      {
+        "n": 112,
+        "strict_A_endpoint": "60760048131/2490736640",
+        "A_cap": 24
+      },
+      {
+        "n": 113,
+        "strict_A_endpoint": "886176874441/39851786240",
+        "A_cap": 22
+      },
+      {
+        "n": 114,
+        "strict_A_endpoint": "400096489393/19925893120",
+        "A_cap": 20
+      },
+      {
+        "n": 115,
+        "strict_A_endpoint": "714209083131/39851786240",
+        "A_cap": 17
+      },
+      {
+        "n": 116,
+        "strict_A_endpoint": "157056296869/9962946560",
+        "A_cap": 15
+      },
+      {
+        "n": 117,
+        "strict_A_endpoint": "542241291821/39851786240",
+        "A_cap": 13
+      },
+      {
+        "n": 118,
+        "strict_A_endpoint": "228128698083/19925893120",
+        "A_cap": 11
+      },
+      {
+        "n": 119,
+        "strict_A_endpoint": "370273500511/39851786240",
+        "A_cap": 9
+      },
+      {
+        "n": 120,
+        "strict_A_endpoint": "35536200607/4981473280",
+        "A_cap": 7
+      },
+      {
+        "n": 121,
+        "strict_A_endpoint": "198305709201/39851786240",
+        "A_cap": 4
+      },
+      {
+        "n": 122,
+        "strict_A_endpoint": "56160906773/19925893120",
+        "A_cap": 2
+      },
+      {
+        "n": 123,
+        "strict_A_endpoint": "26337917891/39851786240",
+        "A_cap": 0
+      },
+      {
+        "n": 124,
+        "strict_A_endpoint": "-14911494441/9962946560",
+        "A_cap": -2
+      },
+      {
+        "n": 125,
+        "strict_A_endpoint": "-145629873419/39851786240",
+        "A_cap": -4
+      },
+      {
+        "n": 126,
+        "strict_A_endpoint": "-115806884537/19925893120",
+        "A_cap": -6
+      },
+      {
+        "n": 127,
+        "strict_A_endpoint": "-317597664729/39851786240",
+        "A_cap": -8
+      },
+      {
+        "n": 128,
+        "strict_A_endpoint": "-6305961881/622684160",
+        "A_cap": -11
+      },
+      {
+        "n": 129,
+        "strict_A_endpoint": "-489565456039/39851786240",
+        "A_cap": -13
+      },
+      {
+        "n": 130,
+        "strict_A_endpoint": "-287774675847/19925893120",
+        "A_cap": -15
+      },
+      {
+        "n": 131,
+        "strict_A_endpoint": "-661533247349/39851786240",
+        "A_cap": -17
+      },
+      {
+        "n": 132,
+        "strict_A_endpoint": "-186879285751/9962946560",
+        "A_cap": -19
+      },
+      {
+        "n": 133,
+        "strict_A_endpoint": "-833501038659/39851786240",
+        "A_cap": -21
+      },
+      {
+        "n": 134,
+        "strict_A_endpoint": "-459742467157/19925893120",
+        "A_cap": -24
+      },
+      {
+        "n": 135,
+        "strict_A_endpoint": "-1005468829969/39851786240",
+        "A_cap": -26
+      },
+      {
+        "n": 136,
+        "strict_A_endpoint": "-136431590703/4981473280",
+        "A_cap": -28
+      },
+      {
+        "n": 137,
+        "strict_A_endpoint": "-1177436621279/39851786240",
+        "A_cap": -30
+      },
+      {
+        "n": 138,
+        "strict_A_endpoint": "-631710258467/19925893120",
+        "A_cap": -32
+      },
+      {
+        "n": 139,
+        "strict_A_endpoint": "-1349404412589/39851786240",
+        "A_cap": -34
+      },
+      {
+        "n": 140,
+        "strict_A_endpoint": "-358847077061/9962946560",
+        "A_cap": -37
+      },
+      {
+        "n": 141,
+        "strict_A_endpoint": "-1521372203899/39851786240",
+        "A_cap": -39
+      },
+      {
+        "n": 142,
+        "strict_A_endpoint": "-803678049777/19925893120",
+        "A_cap": -41
+      },
+      {
+        "n": 143,
+        "strict_A_endpoint": "-1693339995209/39851786240",
+        "A_cap": -43
+      },
+      {
+        "n": 144,
+        "strict_A_endpoint": "-111207743179/2490736640",
+        "A_cap": -45
+      },
+      {
+        "n": 145,
+        "strict_A_endpoint": "-1865307786519/39851786240",
+        "A_cap": -47
+      },
+      {
+        "n": 146,
+        "strict_A_endpoint": "-975645841087/19925893120",
+        "A_cap": -49
+      },
+      {
+        "n": 147,
+        "strict_A_endpoint": "-2037275577829/39851786240",
+        "A_cap": -52
+      },
+      {
+        "n": 148,
+        "strict_A_endpoint": "-530814868371/9962946560",
+        "A_cap": -54
+      },
+      {
+        "n": 149,
+        "strict_A_endpoint": "-2209243369139/39851786240",
+        "A_cap": -56
+      },
+      {
+        "n": 150,
+        "strict_A_endpoint": "-1147613632397/19925893120",
+        "A_cap": -58
+      },
+      {
+        "n": 151,
+        "strict_A_endpoint": "-2381211160449/39851786240",
+        "A_cap": -60
+      },
+      {
+        "n": 152,
+        "strict_A_endpoint": "-308399382013/4981473280",
+        "A_cap": -62
+      },
+      {
+        "n": 153,
+        "strict_A_endpoint": "-2553178951759/39851786240",
+        "A_cap": -65
+      },
+      {
+        "n": 154,
+        "strict_A_endpoint": "-18076457859/272957440",
+        "A_cap": -67
+      },
+      {
+        "n": 155,
+        "strict_A_endpoint": "-2725146743069/39851786240",
+        "A_cap": -69
+      },
+      {
+        "n": 156,
+        "strict_A_endpoint": "-702782659681/9962946560",
+        "A_cap": -71
+      },
+      {
+        "n": 157,
+        "strict_A_endpoint": "-2897114534379/39851786240",
+        "A_cap": -73
+      },
+      {
+        "n": 158,
+        "strict_A_endpoint": "-1491549215017/19925893120",
+        "A_cap": -75
+      },
+      {
+        "n": 159,
+        "strict_A_endpoint": "-3069082325689/39851786240",
+        "A_cap": -78
+      },
+      {
+        "n": 160,
+        "strict_A_endpoint": "-98595819417/1245368320",
+        "A_cap": -80
+      },
+      {
+        "n": 161,
+        "strict_A_endpoint": "-3241050116999/39851786240",
+        "A_cap": -82
+      },
+      {
+        "n": 162,
+        "strict_A_endpoint": "-1663517006327/19925893120",
+        "A_cap": -84
+      },
+      {
+        "n": 163,
+        "strict_A_endpoint": "-3413017908309/39851786240",
+        "A_cap": -86
+      },
+      {
+        "n": 164,
+        "strict_A_endpoint": "-874750450991/9962946560",
+        "A_cap": -88
+      },
+      {
+        "n": 165,
+        "strict_A_endpoint": "-3584985699619/39851786240",
+        "A_cap": -90
+      },
+      {
+        "n": 166,
+        "strict_A_endpoint": "-1835484797637/19925893120",
+        "A_cap": -93
+      },
+      {
+        "n": 167,
+        "strict_A_endpoint": "-3756953490929/39851786240",
+        "A_cap": -95
+      },
+      {
+        "n": 168,
+        "strict_A_endpoint": "-480367173323/4981473280",
+        "A_cap": -97
+      },
+      {
+        "n": 169,
+        "strict_A_endpoint": "-3928921282239/39851786240",
+        "A_cap": -99
+      },
+      {
+        "n": 170,
+        "strict_A_endpoint": "-2007452588947/19925893120",
+        "A_cap": -101
+      },
+      {
+        "n": 171,
+        "strict_A_endpoint": "-4100889073549/39851786240",
+        "A_cap": -103
+      },
+      {
+        "n": 172,
+        "strict_A_endpoint": "-1046718242301/9962946560",
+        "A_cap": -106
+      },
+      {
+        "n": 173,
+        "strict_A_endpoint": "-4272856864859/39851786240",
+        "A_cap": -108
+      },
+      {
+        "n": 174,
+        "strict_A_endpoint": "-2179420380257/19925893120",
+        "A_cap": -110
+      },
+      {
+        "n": 175,
+        "strict_A_endpoint": "-4444824656169/39851786240",
+        "A_cap": -112
+      },
+      {
+        "n": 176,
+        "strict_A_endpoint": "-283175534489/2490736640",
+        "A_cap": -114
+      },
+      {
+        "n": 177,
+        "strict_A_endpoint": "-4616792447479/39851786240",
+        "A_cap": -116
+      },
+      {
+        "n": 178,
+        "strict_A_endpoint": "-2351388171567/19925893120",
+        "A_cap": -119
+      },
+      {
+        "n": 179,
+        "strict_A_endpoint": "-4788760238789/39851786240",
+        "A_cap": -121
+      },
+      {
+        "n": 180,
+        "strict_A_endpoint": "-1218686033611/9962946560",
+        "A_cap": -123
+      },
+      {
+        "n": 181,
+        "strict_A_endpoint": "-4960728030099/39851786240",
+        "A_cap": -125
+      },
+      {
+        "n": 182,
+        "strict_A_endpoint": "-2523355962877/19925893120",
+        "A_cap": -127
+      },
+      {
+        "n": 183,
+        "strict_A_endpoint": "-5132695821409/39851786240",
+        "A_cap": -129
+      },
+      {
+        "n": 184,
+        "strict_A_endpoint": "-652334964633/4981473280",
+        "A_cap": -131
+      },
+      {
+        "n": 185,
+        "strict_A_endpoint": "-5304663612719/39851786240",
+        "A_cap": -134
+      },
+      {
+        "n": 186,
+        "strict_A_endpoint": "-2695323754187/19925893120",
+        "A_cap": -136
+      },
+      {
+        "n": 187,
+        "strict_A_endpoint": "-5476631404029/39851786240",
+        "A_cap": -138
+      },
+      {
+        "n": 188,
+        "strict_A_endpoint": "-1390653824921/9962946560",
+        "A_cap": -140
+      },
+      {
+        "n": 189,
+        "strict_A_endpoint": "-5648599195339/39851786240",
+        "A_cap": -142
+      },
+      {
+        "n": 190,
+        "strict_A_endpoint": "-2867291545497/19925893120",
+        "A_cap": -144
+      },
+      {
+        "n": 191,
+        "strict_A_endpoint": "-5820566986649/39851786240",
+        "A_cap": -147
+      }
+    ],
+    "survivors": [
+      {
+        "n": 0,
+        "A": 266,
+        "t_min": 192,
+        "t_max": 192,
+        "C_min": 2236,
+        "C_max": 2280
+      }
+    ],
+    "deep_penalties": {
+      "f5_s2": 25,
+      "f5_s3": 100,
+      "f6_s2": 48,
+      "f8_s2": 112,
+      "f10_s2": 200
+    },
+    "remaining_slack": 44,
+    "residual_high_degree_patterns": [
+      {
+        "omitted_degree8": 0,
+        "high_degree_rank_mass": 27,
+        "C_budget": 316,
+        "number_cap": 2,
+        "Cauchy_lower_bound": "783/2",
+        "rejected": true
+      },
+      {
+        "omitted_degree8": 1,
+        "high_degree_rank_mass": 35,
+        "C_budget": 388,
+        "number_cap": 3,
+        "Cauchy_lower_bound": "1330/3",
+        "rejected": true
+      }
+    ],
+    "assignments": [
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 266,
+        "C_refined": 2260,
+        "D": 75,
+        "GS_margin": 41,
+        "conductor_average_bound": "269993/512",
+        "genus_denominator": "620201/1024",
+        "exact_score": "196608/620201",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 267,
+        "C_refined": 2262,
+        "D": 77,
+        "GS_margin": 337,
+        "conductor_average_bound": "270505/512",
+        "genus_denominator": "620713/1024",
+        "exact_score": "195584/620713",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            4
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 268,
+        "C_refined": 2266,
+        "D": 78,
+        "GS_margin": 480,
+        "conductor_average_bound": "271273/512",
+        "genus_denominator": "621481/1024",
+        "exact_score": "195584/621481",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        "T_size": 191,
+        "rational_support": 1,
+        "A": 269,
+        "C_refined": 2272,
+        "D": 79,
+        "GS_margin": 621,
+        "conductor_average_bound": "272169/512",
+        "genus_denominator": "622377/1024",
+        "exact_score": "195584/622377",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            2
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 268,
+        "C_refined": 2264,
+        "D": 79,
+        "GS_margin": 641,
+        "conductor_average_bound": "271017/512",
+        "genus_denominator": "621225/1024",
+        "exact_score": "38912/124245",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 270,
+        "C_refined": 2272,
+        "D": 81,
+        "GS_margin": 937,
+        "conductor_average_bound": "272553/512",
+        "genus_denominator": "622761/1024",
+        "exact_score": "194560/622761",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            6
+          ]
+        ],
+        "T_size": 190,
+        "rational_support": 2,
+        "A": 272,
+        "C_refined": 2284,
+        "D": 83,
+        "GS_margin": 1233,
+        "conductor_average_bound": "274345/512",
+        "genus_denominator": "624553/1024",
+        "exact_score": "194560/624553",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            2
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 270,
+        "C_refined": 2268,
+        "D": 83,
+        "GS_margin": 1273,
+        "conductor_average_bound": "272041/512",
+        "genus_denominator": "622249/1024",
+        "exact_score": "192512/622249",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            4
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 274,
+        "C_refined": 2284,
+        "D": 87,
+        "GS_margin": 1905,
+        "conductor_average_bound": "275113/512",
+        "genus_denominator": "625321/1024",
+        "exact_score": "192512/625321",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "T_size": 188,
+        "rational_support": 4,
+        "A": 278,
+        "C_refined": 2308,
+        "D": 91,
+        "GS_margin": 2553,
+        "conductor_average_bound": "278697/512",
+        "genus_denominator": "628905/1024",
+        "exact_score": "192512/628905",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            1,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            5,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 271,
+        "C_refined": 2340,
+        "D": 80,
+        "GS_margin": 636,
+        "conductor_average_bound": "68777/128",
+        "genus_denominator": "156329/256",
+        "exact_score": "49152/156329",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            1,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            5,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 276,
+        "C_refined": 2470,
+        "D": 85,
+        "GS_margin": 1181,
+        "conductor_average_bound": "8967291/16384",
+        "genus_denominator": "20173947/32768",
+        "exact_score": "2097152/6724649",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            15,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            6,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 272,
+        "C_refined": 2374,
+        "D": 81,
+        "GS_margin": 725,
+        "conductor_average_bound": "552271/1024",
+        "genus_denominator": "1252687/2048",
+        "exact_score": "393216/1252687",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            15,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            6,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 278,
+        "C_refined": 2560,
+        "D": 87,
+        "GS_margin": 1337,
+        "conductor_average_bound": "36131773/65536",
+        "genus_denominator": "80958397/131072",
+        "exact_score": "25165824/80958397",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            15,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            8,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 274,
+        "C_refined": 2460,
+        "D": 83,
+        "GS_margin": 873,
+        "conductor_average_bound": "2225479/4096",
+        "genus_denominator": "5027143/8192",
+        "exact_score": "1572864/5027143",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            15,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            8,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 282,
+        "C_refined": 2788,
+        "D": 91,
+        "GS_margin": 1577,
+        "conductor_average_bound": "586499839/1048576",
+        "genus_denominator": "1303725823/2097152",
+        "exact_score": "402653184/1303725823",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            1,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            10,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 276,
+        "C_refined": 2570,
+        "D": 85,
+        "GS_margin": 981,
+        "conductor_average_bound": "143479291/262144",
+        "genus_denominator": "322785787/524288",
+        "exact_score": "100663296/322785787",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            1,
+            2
+          ],
+          [
+            12,
+            1,
+            2
+          ],
+          [
+            10,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 286,
+        "C_refined": 3080,
+        "D": 95,
+        "GS_margin": 1721,
+        "conductor_average_bound": "152291503099/268435456",
+        "genus_denominator": "335901355003/536870912",
+        "exact_score": "103079215104/335901355003",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            4
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 278,
+        "C_refined": 2704,
+        "D": 87,
+        "GS_margin": 1049,
+        "conductor_average_bound": "1156222973/2097152",
+        "genus_denominator": "2590674941/4194304",
+        "exact_score": "805306368/2590674941",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      },
+      {
+        "rows": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            6,
+            16,
+            2
+          ],
+          [
+            8,
+            16,
+            2
+          ],
+          [
+            10,
+            2,
+            2
+          ],
+          [
+            12,
+            1,
+            6
+          ]
+        ],
+        "T_size": 192,
+        "rational_support": 0,
+        "A": 290,
+        "C_refined": 3436,
+        "D": 99,
+        "GS_margin": 1769,
+        "conductor_average_bound": "4942047727613/8589934592",
+        "genus_denominator": "10817562988541/17179869184",
+        "exact_score": "3298534883328/10817562988541",
+        "scope": "arithmetic assignment, not a new geometric tower certificate"
+      }
+    ],
+    "exact_optimum": "196608/620201",
+    "terminal_dependency": "frozen independent M2 all-degree nu2 obstruction",
+    "conclusion": "No strict improvement of this refined score. Actual inertia averages and tower ratios remain outside scope."
+  }
+}

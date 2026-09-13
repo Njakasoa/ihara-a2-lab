@@ -1,0 +1,3 @@
+M3_OBSTRUCTION_ARITHMETIC=PASS
+{"pairs_tested": 9861, "relation_rejected": 2486, "splitting_rejected": 7374}
+SURVIVORS=[{"rational_support": 0, "A": 266, "t_min": 192, "t_max": 192, "C_min": 2236, "C_max": 2280}]

@@ -15,5 +15,16 @@ through SAGE_PREFIX), python3 scripts/check_public_snapshot.py. The first
 command regenerates all primary M3 receipts and runs the independent baseline
 and terminal obstruction. The historical optional pilot is not rerun.
 
-Validation results will be recorded after the public-copy execution. GitHub
+Public-copy execution PASS at commit `b39b6a6988cf234e120baeac3a7946062222ddce`:
+all eight commands exited0 in 9.674212seconds;40 unit tests passed,
+and all nine M3 mutations were rejected. The exact obstruction data, all local
+fixture reports, raw ray coordinates/ranks, and independent scientific payloads
+match the validated original lab. The ten frozen M2 hashes remain unchanged.
+Input/output receipt hashes were checked against actual public-copy files.
+
+A scan of exported source and receipts found no private filesystem or attachment
+paths or credential-pattern matches. The source manifest was refreshed after
+validation. Original historical pilot evidence is preserved without rerunning
+the slow pilot; original-science commit references in that receipt are provenance,
+not revisions in this separate public Git history. GitHub
 publication is separate from external peer review, priority and submission.

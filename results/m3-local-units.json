@@ -1,0 +1,3177 @@
+{
+  "UTC": "2026-09-13T13:18:03.946800+00:00",
+  "adversarial_mutations": {
+    "1,1": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,3": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,4": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,5": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,6": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "1,7": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "12,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "2,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "2,3": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "2,4": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "2,5": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "2,6": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "3,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "3,3": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "3,4": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "3,5": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "4,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "4,3": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "4,4": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "6,2": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    },
+    "6,3": {
+      "exponent": "REJECTED",
+      "f": "REJECTED",
+      "nu": "REJECTED",
+      "order": "REJECTED",
+      "p_rank": "REJECTED"
+    }
+  },
+  "agent": "/root/m3_local_units",
+  "all_formula_checks_passed": true,
+  "all_mutation_checks_rejected": true,
+  "commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "enumeration": {
+    "fixtures": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        12,
+        2
+      ]
+    ],
+    "group_order_cap": 4096,
+    "method": "direct truncated-series multiplication over F_(2^f)",
+    "production_search": "NOT RUN"
+  },
+  "exact_score": null,
+  "experiment_id": "M3-local-unit-character-law-gate",
+  "fixtures": [
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {},
+        "elements_count": 1,
+        "exponent_two_average_conductor_direct": "0",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0
+        ],
+        "exponent_two_quotient_order": 1,
+        "exponent_two_rank": 0,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          1
+        ],
+        "full_average_conductor_direct": "0",
+        "full_character_cumulative_direct": [
+          1,
+          1
+        ],
+        "full_character_exact_direct": [
+          1,
+          0
+        ],
+        "group_order": 1,
+        "nu": 1,
+        "order_profile": {
+          "1": 1
+        },
+        "q": 2,
+        "square_subgroup_order": 1
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {},
+        "exponent": 1,
+        "exponent_two_average_conductor": "0",
+        "exponent_two_character_cumulative": [
+          1,
+          1
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0
+        ],
+        "exponent_two_order": 1,
+        "exponent_two_rank": 0,
+        "f": 1,
+        "full_average_conductor": "0",
+        "full_character_cumulative": [
+          1,
+          1
+        ],
+        "full_character_exact": [
+          1,
+          0
+        ],
+        "killed_layers": [],
+        "local_rebate": "0",
+        "log2_order": 0,
+        "nu": 1,
+        "order": 1,
+        "p_rank": 0,
+        "q": 2,
+        "theorem_terms": {
+          "A": 0,
+          "C": 0,
+          "a_local": 0,
+          "b": 0,
+          "c_local_bound": 0
+        },
+        "valuation_layers": []
+      },
+      "nu": 1,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 1
+        },
+        "elements_count": 2,
+        "exponent_two_average_conductor_direct": "1",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1
+        ],
+        "exponent_two_quotient_order": 2,
+        "exponent_two_rank": 1,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "1",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1
+        ],
+        "group_order": 2,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 1
+        },
+        "q": 2,
+        "square_subgroup_order": 1
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "1": 1
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "1",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1
+        ],
+        "exponent_two_order": 2,
+        "exponent_two_rank": 1,
+        "f": 1,
+        "full_average_conductor": "1",
+        "full_character_cumulative": [
+          1,
+          1,
+          2
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1
+        ],
+        "killed_layers": [
+          1
+        ],
+        "local_rebate": "1/2",
+        "log2_order": 1,
+        "nu": 2,
+        "order": 2,
+        "p_rank": 1,
+        "q": 2,
+        "theorem_terms": {
+          "A": 1,
+          "C": 2,
+          "a_local": 1,
+          "b": 1,
+          "c_local_bound": 2
+        },
+        "valuation_layers": [
+          1
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "2": 1
+        },
+        "elements_count": 4,
+        "exponent_two_average_conductor_direct": "1",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "exponent_two_quotient_order": 2,
+        "exponent_two_rank": 1,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          4,
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "2",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          4
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "group_order": 4,
+        "nu": 3,
+        "order_profile": {
+          "1": 1,
+          "2": 1,
+          "4": 2
+        },
+        "q": 2,
+        "square_subgroup_order": 2
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "2": 1
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "1",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "exponent_two_order": 2,
+        "exponent_two_rank": 1,
+        "f": 1,
+        "full_average_conductor": "2",
+        "full_character_cumulative": [
+          1,
+          1,
+          2,
+          4
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "killed_layers": [
+          1,
+          1
+        ],
+        "local_rebate": "0",
+        "log2_order": 2,
+        "nu": 3,
+        "order": 4,
+        "p_rank": 1,
+        "q": 2,
+        "theorem_terms": {
+          "A": 1,
+          "C": 6,
+          "a_local": 1,
+          "b": 2,
+          "c_local_bound": 6
+        },
+        "valuation_layers": [
+          1,
+          1
+        ]
+      },
+      "nu": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 1,
+          "2": 1
+        },
+        "elements_count": 8,
+        "exponent_two_average_conductor_direct": "5/2",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          2,
+          4
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1,
+          0,
+          2
+        ],
+        "exponent_two_quotient_order": 4,
+        "exponent_two_rank": 2,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          8,
+          4,
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "3",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          4,
+          8
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1,
+          2,
+          4
+        ],
+        "group_order": 8,
+        "nu": 4,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "q": 2,
+        "square_subgroup_order": 2
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "1": 1,
+          "2": 1
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "5/2",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2,
+          2,
+          4
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1,
+          0,
+          2
+        ],
+        "exponent_two_order": 4,
+        "exponent_two_rank": 2,
+        "f": 1,
+        "full_average_conductor": "3",
+        "full_character_cumulative": [
+          1,
+          1,
+          2,
+          4,
+          8
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1,
+          2,
+          4
+        ],
+        "killed_layers": [
+          2,
+          1
+        ],
+        "local_rebate": "1/2",
+        "log2_order": 3,
+        "nu": 4,
+        "order": 8,
+        "p_rank": 2,
+        "q": 2,
+        "theorem_terms": {
+          "A": 2,
+          "C": 12,
+          "a_local": 2,
+          "b": 3,
+          "c_local_bound": 12
+        },
+        "valuation_layers": [
+          1,
+          1,
+          1
+        ]
+      },
+      "nu": 4,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 1,
+          "3": 1
+        },
+        "elements_count": 16,
+        "exponent_two_average_conductor_direct": "5/2",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        "exponent_two_quotient_order": 4,
+        "exponent_two_rank": 2,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          16,
+          8,
+          4,
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "4",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "group_order": 16,
+        "nu": 5,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4,
+          "8": 8
+        },
+        "q": 2,
+        "square_subgroup_order": 4
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "1": 1,
+          "3": 1
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "5/2",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        "exponent_two_order": 4,
+        "exponent_two_rank": 2,
+        "f": 1,
+        "full_average_conductor": "4",
+        "full_character_cumulative": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "killed_layers": [
+          2,
+          1,
+          1
+        ],
+        "local_rebate": "0",
+        "log2_order": 4,
+        "nu": 5,
+        "order": 16,
+        "p_rank": 2,
+        "q": 2,
+        "theorem_terms": {
+          "A": 2,
+          "C": 20,
+          "a_local": 2,
+          "b": 4,
+          "c_local_bound": 20
+        },
+        "valuation_layers": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "nu": 5,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 2,
+          "3": 1
+        },
+        "elements_count": 32,
+        "exponent_two_average_conductor_direct": "17/4",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          8
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          4
+        ],
+        "exponent_two_quotient_order": 8,
+        "exponent_two_rank": 3,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          32,
+          16,
+          8,
+          4,
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "5",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "group_order": 32,
+        "nu": 6,
+        "order_profile": {
+          "1": 1,
+          "2": 7,
+          "4": 8,
+          "8": 16
+        },
+        "q": 2,
+        "square_subgroup_order": 4
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "1": 2,
+          "3": 1
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "17/4",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          8
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          4
+        ],
+        "exponent_two_order": 8,
+        "exponent_two_rank": 3,
+        "f": 1,
+        "full_average_conductor": "5",
+        "full_character_cumulative": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "killed_layers": [
+          3,
+          1,
+          1
+        ],
+        "local_rebate": "1/2",
+        "log2_order": 5,
+        "nu": 6,
+        "order": 32,
+        "p_rank": 3,
+        "q": 2,
+        "theorem_terms": {
+          "A": 3,
+          "C": 30,
+          "a_local": 3,
+          "b": 5,
+          "c_local_bound": 30
+        },
+        "valuation_layers": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "nu": 6,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "elements_count": 64,
+        "exponent_two_average_conductor_direct": "17/4",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          8,
+          8
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          4,
+          0
+        ],
+        "exponent_two_quotient_order": 8,
+        "exponent_two_rank": 3,
+        "f": 1,
+        "field_modulus": 3,
+        "filtration_sizes": [
+          64,
+          32,
+          16,
+          8,
+          4,
+          2,
+          1
+        ],
+        "full_average_conductor_direct": "6",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "group_order": 64,
+        "nu": 7,
+        "order_profile": {
+          "1": 1,
+          "2": 7,
+          "4": 24,
+          "8": 32
+        },
+        "q": 2,
+        "square_subgroup_order": 8
+      },
+      "f": 1,
+      "formula": {
+        "cyclic_factors": {
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "17/4",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          8,
+          8
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          4,
+          0
+        ],
+        "exponent_two_order": 8,
+        "exponent_two_rank": 3,
+        "f": 1,
+        "full_average_conductor": "6",
+        "full_character_cumulative": [
+          1,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "killed_layers": [
+          3,
+          2,
+          1
+        ],
+        "local_rebate": "0",
+        "log2_order": 6,
+        "nu": 7,
+        "order": 64,
+        "p_rank": 3,
+        "q": 2,
+        "theorem_terms": {
+          "A": 3,
+          "C": 42,
+          "a_local": 3,
+          "b": 6,
+          "c_local_bound": 42
+        },
+        "valuation_layers": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "nu": 7,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 2
+        },
+        "elements_count": 4,
+        "exponent_two_average_conductor_direct": "3/2",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          3
+        ],
+        "exponent_two_quotient_order": 4,
+        "exponent_two_rank": 2,
+        "f": 2,
+        "field_modulus": 7,
+        "filtration_sizes": [
+          4,
+          1
+        ],
+        "full_average_conductor_direct": "3/2",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          3
+        ],
+        "group_order": 4,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 3
+        },
+        "q": 4,
+        "square_subgroup_order": 1
+      },
+      "f": 2,
+      "formula": {
+        "cyclic_factors": {
+          "1": 2
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "3/2",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          3
+        ],
+        "exponent_two_order": 4,
+        "exponent_two_rank": 2,
+        "f": 2,
+        "full_average_conductor": "3/2",
+        "full_character_cumulative": [
+          1,
+          1,
+          4
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          3
+        ],
+        "killed_layers": [
+          2
+        ],
+        "local_rebate": "1/2",
+        "log2_order": 2,
+        "nu": 2,
+        "order": 4,
+        "p_rank": 2,
+        "q": 4,
+        "theorem_terms": {
+          "A": 2,
+          "C": 6,
+          "a_local": 2,
+          "b": 2,
+          "c_local_bound": 6
+        },
+        "valuation_layers": [
+          2
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "2": 2
+        },
+        "elements_count": 16,
+        "exponent_two_average_conductor_direct": "3/2",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "exponent_two_quotient_order": 4,
+        "exponent_two_rank": 2,
+        "f": 2,
+        "field_modulus": 7,
+        "filtration_sizes": [
+          16,
+          4,
+          1
+        ],
+        "full_average_conductor_direct": "21/8",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          16
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          3,
+          12
+        ],
+        "group_order": 16,
+        "nu": 3,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 12
+        },
+        "q": 4,
+        "square_subgroup_order": 4
+      },
+      "f": 2,
+      "formula": {
+        "cyclic_factors": {
+          "2": 2
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "3/2",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "exponent_two_order": 4,
+        "exponent_two_rank": 2,
+        "f": 2,
+        "full_average_conductor": "21/8",
+        "full_character_cumulative": [
+          1,
+          1,
+          4,
+          16
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          3,
+          12
+        ],
+        "killed_layers": [
+          2,
+          2
+        ],
+        "local_rebate": "-5/8",
+        "log2_order": 4,
+        "nu": 3,
+        "order": 16,
+        "p_rank": 2,
+        "q": 4,
+        "theorem_terms": {
+          "A": 2,
+          "C": 20,
+          "a_local": 2,
+          "b": 4,
+          "c_local_bound": 20
+        },
+        "valuation_layers": [
+          2,
+          2
+        ]
+      },
+      "nu": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 2,
+          "2": 2
+        },
+        "elements_count": 64,
+        "exponent_two_average_conductor_direct": "27/8",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          4,
+          16
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          3,
+          0,
+          12
+        ],
+        "exponent_two_quotient_order": 16,
+        "exponent_two_rank": 4,
+        "f": 2,
+        "field_modulus": 7,
+        "filtration_sizes": [
+          64,
+          16,
+          4,
+          1
+        ],
+        "full_average_conductor_direct": "117/32",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          16,
+          64
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          3,
+          12,
+          48
+        ],
+        "group_order": 64,
+        "nu": 4,
+        "order_profile": {
+          "1": 1,
+          "2": 15,
+          "4": 48
+        },
+        "q": 4,
+        "square_subgroup_order": 4
+      },
+      "f": 2,
+      "formula": {
+        "cyclic_factors": {
+          "1": 2,
+          "2": 2
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "27/8",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4,
+          4,
+          16
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          3,
+          0,
+          12
+        ],
+        "exponent_two_order": 16,
+        "exponent_two_rank": 4,
+        "f": 2,
+        "full_average_conductor": "117/32",
+        "full_character_cumulative": [
+          1,
+          1,
+          4,
+          16,
+          64
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          3,
+          12,
+          48
+        ],
+        "killed_layers": [
+          4,
+          2
+        ],
+        "local_rebate": "11/32",
+        "log2_order": 6,
+        "nu": 4,
+        "order": 64,
+        "p_rank": 4,
+        "q": 4,
+        "theorem_terms": {
+          "A": 4,
+          "C": 42,
+          "a_local": 4,
+          "b": 6,
+          "c_local_bound": 42
+        },
+        "valuation_layers": [
+          2,
+          2,
+          2
+        ]
+      },
+      "nu": 4,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 2,
+          "3": 2
+        },
+        "elements_count": 256,
+        "exponent_two_average_conductor_direct": "27/8",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          4,
+          16,
+          16
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          3,
+          0,
+          12,
+          0
+        ],
+        "exponent_two_quotient_order": 16,
+        "exponent_two_rank": 4,
+        "f": 2,
+        "field_modulus": 7,
+        "filtration_sizes": [
+          256,
+          64,
+          16,
+          4,
+          1
+        ],
+        "full_average_conductor_direct": "597/128",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          16,
+          64,
+          256
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          3,
+          12,
+          48,
+          192
+        ],
+        "group_order": 256,
+        "nu": 5,
+        "order_profile": {
+          "1": 1,
+          "2": 15,
+          "4": 48,
+          "8": 192
+        },
+        "q": 4,
+        "square_subgroup_order": 16
+      },
+      "f": 2,
+      "formula": {
+        "cyclic_factors": {
+          "1": 2,
+          "3": 2
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "27/8",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4,
+          4,
+          16,
+          16
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          3,
+          0,
+          12,
+          0
+        ],
+        "exponent_two_order": 16,
+        "exponent_two_rank": 4,
+        "f": 2,
+        "full_average_conductor": "597/128",
+        "full_character_cumulative": [
+          1,
+          1,
+          4,
+          16,
+          64,
+          256
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          3,
+          12,
+          48,
+          192
+        ],
+        "killed_layers": [
+          4,
+          2,
+          2
+        ],
+        "local_rebate": "-85/128",
+        "log2_order": 8,
+        "nu": 5,
+        "order": 256,
+        "p_rank": 4,
+        "q": 4,
+        "theorem_terms": {
+          "A": 4,
+          "C": 72,
+          "a_local": 4,
+          "b": 8,
+          "c_local_bound": 72
+        },
+        "valuation_layers": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "nu": 5,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 4,
+          "3": 2
+        },
+        "elements_count": 1024,
+        "exponent_two_average_conductor_direct": "171/32",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          4,
+          16,
+          16,
+          64
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          3,
+          0,
+          12,
+          0,
+          48
+        ],
+        "exponent_two_quotient_order": 64,
+        "exponent_two_rank": 6,
+        "f": 2,
+        "field_modulus": 7,
+        "filtration_sizes": [
+          1024,
+          256,
+          64,
+          16,
+          4,
+          1
+        ],
+        "full_average_conductor_direct": "2901/512",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4,
+          16,
+          64,
+          256,
+          1024
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          3,
+          12,
+          48,
+          192,
+          768
+        ],
+        "group_order": 1024,
+        "nu": 6,
+        "order_profile": {
+          "1": 1,
+          "2": 63,
+          "4": 192,
+          "8": 768
+        },
+        "q": 4,
+        "square_subgroup_order": 16
+      },
+      "f": 2,
+      "formula": {
+        "cyclic_factors": {
+          "1": 4,
+          "3": 2
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "171/32",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4,
+          4,
+          16,
+          16,
+          64
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          3,
+          0,
+          12,
+          0,
+          48
+        ],
+        "exponent_two_order": 64,
+        "exponent_two_rank": 6,
+        "f": 2,
+        "full_average_conductor": "2901/512",
+        "full_character_cumulative": [
+          1,
+          1,
+          4,
+          16,
+          64,
+          256,
+          1024
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          3,
+          12,
+          48,
+          192,
+          768
+        ],
+        "killed_layers": [
+          6,
+          2,
+          2
+        ],
+        "local_rebate": "171/512",
+        "log2_order": 10,
+        "nu": 6,
+        "order": 1024,
+        "p_rank": 6,
+        "q": 4,
+        "theorem_terms": {
+          "A": 6,
+          "C": 110,
+          "a_local": 6,
+          "b": 10,
+          "c_local_bound": 110
+        },
+        "valuation_layers": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "nu": 6,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 3
+        },
+        "elements_count": 8,
+        "exponent_two_average_conductor_direct": "7/4",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          8
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          7
+        ],
+        "exponent_two_quotient_order": 8,
+        "exponent_two_rank": 3,
+        "f": 3,
+        "field_modulus": 11,
+        "filtration_sizes": [
+          8,
+          1
+        ],
+        "full_average_conductor_direct": "7/4",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          8
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          7
+        ],
+        "group_order": 8,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 7
+        },
+        "q": 8,
+        "square_subgroup_order": 1
+      },
+      "f": 3,
+      "formula": {
+        "cyclic_factors": {
+          "1": 3
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "7/4",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          8
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          7
+        ],
+        "exponent_two_order": 8,
+        "exponent_two_rank": 3,
+        "f": 3,
+        "full_average_conductor": "7/4",
+        "full_character_cumulative": [
+          1,
+          1,
+          8
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          7
+        ],
+        "killed_layers": [
+          3
+        ],
+        "local_rebate": "3/8",
+        "log2_order": 3,
+        "nu": 2,
+        "order": 8,
+        "p_rank": 3,
+        "q": 8,
+        "theorem_terms": {
+          "A": 3,
+          "C": 12,
+          "a_local": 3,
+          "b": 3,
+          "c_local_bound": 12
+        },
+        "valuation_layers": [
+          3
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "2": 3
+        },
+        "elements_count": 64,
+        "exponent_two_average_conductor_direct": "7/4",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          8
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "exponent_two_quotient_order": 8,
+        "exponent_two_rank": 3,
+        "f": 3,
+        "field_modulus": 11,
+        "filtration_sizes": [
+          64,
+          8,
+          1
+        ],
+        "full_average_conductor_direct": "91/32",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          64
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          7,
+          56
+        ],
+        "group_order": 64,
+        "nu": 3,
+        "order_profile": {
+          "1": 1,
+          "2": 7,
+          "4": 56
+        },
+        "q": 8,
+        "square_subgroup_order": 8
+      },
+      "f": 3,
+      "formula": {
+        "cyclic_factors": {
+          "2": 3
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "7/4",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          8,
+          8
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "exponent_two_order": 8,
+        "exponent_two_rank": 3,
+        "f": 3,
+        "full_average_conductor": "91/32",
+        "full_character_cumulative": [
+          1,
+          1,
+          8,
+          64
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          7,
+          56
+        ],
+        "killed_layers": [
+          3,
+          3
+        ],
+        "local_rebate": "-81/64",
+        "log2_order": 6,
+        "nu": 3,
+        "order": 64,
+        "p_rank": 3,
+        "q": 8,
+        "theorem_terms": {
+          "A": 3,
+          "C": 42,
+          "a_local": 3,
+          "b": 6,
+          "c_local_bound": 42
+        },
+        "valuation_layers": [
+          3,
+          3
+        ]
+      },
+      "nu": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 3,
+          "2": 3
+        },
+        "elements_count": 512,
+        "exponent_two_average_conductor_direct": "119/32",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          8,
+          64
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          7,
+          0,
+          56
+        ],
+        "exponent_two_quotient_order": 64,
+        "exponent_two_rank": 6,
+        "f": 3,
+        "field_modulus": 11,
+        "filtration_sizes": [
+          512,
+          64,
+          8,
+          1
+        ],
+        "full_average_conductor_direct": "987/256",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          64,
+          512
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          7,
+          56,
+          448
+        ],
+        "group_order": 512,
+        "nu": 4,
+        "order_profile": {
+          "1": 1,
+          "2": 63,
+          "4": 448
+        },
+        "q": 8,
+        "square_subgroup_order": 8
+      },
+      "f": 3,
+      "formula": {
+        "cyclic_factors": {
+          "1": 3,
+          "2": 3
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "119/32",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          8,
+          8,
+          64
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          7,
+          0,
+          56
+        ],
+        "exponent_two_order": 64,
+        "exponent_two_rank": 6,
+        "f": 3,
+        "full_average_conductor": "987/256",
+        "full_character_cumulative": [
+          1,
+          1,
+          8,
+          64,
+          512
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          7,
+          56,
+          448
+        ],
+        "killed_layers": [
+          6,
+          3
+        ],
+        "local_rebate": "111/512",
+        "log2_order": 9,
+        "nu": 4,
+        "order": 512,
+        "p_rank": 6,
+        "q": 8,
+        "theorem_terms": {
+          "A": 6,
+          "C": 90,
+          "a_local": 6,
+          "b": 9,
+          "c_local_bound": 90
+        },
+        "valuation_layers": [
+          3,
+          3,
+          3
+        ]
+      },
+      "nu": 4,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 3,
+          "3": 3
+        },
+        "elements_count": 4096,
+        "exponent_two_average_conductor_direct": "119/32",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          8,
+          64,
+          64
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          7,
+          0,
+          56,
+          0
+        ],
+        "exponent_two_quotient_order": 64,
+        "exponent_two_rank": 6,
+        "f": 3,
+        "field_modulus": 11,
+        "filtration_sizes": [
+          4096,
+          512,
+          64,
+          8,
+          1
+        ],
+        "full_average_conductor_direct": "9947/2048",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          8,
+          64,
+          512,
+          4096
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          7,
+          56,
+          448,
+          3584
+        ],
+        "group_order": 4096,
+        "nu": 5,
+        "order_profile": {
+          "1": 1,
+          "2": 63,
+          "4": 448,
+          "8": 3584
+        },
+        "q": 8,
+        "square_subgroup_order": 64
+      },
+      "f": 3,
+      "formula": {
+        "cyclic_factors": {
+          "1": 3,
+          "3": 3
+        },
+        "exponent": 8,
+        "exponent_two_average_conductor": "119/32",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          8,
+          8,
+          64,
+          64
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          7,
+          0,
+          56,
+          0
+        ],
+        "exponent_two_order": 64,
+        "exponent_two_rank": 6,
+        "f": 3,
+        "full_average_conductor": "9947/2048",
+        "full_character_cumulative": [
+          1,
+          1,
+          8,
+          64,
+          512,
+          4096
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          7,
+          56,
+          448,
+          3584
+        ],
+        "killed_layers": [
+          6,
+          3,
+          3
+        ],
+        "local_rebate": "-5265/4096",
+        "log2_order": 12,
+        "nu": 5,
+        "order": 4096,
+        "p_rank": 6,
+        "q": 8,
+        "theorem_terms": {
+          "A": 6,
+          "C": 156,
+          "a_local": 6,
+          "b": 12,
+          "c_local_bound": 156
+        },
+        "valuation_layers": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "nu": 5,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 4
+        },
+        "elements_count": 16,
+        "exponent_two_average_conductor_direct": "15/8",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          16
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          15
+        ],
+        "exponent_two_quotient_order": 16,
+        "exponent_two_rank": 4,
+        "f": 4,
+        "field_modulus": 19,
+        "filtration_sizes": [
+          16,
+          1
+        ],
+        "full_average_conductor_direct": "15/8",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          16
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          15
+        ],
+        "group_order": 16,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 15
+        },
+        "q": 16,
+        "square_subgroup_order": 1
+      },
+      "f": 4,
+      "formula": {
+        "cyclic_factors": {
+          "1": 4
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "15/8",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          16
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          15
+        ],
+        "exponent_two_order": 16,
+        "exponent_two_rank": 4,
+        "f": 4,
+        "full_average_conductor": "15/8",
+        "full_character_cumulative": [
+          1,
+          1,
+          16
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          15
+        ],
+        "killed_layers": [
+          4
+        ],
+        "local_rebate": "1/4",
+        "log2_order": 4,
+        "nu": 2,
+        "order": 16,
+        "p_rank": 4,
+        "q": 16,
+        "theorem_terms": {
+          "A": 4,
+          "C": 20,
+          "a_local": 4,
+          "b": 4,
+          "c_local_bound": 20
+        },
+        "valuation_layers": [
+          4
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "2": 4
+        },
+        "elements_count": 256,
+        "exponent_two_average_conductor_direct": "15/8",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          16,
+          16
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          15,
+          0
+        ],
+        "exponent_two_quotient_order": 16,
+        "exponent_two_rank": 4,
+        "f": 4,
+        "field_modulus": 19,
+        "filtration_sizes": [
+          256,
+          16,
+          1
+        ],
+        "full_average_conductor_direct": "375/128",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          16,
+          256
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          15,
+          240
+        ],
+        "group_order": 256,
+        "nu": 3,
+        "order_profile": {
+          "1": 1,
+          "2": 15,
+          "4": 240
+        },
+        "q": 16,
+        "square_subgroup_order": 16
+      },
+      "f": 4,
+      "formula": {
+        "cyclic_factors": {
+          "2": 4
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "15/8",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          16,
+          16
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          15,
+          0
+        ],
+        "exponent_two_order": 16,
+        "exponent_two_rank": 4,
+        "f": 4,
+        "full_average_conductor": "375/128",
+        "full_character_cumulative": [
+          1,
+          1,
+          16,
+          256
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          15,
+          240
+        ],
+        "killed_layers": [
+          4,
+          4
+        ],
+        "local_rebate": "-119/64",
+        "log2_order": 8,
+        "nu": 3,
+        "order": 256,
+        "p_rank": 4,
+        "q": 16,
+        "theorem_terms": {
+          "A": 4,
+          "C": 72,
+          "a_local": 4,
+          "b": 8,
+          "c_local_bound": 72
+        },
+        "valuation_layers": [
+          4,
+          4
+        ]
+      },
+      "nu": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 4,
+          "2": 4
+        },
+        "elements_count": 4096,
+        "exponent_two_average_conductor_direct": "495/128",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          16,
+          16,
+          256
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          15,
+          0,
+          240
+        ],
+        "exponent_two_quotient_order": 256,
+        "exponent_two_rank": 8,
+        "f": 4,
+        "field_modulus": 19,
+        "filtration_sizes": [
+          4096,
+          256,
+          16,
+          1
+        ],
+        "full_average_conductor_direct": "8055/2048",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          16,
+          256,
+          4096
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          15,
+          240,
+          3840
+        ],
+        "group_order": 4096,
+        "nu": 4,
+        "order_profile": {
+          "1": 1,
+          "2": 255,
+          "4": 3840
+        },
+        "q": 16,
+        "square_subgroup_order": 16
+      },
+      "f": 4,
+      "formula": {
+        "cyclic_factors": {
+          "1": 4,
+          "2": 4
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "495/128",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          16,
+          16,
+          256
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          15,
+          0,
+          240
+        ],
+        "exponent_two_order": 256,
+        "exponent_two_rank": 8,
+        "f": 4,
+        "full_average_conductor": "8055/2048",
+        "full_character_cumulative": [
+          1,
+          1,
+          16,
+          256,
+          4096
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          15,
+          240,
+          3840
+        ],
+        "killed_layers": [
+          8,
+          4
+        ],
+        "local_rebate": "137/1024",
+        "log2_order": 12,
+        "nu": 4,
+        "order": 4096,
+        "p_rank": 8,
+        "q": 16,
+        "theorem_terms": {
+          "A": 8,
+          "C": 156,
+          "a_local": 8,
+          "b": 12,
+          "c_local_bound": 156
+        },
+        "valuation_layers": [
+          4,
+          4,
+          4
+        ]
+      },
+      "nu": 4,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 6
+        },
+        "elements_count": 64,
+        "exponent_two_average_conductor_direct": "63/32",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          64
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          63
+        ],
+        "exponent_two_quotient_order": 64,
+        "exponent_two_rank": 6,
+        "f": 6,
+        "field_modulus": 67,
+        "filtration_sizes": [
+          64,
+          1
+        ],
+        "full_average_conductor_direct": "63/32",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          64
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          63
+        ],
+        "group_order": 64,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 63
+        },
+        "q": 64,
+        "square_subgroup_order": 1
+      },
+      "f": 6,
+      "formula": {
+        "cyclic_factors": {
+          "1": 6
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "63/32",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          64
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          63
+        ],
+        "exponent_two_order": 64,
+        "exponent_two_rank": 6,
+        "f": 6,
+        "full_average_conductor": "63/32",
+        "full_character_cumulative": [
+          1,
+          1,
+          64
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          63
+        ],
+        "killed_layers": [
+          6
+        ],
+        "local_rebate": "3/32",
+        "log2_order": 6,
+        "nu": 2,
+        "order": 64,
+        "p_rank": 6,
+        "q": 64,
+        "theorem_terms": {
+          "A": 6,
+          "C": 42,
+          "a_local": 6,
+          "b": 6,
+          "c_local_bound": 42
+        },
+        "valuation_layers": [
+          6
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "2": 6
+        },
+        "elements_count": 4096,
+        "exponent_two_average_conductor_direct": "63/32",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          63,
+          0
+        ],
+        "exponent_two_quotient_order": 64,
+        "exponent_two_rank": 6,
+        "f": 6,
+        "field_modulus": 67,
+        "filtration_sizes": [
+          4096,
+          64,
+          1
+        ],
+        "full_average_conductor_direct": "6111/2048",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          64,
+          4096
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          63,
+          4032
+        ],
+        "group_order": 4096,
+        "nu": 3,
+        "order_profile": {
+          "1": 1,
+          "2": 63,
+          "4": 4032
+        },
+        "q": 64,
+        "square_subgroup_order": 64
+      },
+      "f": 6,
+      "formula": {
+        "cyclic_factors": {
+          "2": 6
+        },
+        "exponent": 4,
+        "exponent_two_average_conductor": "63/32",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          63,
+          0
+        ],
+        "exponent_two_order": 64,
+        "exponent_two_rank": 6,
+        "f": 6,
+        "full_average_conductor": "6111/2048",
+        "full_character_cumulative": [
+          1,
+          1,
+          64,
+          4096
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          63,
+          4032
+        ],
+        "killed_layers": [
+          6,
+          6
+        ],
+        "local_rebate": "-6045/2048",
+        "log2_order": 12,
+        "nu": 3,
+        "order": 4096,
+        "p_rank": 6,
+        "q": 64,
+        "theorem_terms": {
+          "A": 6,
+          "C": 156,
+          "a_local": 6,
+          "b": 12,
+          "c_local_bound": 156
+        },
+        "valuation_layers": [
+          6,
+          6
+        ]
+      },
+      "nu": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "as_average": true,
+        "as_character_cumulative": true,
+        "as_character_exact": true,
+        "cyclic_factors": true,
+        "exponent_two_order": true,
+        "full_average": true,
+        "full_character_cumulative": true,
+        "full_character_exact": true,
+        "order": true,
+        "order_profile_finite": true,
+        "p_rank": true,
+        "valuation_layers": true
+      },
+      "direct": {
+        "cyclic_factors_direct": {
+          "1": 12
+        },
+        "elements_count": 4096,
+        "exponent_two_average_conductor_direct": "4095/2048",
+        "exponent_two_character_cumulative_direct": [
+          1,
+          1,
+          4096
+        ],
+        "exponent_two_character_exact_direct": [
+          1,
+          0,
+          4095
+        ],
+        "exponent_two_quotient_order": 4096,
+        "exponent_two_rank": 12,
+        "f": 12,
+        "field_modulus": 4105,
+        "filtration_sizes": [
+          4096,
+          1
+        ],
+        "full_average_conductor_direct": "4095/2048",
+        "full_character_cumulative_direct": [
+          1,
+          1,
+          4096
+        ],
+        "full_character_exact_direct": [
+          1,
+          0,
+          4095
+        ],
+        "group_order": 4096,
+        "nu": 2,
+        "order_profile": {
+          "1": 1,
+          "2": 4095
+        },
+        "q": 4096,
+        "square_subgroup_order": 1
+      },
+      "f": 12,
+      "formula": {
+        "cyclic_factors": {
+          "1": 12
+        },
+        "exponent": 2,
+        "exponent_two_average_conductor": "4095/2048",
+        "exponent_two_character_cumulative": [
+          1,
+          1,
+          4096
+        ],
+        "exponent_two_character_exact": [
+          1,
+          0,
+          4095
+        ],
+        "exponent_two_order": 4096,
+        "exponent_two_rank": 12,
+        "f": 12,
+        "full_average_conductor": "4095/2048",
+        "full_character_cumulative": [
+          1,
+          1,
+          4096
+        ],
+        "full_character_exact": [
+          1,
+          0,
+          4095
+        ],
+        "killed_layers": [
+          12
+        ],
+        "local_rebate": "3/1024",
+        "log2_order": 12,
+        "nu": 2,
+        "order": 4096,
+        "p_rank": 12,
+        "q": 4096,
+        "theorem_terms": {
+          "A": 12,
+          "C": 156,
+          "a_local": 12,
+          "b": 12,
+          "c_local_bound": 156
+        },
+        "valuation_layers": [
+          12
+        ]
+      },
+      "nu": 2,
+      "passed": true
+    }
+  ],
+  "input_hashes": {
+    "M3_RESULT.md": "baf317dfd05936ee7fc143ecdce4769a98084332b033692b4ea66ec67b40c087",
+    "proofs/CONDUCTOR_FILTRATION.md": "c70ae51165cb01392e6e750c004ac8a8f095b52c6b6a424a2d74aa1432fb2226",
+    "proofs/NONUNIFORM_CONDUCTOR_LOCAL_THEORY.md": "2c8b666e0522565fea424aeb2fab39dabcd89ccbf581244b2fd5a3f644519874",
+    "src/m3_local_units.py": "b705cf4e38abff4db758fd0e01214b8cfc902e22f15d90ee78448f5a09dcea2c"
+  },
+  "runtime_seconds": 2.960625961000005,
+  "software": {
+    "implementation": "CPython",
+    "module": "src/m3_local_units.py",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "software_versions": {
+    "implementation": "CPython",
+    "module": "src/m3_local_units.py",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "source_commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "status": "EXACT FINITE LOCAL ARITHMETIC PASS",
+  "tower_status": "NO TOWER COMPUTATION; LOCAL ARITHMETIC ONLY",
+  "utc": "2026-09-13T13:18:03.946800+00:00",
+  "verification_scope": [
+    "exact orders and element-order profiles of U^1/U^nu",
+    "exact cyclic factor decomposition and 2-rank",
+    "valuation filtration subgroup sizes",
+    "full abelian character cumulative and exact conductor counts",
+    "order-two Artin-Schreier character cumulative and exact counts",
+    "exact full and Artin-Schreier average conductors",
+    "adversarial mutation rejection for degree, depth, rank, exponent, and order"
+  ],
+  "verification_status": "PASS"
+}

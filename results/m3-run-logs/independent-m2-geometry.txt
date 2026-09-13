@@ -1,0 +1,11 @@
+INDEPENDENT_CANDIDATE_INITIAL=PASS
+MAIN_INVENTORY={"T_size": 192, "checked": 290, "counts": {"1": 192, "5": 2, "6": 16, "8": 16, "10": 64}, "infinity_size": 64, "signature_count": 290}
+DEGREE12_INVENTORY={"checked": 208, "counts": {"12": 208}, "ids": 208, "signature_count": 208}
+DEGREE12_LIFTING={"H_degree6_orbits": 13, "k_degree12_lower_bound": 208, "vector_traces": "PASS"}
+REFERENCE_CANDIDATE={"A": 266, "C": 2260, "D": 75, "GS_margin": 41, "baseline": "24576/77527", "bound": "196608/620201", "degrees": [5, 6, 8, 10, 12], "denominator": "620201/1024", "feasible_leaves": 99806, "feasible_t_count": 192, "improvement_over_baseline": "368640/48082322927", "max_feasible_t": 192, "mean_conductor_upper_bound": "269993/512", "multiplicities": [2, 16, 16, 2, 1], "pruned_subtrees": 2715432, "selected_counts": {"10": 2, "12": 1, "5": 2, "6": 16, "8": 16}, "stocks": [2, 16, 16, 64, 208], "t": 192, "visited_leaves": 99835}
+CANDIDATE_NEGATIVE_CASES={"changed_arithmetic": "REJECTED", "duplicate_place": "REJECTED", "failed_GS": "REJECTED", "unavailable_multiplicity": "REJECTED", "wrong_chart": "REJECTED", "wrong_degree": "REJECTED", "wrong_equation": "REJECTED"}
+CANDIDATE_SEARCH=REFERENCE_PASS
+M2_CERTIFICATE={"K_over_k_exact": "UNKNOWN", "K_over_k_upper_bounds": "PASS", "S_degrees": [5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 12], "S_size": 37, "T_size": 192, "bound": "196608/620201", "coding_fraction": "-423593/196608", "denominator": "620201/1024", "modulus_exponent": 2}
+M2_CERTIFICATE_NEGATIVE_CASES={"certificate_denominator": "REJECTED", "certificate_duplicate_S": "REJECTED", "certificate_modulus": "REJECTED", "certificate_ray_degree": "REJECTED"}
+M2_CERTIFICATE=PASS
+GENERIC_SEARCH={"accepted_configurations": 99806, "bound": "196608/620201", "depth": 2, "evaluated_configurations": 99835, "local_variants": 14112, "status": "PASS", "winner": [5, 2, 6, 16, 8, 16, 10, 2, 12, 1]}

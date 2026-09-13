@@ -1,0 +1,754 @@
+{
+  "UTC": "2026-09-13T13:18:08.956983+00:00",
+  "agent": "/root/m3_independent_tester",
+  "commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "data": {
+    "adversarial_mutations": {
+      "changed_GS_margin": "REJECTED",
+      "changed_frobenius_vector": "REJECTED",
+      "changed_group_rank": "REJECTED",
+      "changed_nu": "REJECTED",
+      "changed_place_degree": "REJECTED",
+      "changed_proof_cap": "REJECTED",
+      "changed_proof_constant": "REJECTED",
+      "changed_support_multiplicity": "REJECTED",
+      "changed_survivors": "REJECTED"
+    },
+    "baseline": {
+      "A": 266,
+      "C": 2260,
+      "D": 75,
+      "I": 41,
+      "denominator": "620201/1024",
+      "ratio": "196608/620201"
+    },
+    "coverage": {
+      "finite_field_equations_and_frobenius_recomputed": true,
+      "local_unit_operation_enumeration": true,
+      "production_imports": [],
+      "raw_ray_relation_matrix_recomputed": true,
+      "refined_all_depth_pair_caps": true,
+      "unknowns": [
+        "full split ray-class-group order, rank, and cyclic factors",
+        "full T-unit relation space and exact local inertia orders",
+        "exact global conductor means and actual tower ratios",
+        "a new unconditional A(2) bound beyond the frozen theorem"
+      ]
+    },
+    "degree12_lifting": {
+      "k_degree12_lower_bound": 208,
+      "orbits": 13,
+      "rows": 13
+    },
+    "local_units": {
+      "fixtures": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          12,
+          2
+        ]
+      ],
+      "group_order_cap": 4096,
+      "method": "direct truncated polynomial multiplication over binary fields",
+      "reports": [
+        {
+          "as_average": "0",
+          "as_cumulative": [
+            1,
+            1
+          ],
+          "cyclic_order_profile": {
+            "1": 1
+          },
+          "elementary_rebate": "0",
+          "exponent": 1,
+          "f": 1,
+          "full_average": "0",
+          "full_cumulative": [
+            1,
+            1
+          ],
+          "killed_layers": [],
+          "nu": 1,
+          "order": 1,
+          "p_rank": 0,
+          "refined_relation_C": 0
+        },
+        {
+          "as_average": "1",
+          "as_cumulative": [
+            1,
+            1,
+            2
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "elementary_rebate": "1/2",
+          "exponent": 2,
+          "f": 1,
+          "full_average": "1",
+          "full_cumulative": [
+            1,
+            1,
+            2
+          ],
+          "killed_layers": [
+            1
+          ],
+          "nu": 2,
+          "order": 2,
+          "p_rank": 1,
+          "refined_relation_C": 2
+        },
+        {
+          "as_average": "1",
+          "as_cumulative": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 2
+          },
+          "elementary_rebate": "1/2",
+          "exponent": 4,
+          "f": 1,
+          "full_average": "2",
+          "full_cumulative": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "killed_layers": [
+            1,
+            1
+          ],
+          "nu": 3,
+          "order": 4,
+          "p_rank": 1,
+          "refined_relation_C": 2
+        },
+        {
+          "as_average": "5/2",
+          "as_cumulative": [
+            1,
+            1,
+            2,
+            2,
+            4
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 3,
+            "4": 4
+          },
+          "elementary_rebate": "3/4",
+          "exponent": 4,
+          "f": 1,
+          "full_average": "3",
+          "full_cumulative": [
+            1,
+            1,
+            2,
+            4,
+            8
+          ],
+          "killed_layers": [
+            2,
+            1
+          ],
+          "nu": 4,
+          "order": 8,
+          "p_rank": 2,
+          "refined_relation_C": 6
+        },
+        {
+          "as_average": "5/2",
+          "as_cumulative": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            4
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 3,
+            "4": 4,
+            "8": 8
+          },
+          "elementary_rebate": "3/4",
+          "exponent": 8,
+          "f": 1,
+          "full_average": "4",
+          "full_cumulative": [
+            1,
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "killed_layers": [
+            2,
+            1,
+            1
+          ],
+          "nu": 5,
+          "order": 16,
+          "p_rank": 2,
+          "refined_relation_C": 6
+        },
+        {
+          "as_average": "17/4",
+          "as_cumulative": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            4,
+            8
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 7,
+            "4": 8,
+            "8": 16
+          },
+          "elementary_rebate": "7/8",
+          "exponent": 8,
+          "f": 1,
+          "full_average": "5",
+          "full_cumulative": [
+            1,
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ],
+          "killed_layers": [
+            3,
+            1,
+            1
+          ],
+          "nu": 6,
+          "order": 32,
+          "p_rank": 3,
+          "refined_relation_C": 12
+        },
+        {
+          "as_average": "17/4",
+          "as_cumulative": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            4,
+            8,
+            8
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 7,
+            "4": 24,
+            "8": 32
+          },
+          "elementary_rebate": "7/8",
+          "exponent": 8,
+          "f": 1,
+          "full_average": "6",
+          "full_cumulative": [
+            1,
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64
+          ],
+          "killed_layers": [
+            3,
+            2,
+            1
+          ],
+          "nu": 7,
+          "order": 64,
+          "p_rank": 3,
+          "refined_relation_C": 12
+        },
+        {
+          "as_average": "3/2",
+          "as_cumulative": [
+            1,
+            1,
+            4
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 3
+          },
+          "elementary_rebate": "1/2",
+          "exponent": 2,
+          "f": 2,
+          "full_average": "3/2",
+          "full_cumulative": [
+            1,
+            1,
+            4
+          ],
+          "killed_layers": [
+            2
+          ],
+          "nu": 2,
+          "order": 4,
+          "p_rank": 2,
+          "refined_relation_C": 6
+        },
+        {
+          "as_average": "3/2",
+          "as_cumulative": [
+            1,
+            1,
+            4,
+            4
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 3,
+            "4": 12
+          },
+          "elementary_rebate": "1/2",
+          "exponent": 4,
+          "f": 2,
+          "full_average": "21/8",
+          "full_cumulative": [
+            1,
+            1,
+            4,
+            16
+          ],
+          "killed_layers": [
+            2,
+            2
+          ],
+          "nu": 3,
+          "order": 16,
+          "p_rank": 2,
+          "refined_relation_C": 6
+        },
+        {
+          "as_average": "27/8",
+          "as_cumulative": [
+            1,
+            1,
+            4,
+            4,
+            16
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 15,
+            "4": 48
+          },
+          "elementary_rebate": "5/8",
+          "exponent": 4,
+          "f": 2,
+          "full_average": "117/32",
+          "full_cumulative": [
+            1,
+            1,
+            4,
+            16,
+            64
+          ],
+          "killed_layers": [
+            4,
+            2
+          ],
+          "nu": 4,
+          "order": 64,
+          "p_rank": 4,
+          "refined_relation_C": 20
+        },
+        {
+          "as_average": "27/8",
+          "as_cumulative": [
+            1,
+            1,
+            4,
+            4,
+            16,
+            16
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 15,
+            "4": 48,
+            "8": 192
+          },
+          "elementary_rebate": "5/8",
+          "exponent": 8,
+          "f": 2,
+          "full_average": "597/128",
+          "full_cumulative": [
+            1,
+            1,
+            4,
+            16,
+            64,
+            256
+          ],
+          "killed_layers": [
+            4,
+            2,
+            2
+          ],
+          "nu": 5,
+          "order": 256,
+          "p_rank": 4,
+          "refined_relation_C": 20
+        },
+        {
+          "as_average": "7/4",
+          "as_cumulative": [
+            1,
+            1,
+            8
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 7
+          },
+          "elementary_rebate": "3/8",
+          "exponent": 2,
+          "f": 3,
+          "full_average": "7/4",
+          "full_cumulative": [
+            1,
+            1,
+            8
+          ],
+          "killed_layers": [
+            3
+          ],
+          "nu": 2,
+          "order": 8,
+          "p_rank": 3,
+          "refined_relation_C": 12
+        },
+        {
+          "as_average": "15/8",
+          "as_cumulative": [
+            1,
+            1,
+            16
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 15
+          },
+          "elementary_rebate": "1/4",
+          "exponent": 2,
+          "f": 4,
+          "full_average": "15/8",
+          "full_cumulative": [
+            1,
+            1,
+            16
+          ],
+          "killed_layers": [
+            4
+          ],
+          "nu": 2,
+          "order": 16,
+          "p_rank": 4,
+          "refined_relation_C": 20
+        },
+        {
+          "as_average": "63/32",
+          "as_cumulative": [
+            1,
+            1,
+            64
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 63
+          },
+          "elementary_rebate": "3/32",
+          "exponent": 2,
+          "f": 6,
+          "full_average": "63/32",
+          "full_cumulative": [
+            1,
+            1,
+            64
+          ],
+          "killed_layers": [
+            6
+          ],
+          "nu": 2,
+          "order": 64,
+          "p_rank": 6,
+          "refined_relation_C": 42
+        },
+        {
+          "as_average": "4095/2048",
+          "as_cumulative": [
+            1,
+            1,
+            4096
+          ],
+          "cyclic_order_profile": {
+            "1": 1,
+            "2": 4095
+          },
+          "elementary_rebate": "3/1024",
+          "exponent": 2,
+          "f": 12,
+          "full_average": "4095/2048",
+          "full_cumulative": [
+            1,
+            1,
+            4096
+          ],
+          "killed_layers": [
+            12
+          ],
+          "nu": 2,
+          "order": 4096,
+          "p_rank": 12,
+          "refined_relation_C": 156
+        }
+      ]
+    },
+    "old_obstruction_crosscheck": {
+      "counts": {
+        "pairs_tested": 9861,
+        "relation_rejected": 2486,
+        "splitting_rejected": 7374
+      },
+      "survivors": [
+        {
+          "A": 266,
+          "C_max": 2280,
+          "C_min": 2236,
+          "rational_support": 0,
+          "t_max": 192,
+          "t_min": 192
+        }
+      ]
+    },
+    "ray_matrix": {
+      "independent_units": [
+        "x",
+        "x+1",
+        "y",
+        "y+1",
+        "y+x"
+      ],
+      "jacobian_v2": 51,
+      "local_dimension": 266,
+      "places": 37,
+      "projection_ranks": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "rank": 5,
+      "single_block_intersections": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "refined_obstruction": {
+      "assignment_count": 20,
+      "beta": "1290176/608685",
+      "counts": {
+        "pairs_tested": 11384,
+        "relation_rejected": 3521,
+        "splitting_rejected": 7862
+      },
+      "exact_optimum": "196608/620201",
+      "survivor": {
+        "A": 266,
+        "C_max": 2280,
+        "C_min": 2236,
+        "n": 0,
+        "t_max": 192,
+        "t_min": 192
+      }
+    }
+  },
+  "experiment_id": "M3-INDEPENDENT-VALIDATION-001",
+  "input_hashes_sha256": {
+    "M2_BASELINE.md": "c203bedfb1cd68af258318722b4ff3c69ba3f6b696d5a58072fd2d11f4ad35fd",
+    "M3_RESULT.md": "baf317dfd05936ee7fc143ecdce4769a98084332b033692b4ea66ec67b40c087",
+    "certificates/degree12-lifting.json": "f1989b1b22b4a33bbfd1b77f7a3728753456685524e7ac99996be508e603e571",
+    "certificates/k343-zeta.json": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+    "certificates/m2-frozen.json": "593cf13d676caabadbb562ea52b5cebabf15e2a75e14478b1e58a6b4423337a3",
+    "certificates/m2-tower.json": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+    "curves/k343-place-counts-30.json": "8aaa507b68f0cf60be9786ef63ac9f411c1e413a7d830d6c8617cab110759bf7",
+    "experiments/m3_local_units.py": "189b3a3fb345431c2b93eb7202338bd40e13592f0742298aaf6d2bdcb47d9f1b",
+    "experiments/m3_obstruction.py": "fc8fa8e9ddf7108513dce7d22cbf940b11215283194e86f6e97ae17bd6da8936",
+    "experiments/m3_ray_structure.py": "646852c742b77df2bd333a84013e4be301d5d483894e4fa80ef40b1ec0eecd23",
+    "experiments/m3_refined_obstruction.py": "9aa1fc8811939f24d7c743ceddfacef52bcf0b2339c3612bb844c1aeaccebdfa",
+    "proofs/EXCHANGE_LEMMAS_M3.md": "94adc08b8cd1db68eb718ed41c6e5ef6d9df80a15659b15d409efd7418997562",
+    "proofs/M3_NONUNIFORM_OBSTRUCTION.md": "35a6bd7e16645470714164759a59e9c701865b300e2accd0bbf448bee999393a",
+    "proofs/M3_REFINED_OBSTRUCTION.md": "570648ca5a439d6ce02d81b8591b98795a846ac9b471530a74c5f12de18f0c69",
+    "proofs/M3_REFINED_RAY_CRITERION.md": "6e85a4abc2b0c36199fd709ba8b9a3ea544ced2c1d246179a39d7005f7e9b48f",
+    "proofs/NONUNIFORM_CONDUCTOR_LOCAL_THEORY.md": "2c8b666e0522565fea424aeb2fab39dabcd89ccbf581244b2fd5a3f644519874",
+    "results/m3-obstruction.json": "34f0d0874d916a33f1106ea2cc20fc71921c35944e761bb2dae55d8f21c542ce",
+    "results/m3-ray-structure.json": "6dccc2543c8358d67c0cae5b124d7928e7c98786b7dde86ce121d9bb4a14257e",
+    "results/m3-refined-obstruction.json": "6b035907f294cf0d878a37d52f0da4f3cfa9ea80330e578a09179906ed2e1ef1",
+    "src/m3_local_units.py": "b705cf4e38abff4db758fd0e01214b8cfc902e22f15d90ee78448f5a09dcea2c"
+  },
+  "method": "independent standard-library arithmetic; no production imports",
+  "payload_sha256": "b1e2ce1797fb1da50d6d59cec1a8786bfa124a1e723ad42e85aac3d6efd2091c",
+  "runtime_seconds": 0.351771,
+  "script_sha256": "11fa5e2ad22f8a123380195b279322c9a92ce9422f38fe94a7a277c8baa51dfd",
+  "software_versions": {
+    "implementation": "CPython",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "status": "PASS",
+  "timestamp_utc": "2026-09-13T13:18:08.956983+00:00",
+  "verification_status": "PASS"
+}

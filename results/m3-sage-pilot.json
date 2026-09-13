@@ -1,0 +1,40 @@
+{
+  "experiment_id": "M3-BOUNDED-SAGE-CAPABILITY-ARCHIVE",
+  "UTC": "2026-09-13T13:09:26.030985+00:00",
+  "commit": "e8b3c59eae8e77a1e22bac061c69e7116557c8a5",
+  "agent": "Astra root",
+  "command": [
+    "scripts/sage-python",
+    "experiments/m3_sage_maximal_order_pilot.py"
+  ],
+  "timeout_seconds": 120,
+  "runtime_seconds": 120.133812,
+  "exit_code": -9,
+  "software_versions": {
+    "Python_driver": "3.12.3",
+    "Sage": "10.9"
+  },
+  "base_field": "F2",
+  "base_genus": 343,
+  "curve_hash": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+  "T": null,
+  "support": null,
+  "nu_vector": null,
+  "exact_score": null,
+  "GS_margin": null,
+  "genus_bound": null,
+  "Ihara_bound": null,
+  "applicability": "Base maximal-order API capability only; no ray modulus, T or tower score computed.",
+  "input_hashes": {
+    "experiments/m3_sage_maximal_order_pilot.py": "dfb99e6a244c5c8741c53cbaa9e2b9d7551b7b2b7f6ae23485f6acacdd6086a1",
+    "experiments/record_m3_pilot.py": "9c4035f3277111805d736e3ee623e4f0d2a1f534500b871ef58d3802cba64187",
+    "certificates/k343-zeta.json": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc"
+  },
+  "output_hashes": {
+    "results/m3-run-logs/maximal-order-pilot.txt": "91e7febf105805320905e8da15b09fd0f3f148d2f7aa4d05e51bc6aeddb1133f"
+  },
+  "verification_status": "TIMEOUT_OBSERVED",
+  "nested_field_built": true,
+  "maximal_order_call_reached": true,
+  "interpretation": "Archival repeat of the historical capability pilot; no mathematical result is inferred from runtime."
+}

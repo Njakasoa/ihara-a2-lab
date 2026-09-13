@@ -1,0 +1,45 @@
+test_altered_score_rejected (test_candidate_binding.CandidateBinding.test_altered_score_rejected) ... ok
+test_bound_to_available_distinct_places (test_candidate_binding.CandidateBinding.test_bound_to_available_distinct_places) ... ok
+test_duplicate_support_rejected (test_candidate_binding.CandidateBinding.test_duplicate_support_rejected) ... ok
+test_failed_gs_rejected (test_candidate_binding.CandidateBinding.test_failed_gs_rejected) ... ok
+test_missing_degree12_place_rejected (test_candidate_binding.CandidateBinding.test_missing_degree12_place_rejected) ... ok
+test_cover_zeta_saved_counts (test_exact_controls.ExactControls.test_cover_zeta_saved_counts) ... ok
+test_exact_bound (test_exact_controls.ExactControls.test_exact_bound) ... ok
+test_field_axioms_small (test_exact_controls.ExactControls.test_field_axioms_small) ... ok
+test_irreducibility_rejects_squares_and_products (test_exact_controls.ExactControls.test_irreducibility_rejects_squares_and_products) ... ok
+test_known_curve_places (test_exact_controls.ExactControls.test_known_curve_places) ... ok
+test_local_rank_certificates (test_exact_controls.ExactControls.test_local_rank_certificates) ... ok
+test_places_are_orbits_of_correct_degree (test_exact_controls.ExactControls.test_places_are_orbits_of_correct_degree) ... ok
+test_schoof (test_exact_controls.ExactControls.test_schoof) ... ok
+test_zeta_predicts_unused_counts (test_exact_controls.ExactControls.test_zeta_predicts_unused_counts) ... ok
+test_every_span_is_closed_and_canonical (test_intermediate_covers.IntermediateCovers.test_every_span_is_closed_and_canonical) ... ok
+test_full_rank_agrees_with_k343_certificate (test_intermediate_covers.IntermediateCovers.test_full_rank_agrees_with_k343_certificate) ... ok
+test_gaussian_binomial_counts (test_intermediate_covers.IntermediateCovers.test_gaussian_binomial_counts) ... ok
+test_genus_rational_places_and_rh_for_every_record (test_intermediate_covers.IntermediateCovers.test_genus_rational_places_and_rh_for_every_record) ... ok
+test_place_inversion_recomposes_all_counts (test_intermediate_covers.IntermediateCovers.test_place_inversion_recomposes_all_counts) ... ok
+test_rank_four_degree_three_four_trace_obstruction (test_intermediate_covers.IntermediateCovers.test_rank_four_degree_three_four_trace_obstruction) ... ok
+test_rank_one_covers_agree_with_certified_quotients (test_intermediate_covers.IntermediateCovers.test_rank_one_covers_agree_with_certified_quotients) ... ok
+test_adversarial_structure_mutations_are_rejected (test_m3_local_units.LocalUnitFormulaTests.test_adversarial_structure_mutations_are_rejected) ... ok
+test_direct_multiplier_is_truncated_convolution (test_m3_local_units.LocalUnitFormulaTests.test_direct_multiplier_is_truncated_convolution) ... ok
+test_direct_truncated_series_gate (test_m3_local_units.LocalUnitFormulaTests.test_direct_truncated_series_gate) ... ok
+test_duursma_mak_terms_use_rank_but_relation_bound_uses_depth (test_m3_local_units.LocalUnitFormulaTests.test_duursma_mak_terms_use_rank_but_relation_bound_uses_depth) ... ok
+test_full_and_artin_schreier_character_laws (test_m3_local_units.LocalUnitFormulaTests.test_full_and_artin_schreier_character_laws) ... ok
+test_malformed_inputs_and_cap_are_rejected (test_m3_local_units.LocalUnitFormulaTests.test_malformed_inputs_and_cap_are_rejected) ... ok
+test_odd_depth_is_dominated_by_previous_even_depth (test_m3_local_units.LocalUnitFormulaTests.test_odd_depth_is_dominated_by_previous_even_depth) ... ok
+test_order_rank_and_cyclic_decomposition (test_m3_local_units.LocalUnitFormulaTests.test_order_rank_and_cyclic_decomposition) ... ok
+test_rebate_formula_and_depth_two_equality (test_m3_local_units.LocalUnitFormulaTests.test_rebate_formula_and_depth_two_equality) ... ok
+test_saved_experiment_has_local_scope_and_no_score (test_m3_local_units.LocalUnitFormulaTests.test_saved_experiment_has_local_scope_and_no_score) ... ok
+test_successive_valuation_and_killed_layers_are_distinct_data (test_m3_local_units.LocalUnitFormulaTests.test_successive_valuation_and_killed_layers_are_distinct_data) ... ok
+test_certified_k343_box_discovers_winner (test_search.TheoremSearchTests.test_certified_k343_box_discovers_winner) ... ok
+test_failed_sufficient_criterion_is_reported (test_search.TheoremSearchTests.test_failed_sufficient_criterion_is_reported) ... ok
+test_filtration_formula_supports_even_nonuniform_depths (test_search.TheoremSearchTests.test_filtration_formula_supports_even_nonuniform_depths) ... ok
+test_inventory_truncation_and_local_neighborhood (test_search.TheoremSearchTests.test_inventory_truncation_and_local_neighborhood) ... ok
+test_malformed_rows_are_rejected (test_search.TheoremSearchTests.test_malformed_rows_are_rejected) ... ok
+test_optimal_t_matches_direct_integer_brute_force (test_search.TheoremSearchTests.test_optimal_t_matches_direct_integer_brute_force) ... ok
+test_pruned_search_matches_unpruned_small_box (test_search.TheoremSearchTests.test_pruned_search_matches_unpruned_small_box) ... ok
+test_published_binary_arithmetic_is_exact (test_search.TheoremSearchTests.test_published_binary_arithmetic_is_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 3.369s
+
+OK

@@ -1,0 +1,1881 @@
+{
+  "agent": "m3_sage_ray",
+  "block_offsets_f2": [
+    0,
+    5,
+    10,
+    16,
+    22,
+    28,
+    34,
+    40,
+    46,
+    52,
+    58,
+    64,
+    70,
+    76,
+    82,
+    88,
+    94,
+    100,
+    106,
+    114,
+    122,
+    130,
+    138,
+    146,
+    154,
+    162,
+    170,
+    178,
+    186,
+    194,
+    202,
+    210,
+    218,
+    226,
+    234,
+    244,
+    254
+  ],
+  "block_order": [
+    "k343-d5-001",
+    "k343-d5-002",
+    "k343-d6-001",
+    "k343-d6-002",
+    "k343-d6-003",
+    "k343-d6-004",
+    "k343-d6-005",
+    "k343-d6-006",
+    "k343-d6-007",
+    "k343-d6-008",
+    "k343-d6-009",
+    "k343-d6-010",
+    "k343-d6-011",
+    "k343-d6-012",
+    "k343-d6-013",
+    "k343-d6-014",
+    "k343-d6-015",
+    "k343-d6-016",
+    "k343-d8-001",
+    "k343-d8-002",
+    "k343-d8-003",
+    "k343-d8-004",
+    "k343-d8-005",
+    "k343-d8-006",
+    "k343-d8-007",
+    "k343-d8-008",
+    "k343-d8-009",
+    "k343-d8-010",
+    "k343-d8-011",
+    "k343-d8-012",
+    "k343-d8-013",
+    "k343-d8-014",
+    "k343-d8-015",
+    "k343-d8-016",
+    "k343-d10-001",
+    "k343-d10-002",
+    "k343-d12-001"
+  ],
+  "certified_T_units": [
+    {
+      "expression": "x",
+      "justification": "zeros above x=0 and poles above infinity; all six H rational places split in k",
+      "name": "x"
+    },
+    {
+      "expression": "x+1",
+      "justification": "zeros above x=1 and poles above infinity; all six H rational places split in k",
+      "name": "x+1"
+    },
+    {
+      "expression": "y",
+      "justification": "Norm_H/F2(x)(y)=b=x(x+1); zeros/poles lie above H rational places",
+      "name": "y"
+    },
+    {
+      "expression": "y+1",
+      "justification": "Norm(y+1)=b+a+1=x^2(x+1); zeros/poles lie above H rational places",
+      "name": "y+1"
+    },
+    {
+      "expression": "y+x",
+      "justification": "Norm(y+x)=b+ax+x^2=x^2(x+1)^2; zeros/poles lie above H rational places",
+      "name": "y+x"
+    },
+    {
+      "expression": "z_1/(z_1+1), z_1^2+z_1=b/c^2",
+      "justification": "eta_h=z_h^2/(b*h/c^2); its zeros/poles are over zeros of b, hence T",
+      "name": "eta_1"
+    },
+    {
+      "expression": "z_x/(z_x+1), z_x^2+z_x=bx/c^2",
+      "justification": "eta_h=z_h^2/(b*h/c^2); zeros of bx are over H rational places",
+      "name": "eta_x"
+    },
+    {
+      "expression": "z_x2/(z_x2+1), z_x2^2+z_x2=bx^2/c^2",
+      "justification": "eta_h=z_h^2/(b*h/c^2); zeros of bx^2 are over H rational places",
+      "name": "eta_x2"
+    },
+    {
+      "expression": "z_y/(z_y+1), z_y^2+z_y=by/c^2",
+      "justification": "eta_h=z_h^2/(b*h/c^2); zeros of by are among H rational places",
+      "name": "eta_y"
+    },
+    {
+      "expression": "z_y2/(z_y2+1), z_y2^2+z_y2=by^2/c^2",
+      "justification": "eta_h=z_h^2/(b*h/c^2); zeros of by^2 are among H rational places",
+      "name": "eta_y2"
+    }
+  ],
+  "class_group_component": {
+    "complete_Jacobian_2_cyclic_factors": null,
+    "complete_Jacobian_2_rank": null,
+    "complete_Jacobian_order_from_zeta": "4090957603738646463892479767924504467105528225751904135725288721282695689725593743804733998980571409026491942175423256949983530548971365982195404505088000000000",
+    "status": "ORDER_ONLY",
+    "v2_of_complete_Jacobian_order": 51
+  },
+  "conductor_consequence": {
+    "M2_bound_unchanged": true,
+    "exact_mean_conductor_degree": null,
+    "reason": "known relation subspace has zero intersection with every single local block; hidden relations and full inertia remain unknown"
+  },
+  "experiment_id": "M3-RAY-STRUCTURE-001",
+  "git_commit": "b39b6a6988cf234e120baeac3a7946062222ddce",
+  "input_hashes_sha256": {
+    "certificates/k343-zeta.json": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+    "certificates/m2-tower.json": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7"
+  },
+  "known_relation_rows_hex": {
+    "eta_1": "0x35230dc340404040404040404040404040404040400000000000000000000000000",
+    "eta_x": "0x27296f5bef2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f000000000000000000000000000",
+    "eta_x2": "0x35230dc340404040404040404040404040404040400000000000000000000000000",
+    "eta_y": "0x108357d5d7171717171717171717171717171717186186186186186186186186000",
+    "eta_y2": "0x35230dc340404040404040404040404040404040400000000000000000000000000",
+    "x": "0x120a6298af6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f400000000000000000000000000",
+    "x+1": "0x27296f5bef2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f000000000000000000000000000",
+    "y": "0x25a05a1697575757575757575757575757575757586186186186186186186186000",
+    "y+1": "0x24816e5bac2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c0e38e38e38e38e38e38e38e3800",
+    "y+x": "0x34066c9b004040404040404040404040404040404f3cf3cf3cf3cf3cf3cf3cf3c00"
+  },
+  "known_relation_subspace": {
+    "ambient_local_dimension": 266,
+    "eta_rows_add_no_rank": true,
+    "independent_units": [
+      "x",
+      "x+1",
+      "y",
+      "y+1",
+      "y+x"
+    ],
+    "interpretation": "exhibited T-unit relations only; additional T-unit relations are unknown",
+    "known_relations_quotient_dimension": 261,
+    "rank_over_F2": 5,
+    "unit_row_count": 10
+  },
+  "local_coordinate_bits_by_unit": {
+    "eta_1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      781,
+      781,
+      3400
+    ],
+    "eta_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      367,
+      367,
+      2506
+    ],
+    "eta_x2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      781,
+      781,
+      3400
+    ],
+    "eta_y": [
+      0,
+      0,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      855,
+      855,
+      1056
+    ],
+    "eta_y2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      781,
+      781,
+      3400
+    ],
+    "x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      189,
+      610,
+      610,
+      1154
+    ],
+    "x+1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      188,
+      367,
+      367,
+      2506
+    ],
+    "y": [
+      0,
+      0,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      90,
+      90,
+      2408
+    ],
+    "y+1": [
+      0,
+      0,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      366,
+      366,
+      2336
+    ],
+    "y+x": [
+      0,
+      0,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      620,
+      620,
+      3329
+    ]
+  },
+  "local_places": [
+    {
+      "GF_modulus_bits": 37,
+      "chart": "ramified",
+      "degree": 5,
+      "id": "k343-d5-001",
+      "known_relation_projection_rank": 0,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 5,
+        "order": 32
+      },
+      "orbit_length": 5,
+      "representative_bits": [
+        2,
+        17
+      ],
+      "uniformizer": "ramified local parameter"
+    },
+    {
+      "GF_modulus_bits": 37,
+      "chart": "ramified",
+      "degree": 5,
+      "id": "k343-d5-002",
+      "known_relation_projection_rank": 0,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 5,
+        "order": 32
+      },
+      "orbit_length": 5,
+      "representative_bits": [
+        2,
+        26
+      ],
+      "uniformizer": "ramified local parameter"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-001",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        14,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-002",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        14,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-003",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        15,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-004",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        15,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-005",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        14,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-006",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        14,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-007",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        15,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-008",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        15,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-009",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        14,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-010",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        14,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-011",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        15,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-012",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        15,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-013",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        14,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-014",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        14,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-015",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        15,
+        34
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "degree": 6,
+      "id": "k343-d6-016",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 6,
+        "order": 64
+      },
+      "orbit_length": 6,
+      "representative_bits": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        15,
+        35
+      ],
+      "uniformizer": "y-y(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-001",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        92,
+        224,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-002",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        92,
+        224,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-003",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        92,
+        225,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-004",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        92,
+        225,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-005",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        93,
+        224,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-006",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        93,
+        224,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-007",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        93,
+        225,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-008",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        188,
+        93,
+        225,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-009",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        92,
+        224,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-010",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        92,
+        224,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-011",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        92,
+        225,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-012",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        92,
+        225,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-013",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        93,
+        224,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-014",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        93,
+        224,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-015",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        93,
+        225,
+        174,
+        162
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "degree": 8,
+      "id": "k343-d8-016",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 8,
+        "order": 256
+      },
+      "orbit_length": 8,
+      "representative_bits": [
+        188,
+        12,
+        189,
+        93,
+        225,
+        174,
+        163
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "degree": 10,
+      "id": "k343-d10-001",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 10,
+        "order": 1024
+      },
+      "orbit_length": 10,
+      "representative_bits": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        308,
+        640
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "degree": 10,
+      "id": "k343-d10-002",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 10,
+        "order": 1024
+      },
+      "orbit_length": 10,
+      "representative_bits": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        308,
+        641
+      ],
+      "uniformizer": "x-x(P)"
+    },
+    {
+      "GF_modulus_bits": 4105,
+      "chart": "regular",
+      "degree": 12,
+      "id": "k343-d12-001",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "local_unit_quotient": {
+        "description": "U_P^(1)/U_P^(2) = additive residue field",
+        "dimension_over_F2": 12,
+        "order": 4096
+      },
+      "orbit_length": 12,
+      "representative_bits": [
+        32,
+        2304,
+        1218,
+        1226,
+        3432,
+        40,
+        2400
+      ],
+      "uniformizer": "x-x(P)"
+    }
+  ],
+  "local_projection_and_inertia": [
+    {
+      "degree": 5,
+      "exact_local_inertia_order": null,
+      "id": "k343-d5-001",
+      "known_relation_projection_rank": 0,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^5",
+      "naive_local_inertia_order_upper_bound_integer": 32,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 5,
+      "exact_local_inertia_order": null,
+      "id": "k343-d5-002",
+      "known_relation_projection_rank": 0,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^5",
+      "naive_local_inertia_order_upper_bound_integer": 32,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-001",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-002",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-003",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-004",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-005",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-006",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-007",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-008",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-009",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-010",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-011",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-012",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-013",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-014",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-015",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 6,
+      "exact_local_inertia_order": null,
+      "id": "k343-d6-016",
+      "known_relation_projection_rank": 3,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^6",
+      "naive_local_inertia_order_upper_bound_integer": 64,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-001",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-002",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-003",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-004",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-005",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-006",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-007",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-008",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-009",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-010",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-011",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-012",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-013",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-014",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-015",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 8,
+      "exact_local_inertia_order": null,
+      "id": "k343-d8-016",
+      "known_relation_projection_rank": 4,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^8",
+      "naive_local_inertia_order_upper_bound_integer": 256,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 10,
+      "exact_local_inertia_order": null,
+      "id": "k343-d10-001",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^10",
+      "naive_local_inertia_order_upper_bound_integer": 1024,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 10,
+      "exact_local_inertia_order": null,
+      "id": "k343-d10-002",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^10",
+      "naive_local_inertia_order_upper_bound_integer": 1024,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    },
+    {
+      "degree": 12,
+      "exact_local_inertia_order": null,
+      "id": "k343-d12-001",
+      "known_relation_projection_rank": 5,
+      "known_relation_single_block_intersection_dim": 0,
+      "naive_local_inertia_order_upper_bound": "2^12",
+      "naive_local_inertia_order_upper_bound_integer": 4096,
+      "status": "UNKNOWN_FULL_RAY_GROUP"
+    }
+  ],
+  "output_path": "results/m3-ray-structure.json",
+  "runtime_seconds": 0.08622594500047853,
+  "sage_capability_pilot": {
+    "external_timeout_seconds": 120,
+    "interpretation": "historical capability evidence only; full K construction/class/ray API remains unavailable within bounded effort",
+    "maximal_order_bound_seconds": 120,
+    "maximal_order_or_place_enumeration": "TIMEOUT_OBSERVED_HISTORICAL",
+    "nested_AS_extension_build": "PASS; five successive degree-two extensions constructed (historical pilot)",
+    "nested_AS_extension_build_bound_seconds": 1.0,
+    "observed_stage": "K.maximal_order()",
+    "pilot_command": "timeout 120s scripts/sage-python experiments/m3_sage_maximal_order_pilot.py",
+    "pilot_source": "experiments/m3_sage_maximal_order_pilot.py",
+    "rerun_by_this_command": false,
+    "status": "HISTORICAL_ONLY_NOT_RERUN"
+  },
+  "scope": {
+    "base_field": "F2",
+    "base_function_field": "k343",
+    "genus": 343,
+    "local_principal_unit_quotient": "U_P^(1)/U_P^(2)",
+    "modulus": "2 * sum(P for P in selected M2 support)",
+    "splitting_set_T_size": 192,
+    "support_multiplicities_by_degree": {
+      "10": 2,
+      "12": 1,
+      "5": 2,
+      "6": 16,
+      "8": 16
+    }
+  },
+  "script_sha256": "646852c742b77df2bd333a84013e4be301d5d483894e4fa80ef40b1ec0eecd23",
+  "software": {
+    "finite_field_backend": "Sage GF(2^d), polynomial-basis from certificate bits",
+    "python": "3.14.7",
+    "sage": "10.9"
+  },
+  "split_ray_class_component": {
+    "conditional_order_upper_bound": "2^312",
+    "conditional_v2_order_upper_bound": 312,
+    "cyclic_factors": null,
+    "full_2_rank": null,
+    "full_order": null,
+    "known_T_unit_relation_rank": 5,
+    "known_local_term_quotient_dimension": 261,
+    "proof_obligation": "Apply the standard split ray exact sequence and account for all (not only listed) T-units",
+    "standard_exact_sequence_local_term_dimension": 266,
+    "status": "UPPER_BOUND_FROM_EXHIBITED_RELATIONS_ONLY"
+  },
+  "timestamp_utc": "2026-09-13T13:18:04.782436+00:00",
+  "unit_square_class_identity": "eta_h = z_h^2/(b*h/c^2), hence [eta_h]=[b*h] in k*/k*^2",
+  "verification": {
+    "full_inertia_orders": "UNKNOWN",
+    "full_ray_group": "UNKNOWN",
+    "known_relation_rank": "PASS rank=5",
+    "ramified_local_coordinate_zero_argument": "PASS_GIVEN_e=32_CERTIFICATE",
+    "regular_local_derivative_formulas": "PASS",
+    "selected_representatives_equations_and_Frobenius": "PASS",
+    "single_block_intersection_all_zero": true
+  }
+}
