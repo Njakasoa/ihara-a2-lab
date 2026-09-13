@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+ROOT=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
+SAGE_PREFIX=${SAGE_PREFIX:-"$ROOT/.runtime/sage"}
+DOT_SAGE=${DOT_SAGE:-"$ROOT/.runtime/sage-home"}
+
+if [[ ! -x "$SAGE_PREFIX/bin/sage" ]]; then
+    printf 'SageMath not found; expected %s\n' "$SAGE_PREFIX/bin/sage" >&2
+    exit 127
+fi
+
+mkdir -p "$DOT_SAGE"
+export DOT_SAGE
+export PYTHONNOUSERSITE=${PYTHONNOUSERSITE:-1}
+
+# The conda-forge Sage launcher does not implement Sage's historical
+# `sage -python` option. Preserve that useful invocation explicitly.
+if [[ "${1:-}" == "-python" || "${1:-}" == "--python" ]]; then
+    shift
+    exec "$SAGE_PREFIX/bin/python" "$@"
+fi
+
+exec "$SAGE_PREFIX/bin/sage" "$@"

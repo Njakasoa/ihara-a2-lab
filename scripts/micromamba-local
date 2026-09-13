@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+ROOT=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
+MAMBA_BIN=${MAMBA_BIN:-"$ROOT/.runtime/micromamba/bin/micromamba"}
+MAMBA_ROOT_PREFIX=${MAMBA_ROOT_PREFIX:-"$ROOT/.runtime/mamba"}
+
+if [[ ! -x "$MAMBA_BIN" ]]; then
+    printf 'micromamba not found; expected %s\n' "$MAMBA_BIN" >&2
+    exit 127
+fi
+
+# Ignore any host-level ~/.mamba configuration so a project run never tries to
+# lock or populate a cache outside this checkout.
+export MAMBA_PKGS_DIRS=${MAMBA_PKGS_DIRS:-"$MAMBA_ROOT_PREFIX/pkgs"}
+
+exec "$MAMBA_BIN" --no-rc --root-prefix "$MAMBA_ROOT_PREFIX" "$@"

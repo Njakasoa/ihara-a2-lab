@@ -1,0 +1,745 @@
+{
+  "splitting_T": [
+    "k343-d1-001",
+    "k343-d1-002",
+    "k343-d1-003",
+    "k343-d1-004",
+    "k343-d1-005",
+    "k343-d1-006",
+    "k343-d1-007",
+    "k343-d1-008",
+    "k343-d1-009",
+    "k343-d1-010",
+    "k343-d1-011",
+    "k343-d1-012",
+    "k343-d1-013",
+    "k343-d1-014",
+    "k343-d1-015",
+    "k343-d1-016",
+    "k343-d1-017",
+    "k343-d1-018",
+    "k343-d1-019",
+    "k343-d1-020",
+    "k343-d1-021",
+    "k343-d1-022",
+    "k343-d1-023",
+    "k343-d1-024",
+    "k343-d1-025",
+    "k343-d1-026",
+    "k343-d1-027",
+    "k343-d1-028",
+    "k343-d1-029",
+    "k343-d1-030",
+    "k343-d1-031",
+    "k343-d1-032",
+    "k343-d1-033",
+    "k343-d1-034",
+    "k343-d1-035",
+    "k343-d1-036",
+    "k343-d1-037",
+    "k343-d1-038",
+    "k343-d1-039",
+    "k343-d1-040",
+    "k343-d1-041",
+    "k343-d1-042",
+    "k343-d1-043",
+    "k343-d1-044",
+    "k343-d1-045",
+    "k343-d1-046",
+    "k343-d1-047",
+    "k343-d1-048",
+    "k343-d1-049",
+    "k343-d1-050",
+    "k343-d1-051",
+    "k343-d1-052",
+    "k343-d1-053",
+    "k343-d1-054",
+    "k343-d1-055",
+    "k343-d1-056",
+    "k343-d1-057",
+    "k343-d1-058",
+    "k343-d1-059",
+    "k343-d1-060",
+    "k343-d1-061",
+    "k343-d1-062",
+    "k343-d1-063",
+    "k343-d1-064",
+    "k343-d1-065",
+    "k343-d1-066",
+    "k343-d1-067",
+    "k343-d1-068",
+    "k343-d1-069",
+    "k343-d1-070",
+    "k343-d1-071",
+    "k343-d1-072",
+    "k343-d1-073",
+    "k343-d1-074",
+    "k343-d1-075",
+    "k343-d1-076",
+    "k343-d1-077",
+    "k343-d1-078",
+    "k343-d1-079",
+    "k343-d1-080",
+    "k343-d1-081",
+    "k343-d1-082",
+    "k343-d1-083",
+    "k343-d1-084",
+    "k343-d1-085",
+    "k343-d1-086",
+    "k343-d1-087",
+    "k343-d1-088",
+    "k343-d1-089",
+    "k343-d1-090",
+    "k343-d1-091",
+    "k343-d1-092",
+    "k343-d1-093",
+    "k343-d1-094",
+    "k343-d1-095",
+    "k343-d1-096",
+    "k343-d1-097",
+    "k343-d1-098",
+    "k343-d1-099",
+    "k343-d1-100",
+    "k343-d1-101",
+    "k343-d1-102",
+    "k343-d1-103",
+    "k343-d1-104",
+    "k343-d1-105",
+    "k343-d1-106",
+    "k343-d1-107",
+    "k343-d1-108",
+    "k343-d1-109",
+    "k343-d1-110",
+    "k343-d1-111",
+    "k343-d1-112",
+    "k343-d1-113",
+    "k343-d1-114",
+    "k343-d1-115",
+    "k343-d1-116",
+    "k343-d1-117",
+    "k343-d1-118",
+    "k343-d1-119",
+    "k343-d1-120",
+    "k343-d1-121",
+    "k343-d1-122",
+    "k343-d1-123",
+    "k343-d1-124",
+    "k343-d1-125",
+    "k343-d1-126",
+    "k343-d1-127",
+    "k343-d1-128",
+    "k343-d1-129",
+    "k343-d1-130",
+    "k343-d1-131",
+    "k343-d1-132",
+    "k343-d1-133",
+    "k343-d1-134",
+    "k343-d1-135",
+    "k343-d1-136",
+    "k343-d1-137",
+    "k343-d1-138",
+    "k343-d1-139",
+    "k343-d1-140",
+    "k343-d1-141",
+    "k343-d1-142",
+    "k343-d1-143",
+    "k343-d1-144",
+    "k343-d1-145",
+    "k343-d1-146",
+    "k343-d1-147",
+    "k343-d1-148",
+    "k343-d1-149",
+    "k343-d1-150",
+    "k343-d1-151",
+    "k343-d1-152",
+    "k343-d1-153",
+    "k343-d1-154",
+    "k343-d1-155",
+    "k343-d1-156",
+    "k343-d1-157",
+    "k343-d1-158",
+    "k343-d1-159",
+    "k343-d1-160",
+    "k343-d1-161",
+    "k343-d1-162",
+    "k343-d1-163",
+    "k343-d1-164",
+    "k343-d1-165",
+    "k343-d1-166",
+    "k343-d1-167",
+    "k343-d1-168",
+    "k343-d1-169",
+    "k343-d1-170",
+    "k343-d1-171",
+    "k343-d1-172",
+    "k343-d1-173",
+    "k343-d1-174",
+    "k343-d1-175",
+    "k343-d1-176",
+    "k343-d1-177",
+    "k343-d1-178",
+    "k343-d1-179",
+    "k343-d1-180",
+    "k343-d1-181",
+    "k343-d1-182",
+    "k343-d1-183",
+    "k343-d1-184",
+    "k343-d1-185",
+    "k343-d1-186",
+    "k343-d1-187",
+    "k343-d1-188",
+    "k343-d1-189",
+    "k343-d1-190",
+    "k343-d1-191",
+    "k343-d1-192"
+  ],
+  "ramification_S": [
+    {
+      "id": "k343-d5-001",
+      "degree": 5,
+      "GF_modulus_bits": 37,
+      "chart": "ramified",
+      "representative": [
+        2,
+        17
+      ]
+    },
+    {
+      "id": "k343-d5-002",
+      "degree": 5,
+      "GF_modulus_bits": 37,
+      "chart": "ramified",
+      "representative": [
+        2,
+        26
+      ]
+    },
+    {
+      "id": "k343-d6-001",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        14,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-002",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        14,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-003",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        15,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-004",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        14,
+        15,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-005",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        14,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-006",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        14,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-007",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        15,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-008",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        24,
+        44,
+        15,
+        15,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-009",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        14,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-010",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        14,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-011",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        15,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-012",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        14,
+        15,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-013",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        14,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-014",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        14,
+        35
+      ]
+    },
+    {
+      "id": "k343-d6-015",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        15,
+        34
+      ]
+    },
+    {
+      "id": "k343-d6-016",
+      "degree": 6,
+      "GF_modulus_bits": 67,
+      "chart": "regular",
+      "representative": [
+        14,
+        23,
+        25,
+        44,
+        15,
+        15,
+        35
+      ]
+    },
+    {
+      "id": "k343-d8-001",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        92,
+        224,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-002",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        92,
+        224,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-003",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        92,
+        225,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-004",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        92,
+        225,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-005",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        93,
+        224,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-006",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        93,
+        224,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-007",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        93,
+        225,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-008",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        188,
+        93,
+        225,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-009",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        92,
+        224,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-010",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        92,
+        224,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-011",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        92,
+        225,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-012",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        92,
+        225,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-013",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        93,
+        224,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d8-014",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        93,
+        224,
+        174,
+        163
+      ]
+    },
+    {
+      "id": "k343-d8-015",
+      "degree": 8,
+      "GF_modulus_bits": 283,
+      "chart": "regular",
+      "representative": [
+        188,
+        12,
+        189,
+        93,
+        225,
+        174,
+        162
+      ]
+    },
+    {
+      "id": "k343-d10-001",
+      "degree": 10,
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "representative": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        308,
+        640
+      ]
+    },
+    {
+      "id": "k343-d10-002",
+      "degree": 10,
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "representative": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        308,
+        641
+      ]
+    },
+    {
+      "id": "k343-d10-003",
+      "degree": 10,
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "representative": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        309,
+        640
+      ]
+    },
+    {
+      "id": "k343-d10-004",
+      "degree": 10,
+      "GF_modulus_bits": 1033,
+      "chart": "regular",
+      "representative": [
+        15,
+        315,
+        396,
+        84,
+        182,
+        309,
+        641
+      ]
+    }
+  ],
+  "selection_rule": "first m places in canonical lexicographic Frobenius-orbit ordering; nu=2",
+  "scope": "one explicit selection realizing the published degree multiplicities, not claimed identical to the authors selection"
+}

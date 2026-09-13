@@ -1,0 +1,44 @@
+{
+  "kind": "independent reference enumeration",
+  "scope": "g343,N192,nonrational S,degree<=12,nu2; only strict improvements over baseline need enumeration",
+  "degrees": [
+    5,
+    6,
+    8,
+    10,
+    12
+  ],
+  "stocks": [
+    2,
+    16,
+    16,
+    64,
+    208
+  ],
+  "fixed_cost_cap_exclusive": "33751/128",
+  "pruning_proof": "Any bound above b requires denominator <192/b. All remaining place costs are nonnegative. Cap uses fixed baseline, not evolving incumbent.",
+  "visited_leaves": 99835,
+  "feasible_leaves": 99806,
+  "pruned_subtrees": 2715432,
+  "best_bound": "196608/620201",
+  "maximizers": [
+    {
+      "multiplicities": [
+        2,
+        16,
+        16,
+        2,
+        1
+      ],
+      "t": 192,
+      "A": 266,
+      "C": 2260,
+      "D": 75,
+      "GS_margin": 41,
+      "denominator": "620201/1024",
+      "bound": "196608/620201"
+    }
+  ],
+  "all_t_handling": "For fixed S, best t=min(192,A,1+A-ceil_sqrt(2C+4A)); validated independently elsewhere",
+  "novelty_status": "UNASSESSED; arithmetic candidates only"
+}

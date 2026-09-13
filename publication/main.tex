@@ -1,0 +1,243 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,booktabs}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\setlength{\emergencystretch}{1em}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\F}{\mathbf F}
+\newcommand{\A}{A(2)}
+\title{A support modification in the Duursma--Mak bound for $A(2)$}
+\author{Ihara $A(2)$ Lab\\\small Working draft for mathematical review}
+\date{13 September 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Using the genus-$343$ function field and the class-field-tower criterion of
+Duursma and Mak, we obtain
+\[
+ A(2)\ge \frac{196608}{620201}=0.3170069058256919934\ldots.
+\]
+The change is confined to the support of a conductor-two modulus: two places
+of degree $10$ are replaced by places of degrees $8$ and $12$. The certified
+genus denominator decreases by $15/1024$, while the sufficient
+Golod--Shafarevich inequality retains positive margin. A small computation in
+$\F_{64}$ supplies the needed degree-$12$ place. We give the proof, an
+exchange identity explaining the gain, and reproducible exact certificates.
+This is a parameter refinement of the existing method. Priority has not been
+established by the bounded literature search accompanying this draft.
+\end{abstract}
+
+\section{The result and the published construction}
+For a prime power $q$, let $N_q(g)$ denote the largest number of rational
+points on a smooth projective geometrically irreducible curve of genus $g$
+over $\F_q$, and let $A(q)=\limsup_{g\to\infty}N_q(g)/g$.
+All function fields below have their indicated full constant field.
+
+The displayed binary conductor estimate of Duursma--Mak\cite{DM} gives the
+exact fraction $24576/77527$. We refine its parameters as follows.
+\begin{theorem}\label{thm:main}
+One has $A(2)\ge196608/620201>24576/77527$.
+\end{theorem}
+The conclusion does not determine $A(2)$, provide a new recursive equation,
+or compute an auxiliary ray class group exactly.
+
+Set
+\[
+ a=x^3+x+1,\qquad b=x^2+x,\qquad c=x^5+x^2+1.
+\]
+Let $H/\F_2$ be the function field with $y^2+ay=b$, and let $k/H$ be the
+compositum of
+\begin{equation}\label{eq:cover}
+ w_i^2+w_i=bh_i/c^2,\qquad (h_1,\ldots,h_5)=(1,x,x^2,y,y^2).
+\end{equation}
+These are normalized function fields; affine singularities are not counted as
+additional places. Duursma--Mak's construction has
+\begin{equation}\label{eq:geometry}
+ [k:H]=32,\quad g(H)=2,\quad g(k)=343,\quad N(k)=192,
+ \qquad (B_5,B_6,B_8,B_{10})(k)=(2,16,16,64),
+\end{equation}
+where $B_d$ counts closed places of degree $d$. In particular, one degree-$8$
+place is unused by their published modulus.
+
+For clarity, the geometric ingredients behind\eqref{eq:geometry} are the
+following. At each of the two degree-$5$ places of $H$ above $c=0$, the reduced
+simple-pole residues of the five functions in\eqref{eq:cover} form a map of
+rank five over $\F_2$. Thus every nonzero character has conductor
+$2P_5+2P'_5$, of degree $20$; there is no other ramification. The five
+Artin--Schreier classes remain independent after extending constants. Hence
+\[
+ 2g(k)-2=32(2g(H)-2)+31\cdot20=684.
+\]
+The six rational places of $H$ split completely. The accompanying M1
+certificates independently reconstruct these facts, the place inventory, and
+the zeta function with both binary polynomial arithmetic and SageMath.
+
+\section{A degree-twelve place}
+\begin{lemma}\label{lem:place}
+The field $k$ has at least sixteen places of degree $12$.
+\end{lemma}
+\begin{proof}
+Let $u$ generate $\F_{64}=\F_2[u]/(u^6+u+1)$. The polynomial is irreducible;
+this is also verified by the standalone finite-field checker. Put
+\[
+ x=u,\qquad y=u^4+u^2.
+\]
+These values satisfy $y^2+(x^3+x+1)y=x^2+x$. Since $x$ has degree six,
+the pair defines a degree-$6$ place $Q$ of $H$. Also $c(x)\ne0$, so $Q$ is
+unramified in $k/H$.
+
+Its Frobenius in $\operatorname{Gal}(k/H)=(\F_2)^5$ is the vector
+\[
+ \left(\operatorname{Tr}_{\F_{64}/\F_2}(bh_i/c^2)\right)_{i=1}^5
+ =(0,0,1,1,0).
+\]
+Only nonvanishing is needed. For $h_3=x^2$, the radicand is $u^5+u^4$.
+In polynomial-basis bit notation, its six successive squares are
+\[
+ 48,\ 60,\ 47,\ 38,\ 36,\ 32;
+\]
+their bitwise sum is $1$. This verifies its trace directly.
+The Frobenius has order two, so the unramified place $Q$ has $32/2=16$
+places above it, all of degree $6\cdot2=12$.
+\end{proof}
+The larger certificate lists thirteen such degree-$6$ places of $H$ and
+therefore supplies $208$ degree-$12$ places of $k$. Direct orbit enumeration
+also gives their coordinates. Lemma\ref{lem:place} is sufficient for the theorem.
+
+\section{Proof of the improved bound}
+Take $T$ to be all $192$ rational places of $k$. Choose a set $S$ of distinct
+closed places with multiplicities as in the second row of the table, and put
+$\mathfrak m=2\sum_{P\in S}P$.
+\begin{center}\input{tables/parameters.tex}\end{center}
+The availability follows from\eqref{eq:geometry} and Lemma\ref{lem:place}.
+All places in $S$ are nonrational, hence $S\cap T=\varnothing$.
+
+Let $K$ be the maximal abelian $2$-primary subextension of the $T$-ray class
+field with modulus $\mathfrak m$. The $2$-primary convention is essential for
+the finite $2$-group argument in the tower criterion; it preserves the
+$2$-rank estimate, complete splitting of $T$, and the conductor bounds.
+Write $n=[K:k]$, leaving its exact value unspecified.
+
+For the binary conductor-two specialization of Duursma--Mak's Theorem 1.1,
+write
+\begin{align*}
+ A&=\sum_{P\in S}\deg P=266,\\
+ C&=\sum_{P\in S}\deg P(\deg P+1)=2260,\\
+ D&=1+A-|T|=75.
+\end{align*}
+We have $0<|T|\le A$, and the sufficient infinitude inequality is
+\begin{equation}\label{eq:GS}
+ D^2-2C-4A=5625-4520-1064=41>0.
+\end{equation}
+Indeed, if the resulting unramified split $2$-tower $L/K$ were finite, the
+published rank estimates for $G=\operatorname{Gal}(L/k)$ would give
+$d_2(G)\ge75$ and $r_2(G)-d_2(G)\le C/2+191=1321$.
+On $d\ge75$, the increasing function $d^2/4-d$ is at least $5325/4>1321$,
+contradicting the strict Golod--Shafarevich inequality for a finite nontrivial
+$2$-group. Thus the tower is infinite.
+
+At a place of degree $f$ in $S$, the inertia image in $\operatorname{Gal}(K/k)$
+has order at most $2^f$, the size of $U^1/U^2$. A uniform global character
+restricts uniformly to the dual of this inertia image, so it is unramified
+there with probability at least $2^{-f}$. There are no conductor-one
+$2$-primary characters. Consequently its mean local conductor exponent is at
+most $2(1-2^{-f})$. This remains true if the actual inertia is smaller;
+no independence between different places is assumed.
+
+By linearity, the mean degree $M$ of the global character conductor satisfies
+\begin{align*}
+ M&\le2\bigl[10(1-2^{-5})+96(1-2^{-6})+128(1-2^{-8})\\
+ &\hspace{37mm}+20(1-2^{-10})+12(1-2^{-12})\bigr]
+ =\frac{269993}{512}.
+\end{align*}
+Conductor--discriminant and Riemann--Hurwitz give
+\[
+ g(K)-1=n\left(342+\frac M2\right)\le n\frac{620201}{1024}.
+\]
+There are $192n$ rational places of $K$ above $T$, all split in the infinite
+unramified tower. Nonempty rational splitting fixes the constant field
+$\F_2$ at every level. Since $g(K)>1$, the genera are unbounded and the
+usual unramified-tower ratio yields
+\[
+ A(2)\ge \frac{192n}{g(K)-1}\ge\frac{196608}{620201}.
+\]
+Finally,
+\[
+ \frac{196608}{620201}-\frac{24576}{77527}
+ =\frac{368640}{48082322927}>0,
+\]
+proving Theorem\ref{thm:main}. Notice that $n$ cancels; neither its exact
+value nor the invariant factors of the ray group have been assumed.
+
+\section{Why the exchange helps}
+Define $w(f)=f(1-2^{-f})$, the conductor-two contribution to the certified
+genus denominator. The following elementary identity explains the refinement.
+\begin{lemma}
+Fix an admissible binary conductor-two support and $T$. Suppose two selected
+places of degree $d$ can be replaced by unused distinct places of degrees
+$d-h,d+h$, disjoint from $T$, with $h\ge1$ and $d-h\ge2$.
+The exchange leaves $A,D$ fixed, raises $C$ by $2h^2$, and lowers the GS
+margin by $4h^2$. Its decrease in the genus denominator is
+\[
+ \Delta(d,h)=\frac{(2^h-1)[d(2^h-1)-h(2^h+1)]}{2^{d+h}}.
+\]
+If the old margin is at least $4h^2$ and
+$d>h(2^h+1)/(2^h-1)$, the new certified ratio is strictly larger.
+\end{lemma}
+\begin{proof}
+The degree sum stays $2d$, while
+$(d-h)(d-h+1)+(d+h)(d+h+1)-2d(d+1)=2h^2$.
+Expanding $2w(d)-w(d-h)-w(d+h)$ gives the stated $\Delta$.
+Its sign and the remaining margin imply the conclusion.
+\end{proof}
+Here $d=10,h=2$: the margin falls from $57$ to $41$, and
+$\Delta=15/1024$. The published denominator $77527/128$ becomes
+$620201/1024$. This is an improvement of the conductor upper bound used by
+the theorem, not a computation of the actual genus of either ray field.
+The identity can prune a restricted search only when the replacement remains
+inside that search's allowed degrees and multiplicities.
+
+\section{Computation, scope, and coding interpretation}
+The parameter search takes a certified place inventory, not the finite ratio
+$N/g$, as input. For fixed $S$ its largest admissible splitting size is
+\[
+ t_{\max}=\min\{N,A,1+A-\lceil\sqrt{2C+4A}\rceil\}.
+\]
+A nonpositive value gives no certificate. Any score strictly above an incumbent
+$b$ must have conductor cost less than $N/b-(g-1)$, allowing exact monotone
+pruning. Two implementations found the same multiplicity vector, without
+supplying the improved vector as input. In the $k$, nonrational $S$,
+degree-at-most-$12$, depth-two domain there are $11\,778\,195$ possible
+multiplicity vectors; $99\,835$ survive the cost pruning. The displayed
+multiplicity vector and $t$ uniquely maximize this conservative score in
+that domain. This is not uniqueness of a divisor or an optimality claim for
+all towers. A separate bounded neighborhood of $14\,112$ depth-$2,4,6$
+variants did not improve the score.
+
+The binary elementary AG-code estimate is formally $R+\delta\ge1-1/a$ for
+a suitable tower ratio $a$. Here it gives $-423593/196608<0$, hence no new
+positive binary coding guarantee. No claim about optimal or industrial codes
+is made.
+
+\paragraph{Reproducibility and review status.}
+The accompanying repository contains equations, local residue maps, all
+selected closed-place coordinates, exact fractions, positive and adversarial
+controls, independent SageMath checks, and a full tower proof review.
+The checks passed with Python 3.12.3 and SageMath 10.9. The note was prepared
+in an AI-assisted laboratory using Astra for integration and adversarial proof
+review and Luna for bounded arithmetic, implementation, and bibliography.
+These internal checks are not external peer review. The literature audit dated
+13 September 2026 found no exact antecedent in its recorded public-source
+coverage; the novelty label remains \emph{possibly novel}, with no priority
+claim or external submission.
+
+\begin{thebibliography}{9}
+\bibitem{DM} I. Duursma and K.-H. Mak,
+\emph{On lower bounds for the Ihara constants $A(2)$ and $A(3)$},
+arXiv:1102.4127v4 (2012), especially Theorem 1.1 and Proposition 5.5.
+Published in \emph{Compositio Mathematica} \textbf{149} (2013), 1108--1128,
+\href{https://doi.org/10.1112/S0010437X12000796}{doi:10.1112/S0010437X12000796}.
+\end{thebibliography}
+\end{document}

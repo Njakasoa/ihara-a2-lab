@@ -1,0 +1,41 @@
+# Project-local exact-arithmetic runtime receipts.
+# Resolved/installed 2026-09-13 on linux-64 (Ubuntu 24.04.3, x86_64).
+# Exact package URLs and hashes: environment/conda-explicit-linux-64.txt.
+# sage-environment.yml is a flexible recipe; the explicit file freezes all387 builds.
+
+[micromamba]
+version = 2.9.0
+archive = https://micro.mamba.pm/api/micromamba/linux-64/latest
+archive_sha256 = 8761c382127e6363bd9e0a2451aa3ef90d071a79133f736e2f759a3bf13040dd
+channel = https://conda.anaconda.org/conda-forge
+platform = linux-64
+resolved_packages = 387
+resolved_download_bytes = 1446381677
+installed_prefix = .runtime/sage
+package_cache = .runtime/mamba
+
+[sage]
+version = 10.9
+release_date = 2026-05-04
+python = 3.14.7
+sagelib = 10.9
+pari = 2.17.3
+libflint = 3.3.1
+gap_core = 4.15.1
+gap_defaults = 4.15.1
+singular = 4.4.1.p5
+cypari2 = 2.2.4
+sympy = 1.14.0
+numpy = 2.5.3
+scipy = 1.18.1
+
+[pari_local_deb]
+# Used only as a small standalone fallback; Sage's bundled PARI 2.17.3 is
+# preferred by scripts/environment_audit.sh when the Sage prefix is present.
+source = Ubuntu 24.04 Noble universe
+version = 2.15.4-2.1build1
+packages = pari-gp,libpari-dev,libpari-gmp-tls8t64
+runtime_prefix = .runtime/pari
+pari-gp_sha256 = 55a95d51afe87688fe0fcfe1bca74bf8c5474533e2a42d3af45c87c1ae0d86fa
+libpari-dev_sha256 = e0ff81728d6c7b756a69baf499b724a65d0ce4bd3ca0f9d8a4bfc23f89b004e2
+libpari-gmp-tls8t64_sha256 = 89d45be48f61272d68e2ec9ca38517adafe9c364df30baaff1136bafcd30db22

@@ -1,0 +1,520 @@
+[
+  {
+    "case": "remove degree12 at fixed t",
+    "fixed_t": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 254,
+      "A": 254,
+      "twice_local_relation_cost": 2104,
+      "C": 2104,
+      "generator_lower_bound": 63,
+      "D": 63,
+      "GS_margin": -1255,
+      "GS": -1255,
+      "relation_minus_generator_upper_bound": "1243",
+      "average_conductor_degree_upper_bound": "64427/128",
+      "conductor_average": "64427/128",
+      "conductor_cost": "64427/256",
+      "genus_denominator_upper_bound": "151979/256",
+      "ratio_lower_bound": "49152/151979",
+      "t_le_A": true,
+      "inequality_passes": false,
+      "theorem_passes": false,
+      "failure_reasons": [
+        "GS sufficient inequality I >= 0 fails"
+      ],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "best_t_for_this_support": {
+      "genus": 343,
+      "t": 182,
+      "rows": [
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 254,
+      "A": 254,
+      "twice_local_relation_cost": 2104,
+      "C": 2104,
+      "generator_lower_bound": 73,
+      "D": 73,
+      "GS_margin": 105,
+      "GS": 105,
+      "relation_minus_generator_upper_bound": "1233",
+      "average_conductor_degree_upper_bound": "64427/128",
+      "conductor_average": "64427/128",
+      "conductor_cost": "64427/256",
+      "genus_denominator_upper_bound": "151979/256",
+      "ratio_lower_bound": "46592/151979",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "interpretation": "failed sufficient criterion means no certificate, not finite tower; lower score is not an upper bound for the actual tower"
+  },
+  {
+    "case": "uniform depth4",
+    "fixed_t": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          2,
+          4
+        ],
+        [
+          6,
+          16,
+          4
+        ],
+        [
+          8,
+          16,
+          4
+        ],
+        [
+          10,
+          2,
+          4
+        ],
+        [
+          12,
+          1,
+          4
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 532,
+      "A": 532,
+      "twice_local_relation_cost": 18744,
+      "C": 18744,
+      "generator_lower_bound": 341,
+      "D": 341,
+      "GS_margin": 76665,
+      "GS": 76665,
+      "relation_minus_generator_upper_bound": "9563",
+      "average_conductor_degree_upper_bound": "9119319418557/8589934592",
+      "conductor_average": "9119319418557/8589934592",
+      "conductor_cost": "9119319418557/17179869184",
+      "genus_denominator_upper_bound": "14994834679485/17179869184",
+      "ratio_lower_bound": "1099511627776/4998278226495",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "best_t_for_this_support": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          2,
+          4
+        ],
+        [
+          6,
+          16,
+          4
+        ],
+        [
+          8,
+          16,
+          4
+        ],
+        [
+          10,
+          2,
+          4
+        ],
+        [
+          12,
+          1,
+          4
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 532,
+      "A": 532,
+      "twice_local_relation_cost": 18744,
+      "C": 18744,
+      "generator_lower_bound": 341,
+      "D": 341,
+      "GS_margin": 76665,
+      "GS": 76665,
+      "relation_minus_generator_upper_bound": "9563",
+      "average_conductor_degree_upper_bound": "9119319418557/8589934592",
+      "conductor_average": "9119319418557/8589934592",
+      "conductor_cost": "9119319418557/17179869184",
+      "genus_denominator_upper_bound": "14994834679485/17179869184",
+      "ratio_lower_bound": "1099511627776/4998278226495",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "interpretation": "failed sufficient criterion means no certificate, not finite tower; lower score is not an upper bound for the actual tower"
+  },
+  {
+    "case": "one degree5 depth4",
+    "fixed_t": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 271,
+      "A": 271,
+      "twice_local_relation_cost": 2470,
+      "C": 2470,
+      "generator_lower_bound": 80,
+      "D": 80,
+      "GS_margin": 376,
+      "GS": 376,
+      "relation_minus_generator_upper_bound": "1426",
+      "average_conductor_degree_upper_bound": "8806091/16384",
+      "conductor_average": "8806091/16384",
+      "conductor_cost": "8806091/32768",
+      "genus_denominator_upper_bound": "20012747/32768",
+      "ratio_lower_bound": "6291456/20012747",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "best_t_for_this_support": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 271,
+      "A": 271,
+      "twice_local_relation_cost": 2470,
+      "C": 2470,
+      "generator_lower_bound": 80,
+      "D": 80,
+      "GS_margin": 376,
+      "GS": 376,
+      "relation_minus_generator_upper_bound": "1426",
+      "average_conductor_degree_upper_bound": "8806091/16384",
+      "conductor_average": "8806091/16384",
+      "conductor_cost": "8806091/32768",
+      "genus_denominator_upper_bound": "20012747/32768",
+      "ratio_lower_bound": "6291456/20012747",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "interpretation": "failed sufficient criterion means no certificate, not finite tower; lower score is not an upper bound for the actual tower"
+  },
+  {
+    "case": "one degree5 depth4 and remove degree8",
+    "fixed_t": {
+      "genus": 343,
+      "t": 192,
+      "rows": [
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          15,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 263,
+      "A": 263,
+      "twice_local_relation_cost": 2398,
+      "C": 2398,
+      "generator_lower_bound": 72,
+      "D": 72,
+      "GS_margin": -664,
+      "GS": -664,
+      "relation_minus_generator_upper_bound": "1390",
+      "average_conductor_degree_upper_bound": "8544971/16384",
+      "conductor_average": "8544971/16384",
+      "conductor_cost": "8544971/32768",
+      "genus_denominator_upper_bound": "19751627/32768",
+      "ratio_lower_bound": "6291456/19751627",
+      "t_le_A": true,
+      "inequality_passes": false,
+      "theorem_passes": false,
+      "failure_reasons": [
+        "GS sufficient inequality I >= 0 fails"
+      ],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "best_t_for_this_support": {
+      "genus": 343,
+      "t": 187,
+      "rows": [
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          15,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "p": 2,
+      "q": 2,
+      "constant_degree": 1,
+      "local_dimension": 263,
+      "A": 263,
+      "twice_local_relation_cost": 2398,
+      "C": 2398,
+      "generator_lower_bound": 77,
+      "D": 77,
+      "GS_margin": 81,
+      "GS": 81,
+      "relation_minus_generator_upper_bound": "1385",
+      "average_conductor_degree_upper_bound": "8544971/16384",
+      "conductor_average": "8544971/16384",
+      "conductor_cost": "8544971/32768",
+      "genus_denominator_upper_bound": "19751627/32768",
+      "ratio_lower_bound": "6127616/19751627",
+      "t_le_A": true,
+      "inequality_passes": true,
+      "theorem_passes": true,
+      "failure_reasons": [],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "status": "EXACT RATIONAL",
+      "rational_places": 192
+    },
+    "interpretation": "failed sufficient criterion means no certificate, not finite tower; lower score is not an upper bound for the actual tower"
+  }
+]

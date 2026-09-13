@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite this research companion and the accompanying internally reviewed manuscript. Publication priority remains unresolved."
+title: "Ihara A(2) Lab: a support modification in the Duursma–Mak bound"
+type: software
+authors:
+  - name: "Ihara A(2) Lab"
+repository-code: "https://github.com/Njakasoa/ihara-a2-lab"
+license: MIT
+keywords:
+  - Ihara constant
+  - curves over finite fields
+  - class-field towers
+  - exact certificates
+  - reproducible research

@@ -1,0 +1,8 @@
+# Core: Python 3.12.3, standard library only. No pip packages are required.
+# Independent verification: SageMath 10.9, Sage Python 3.14.7.
+# Exact Linux package URLs + MD5: ../environment/conda-explicit-linux-64.txt
+# Optional PDF compiler: Tectonic 0.17.0.
+# Exact compiler package URLs + MD5: ../environment/tectonic-explicit-linux-64.txt
+# Installation and actual capabilities: ../ENVIRONMENT_AUDIT.md
+# This note is reproduced from the surrounding ihara-a2-lab repository;
+# publication/reproduce.py is its single entry point, not a standalone pip project.

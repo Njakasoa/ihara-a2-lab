@@ -1,0 +1,147 @@
+{
+  "GF8_modulus": 11,
+  "H_reduced_poles": [
+    {
+      "x": 2,
+      "residue": 7
+    },
+    {
+      "x": 4,
+      "residue": 3
+    },
+    {
+      "x": 6,
+      "residue": 5
+    }
+  ],
+  "GF32_modulus": 37,
+  "k_local_maps": [
+    {
+      "x": 2,
+      "y": 26,
+      "residues": [
+        23,
+        19,
+        12,
+        5,
+        3
+      ],
+      "rank": 5
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "residues": [
+        23,
+        19,
+        12,
+        30,
+        15
+      ],
+      "rank": 5
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "residues": [
+        24,
+        8,
+        26,
+        19,
+        31
+      ],
+      "rank": 5
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "residues": [
+        24,
+        8,
+        26,
+        17,
+        5
+      ],
+      "rank": 5
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "residues": [
+        21,
+        14,
+        5,
+        10,
+        9
+      ],
+      "rank": 5
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "residues": [
+        21,
+        14,
+        5,
+        26,
+        12
+      ],
+      "rank": 5
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "residues": [
+        7,
+        10,
+        3,
+        12,
+        17
+      ],
+      "rank": 5
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "residues": [
+        7,
+        10,
+        3,
+        8,
+        18
+      ],
+      "rank": 5
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "residues": [
+        28,
+        30,
+        17,
+        14,
+        11
+      ],
+      "rank": 5
+    },
+    {
+      "x": 27,
+      "y": 12,
+      "residues": [
+        28,
+        30,
+        17,
+        3,
+        26
+      ],
+      "rank": 5
+    }
+  ],
+  "H_genus": 2,
+  "k_degree_over_H": 32,
+  "nontrivial_characters": 31,
+  "conductor_degree_each_character": 20,
+  "k_genus": 343,
+  "status": "EXACT FINITE FIELD",
+  "proof_dependency": "proofs/FINITE_GEOMETRY.md"
+}

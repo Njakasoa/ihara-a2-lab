@@ -1,0 +1,6 @@
+name: ihara-sage
+channels:
+  - conda-forge
+channel_priority: strict
+dependencies:
+  - sage=10.9

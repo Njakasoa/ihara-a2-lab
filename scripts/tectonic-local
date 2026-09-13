@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+ROOT=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
+export XDG_CACHE_HOME="$ROOT/.runtime/tex-cache"
+exec "$ROOT/.runtime/tex/bin/tectonic" "$@"

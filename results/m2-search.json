@@ -1,0 +1,313 @@
+{
+  "date": "2026-09-13",
+  "experiment": "M2 exact automated Duursma-Mak theorem-parameter search",
+  "historical_benchmark": {
+    "ratio": "24576/77527",
+    "ratio_decimal": "0.31699923897480877630",
+    "source": "Duursma-Mak Theorem 1.3 / Proposition 5.5"
+  },
+  "input": {
+    "base_field": "F_2",
+    "depth_for_exhaustive_search": 2,
+    "genus": 343,
+    "inventory": "curves/k343-place-counts-30.json",
+    "inventory_sha256": "8aaa507b68f0cf60be9786ef63ac9f411c1e413a7d830d6c8617cab110759bf7",
+    "maximum_degree": 12,
+    "nonrational_degrees_with_positive_counts": [
+      {
+        "available": 2,
+        "degree": 5
+      },
+      {
+        "available": 16,
+        "degree": 6
+      },
+      {
+        "available": 16,
+        "degree": 8
+      },
+      {
+        "available": 64,
+        "degree": 10
+      },
+      {
+        "available": 208,
+        "degree": 12
+      }
+    ],
+    "q": 2,
+    "rational_place_count_N": 192
+  },
+  "m1_gate": {
+    "record": "results/M1_STATUS.md",
+    "required_status": "M1 ACCEPTED"
+  },
+  "nonuniform_even_neighborhood": {
+    "base_vector": {
+      "10": 2,
+      "12": 1,
+      "5": 2,
+      "6": 16,
+      "8": 16
+    },
+    "best": {
+      "A": 266,
+      "C": 2260,
+      "D": 75,
+      "GS": 41,
+      "GS_margin": 41,
+      "average_conductor_degree_upper_bound": "269993/512",
+      "average_conductor_degree_upper_bound_decimal": "527.33007812500000000000",
+      "conductor_average": "269993/512",
+      "conductor_average_decimal": "527.33007812500000000000",
+      "conductor_cost": "269993/1024",
+      "conductor_cost_decimal": "263.66503906250000000000",
+      "constant_degree": 1,
+      "failure_reasons": [],
+      "generator_lower_bound": 75,
+      "genus": 343,
+      "genus_denominator_upper_bound": "620201/1024",
+      "genus_denominator_upper_bound_decimal": "605.66503906250000000000",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "inequality_passes": true,
+      "local_dimension": 266,
+      "p": 2,
+      "q": 2,
+      "ratio_lower_bound": "196608/620201",
+      "ratio_lower_bound_decimal": "0.31700690582569199340",
+      "rational_places": 192,
+      "relation_minus_generator_upper_bound": "1321",
+      "rows": [
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "status": "EXACT RATIONAL",
+      "t": 192,
+      "t_le_A": true,
+      "theorem_passes": true,
+      "twice_local_relation_cost": 2260
+    },
+    "depths": [
+      2,
+      4,
+      6
+    ],
+    "inventory": [
+      {
+        "available": 2,
+        "degree": 5
+      },
+      {
+        "available": 16,
+        "degree": 6
+      },
+      {
+        "available": 16,
+        "degree": 8
+      },
+      {
+        "available": 64,
+        "degree": 10
+      },
+      {
+        "available": 208,
+        "degree": 12
+      }
+    ],
+    "proof_obligations": [
+      "the neighborhood is exploratory and does not prove a result outside its finite scope",
+      "selected places, disjoint T, exact constants, and the p-primary tower remain to be certified",
+      "odd depths are excluded here because the filtration proof records their conservative domination by the preceding even depth"
+    ],
+    "scope": [
+      "each inventory multiplicity is independently varied over base-1, base, base+1, clipped to availability",
+      "all per-degree uniform depth assignments in {2,4,6}",
+      "one exceptional place at one degree may have depth 4 or 6 while all other selected places have depth 2"
+    ],
+    "stats": {
+      "accepted_variants": 14112,
+      "beats_auto_best": 0,
+      "duplicate_variants_removed": 4056,
+      "evaluated_variants": 14112,
+      "gs_failures": 0,
+      "multiplicity_vectors": 72,
+      "no_feasible_t": 0,
+      "single_exception_variants_generated": 672,
+      "uniform_variants_generated": 17496,
+      "unique_variants": 14112
+    },
+    "status": "BOUNDED LOCAL EXACT SEARCH; GEOMETRY OBLIGATIONS OPEN"
+  },
+  "nu2_search": {
+    "automatic_best": {
+      "A": 266,
+      "C": 2260,
+      "D": 75,
+      "GS": 41,
+      "GS_margin": 41,
+      "average_conductor_degree_upper_bound": "269993/512",
+      "average_conductor_degree_upper_bound_decimal": "527.33007812500000000000",
+      "conductor_average": "269993/512",
+      "conductor_average_decimal": "527.33007812500000000000",
+      "conductor_cost": "269993/1024",
+      "conductor_cost_decimal": "263.66503906250000000000",
+      "constant_degree": 1,
+      "cost_units": 1079972,
+      "cost_units_scale": 4096,
+      "failure_reasons": [],
+      "generator_lower_bound": 75,
+      "genus": 343,
+      "genus_denominator_upper_bound": "620201/1024",
+      "genus_denominator_upper_bound_decimal": "605.66503906250000000000",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "inequality_passes": true,
+      "local_dimension": 266,
+      "multiplicity_vector": {
+        "10": 2,
+        "12": 1,
+        "5": 2,
+        "6": 16,
+        "8": 16
+      },
+      "p": 2,
+      "q": 2,
+      "ratio_from_units": "196608/620201",
+      "ratio_lower_bound": "196608/620201",
+      "ratio_lower_bound_decimal": "0.31700690582569199340",
+      "rational_places": 192,
+      "relation_minus_generator_upper_bound": "1321",
+      "rows": [
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "status": "EXACT RATIONAL",
+      "t": 192,
+      "t_le_A": true,
+      "theorem_passes": true,
+      "twice_local_relation_cost": 2260
+    },
+    "depth": 2,
+    "inventory": [
+      {
+        "available": 2,
+        "degree": 5
+      },
+      {
+        "available": 16,
+        "degree": 6
+      },
+      {
+        "available": 16,
+        "degree": 8
+      },
+      {
+        "available": 64,
+        "degree": 10
+      },
+      {
+        "available": 208,
+        "degree": 12
+      }
+    ],
+    "proof_obligations": [
+      "place counts certify availability, but every selected S place must be exhibited and distinct",
+      "T must be an explicit set of t rational places disjoint from S",
+      "the constant field and p-primary T-ray tower hypotheses are not computed by this search",
+      "a finite-box optimum does not assert an optimum over other curves, degrees, depths, or the unrestricted family"
+    ],
+    "pruning": {
+      "comparison": "strict; equality cannot beat the incumbent",
+      "cost_units_scale": 4096,
+      "enabled": true,
+      "rule": "prune a partial branch when conductor cost >= N/incumbent-(g-1)",
+      "sound": true
+    },
+    "stats": {
+      "accepted_configurations": 99806,
+      "beats_incumbent": 1,
+      "cost_pruned_branches": 2715432,
+      "cost_pruned_configurations": 11678360,
+      "evaluated_configurations": 99835,
+      "gs_failures": 0,
+      "no_feasible_t": 29,
+      "rejected_configurations": 29,
+      "ties_incumbent": 0,
+      "total_configurations": 11778195
+    },
+    "status": "EXACT FINITE SEARCH; GEOMETRY OBLIGATIONS OPEN"
+  },
+  "reproducible_command": "python3 experiments/run_parameter_search.py",
+  "scope_exclusions": [
+    "no ternary refinement",
+    "no unsupported ray-group rank or exact ray degree",
+    "no claim of global optimum outside this k343 degree<=12 finite box",
+    "no claim that the arithmetic winner is already a proved new Ihara bound"
+  ],
+  "status": "EXACT FINITE INTEGER/RATIONAL SEARCH; GEOMETRY OBLIGATIONS OPEN",
+  "strict_cost_pruning": {
+    "equality_pruned": true,
+    "necessary_condition": "cost < N/incumbent - (g-1)",
+    "reason": "t <= N and all unassigned conductor costs are nonnegative",
+    "sound_for_strict_improvement": true,
+    "threshold": "33751/128",
+    "threshold_decimal": "263.67968750000000000000"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "duursma_mak_343": {
+    "genus": 343,
+    "t": 192,
+    "places": [
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        10,
+        4
+      ]
+    ],
+    "p": 2,
+    "constant_degree": 1,
+    "conductor_exponent": 2,
+    "local_dimension": 266,
+    "generator_lower_bound": 75,
+    "GS_margin": 57,
+    "t_le_dimension": true,
+    "inequality_passes": true,
+    "genus_denominator_upper_bound": "77527/128",
+    "ratio_lower_bound": "24576/77527",
+    "coarse_ratio": "6/19",
+    "status": "EXACT RATIONAL",
+    "geometry_status": "EXTERNAL PROOF OBLIGATION"
+  },
+  "duursma_mak_276": {
+    "genus": 276,
+    "t": 160,
+    "places": [
+      [
+        5,
+        1
+      ],
+      [
+        8,
+        27
+      ],
+      [
+        10,
+        1
+      ]
+    ],
+    "p": 2,
+    "constant_degree": 1,
+    "conductor_exponent": 2,
+    "local_dimension": 231,
+    "generator_lower_bound": 72,
+    "GS_margin": 92,
+    "t_le_dimension": true,
+    "inequality_passes": true,
+    "genus_denominator_upper_bound": "258555/512",
+    "ratio_lower_bound": "16384/51711",
+    "coarse_ratio": "80/253",
+    "status": "EXACT RATIONAL",
+    "geometry_status": "EXTERNAL PROOF OBLIGATION"
+  }
+}

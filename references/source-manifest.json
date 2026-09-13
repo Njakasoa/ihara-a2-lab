@@ -1,0 +1,16 @@
+[
+  {
+    "file": "papers/duursma-mak-1102.4127.pdf",
+    "url": "https://arxiv.org/pdf/1102.4127",
+    "download_date": "2026-09-13",
+    "sha256": "dd44fe9361afa708f44ad39c90a74e14d273fac15211652ffc14971109b13bf0",
+    "bytes": 303901
+  },
+  {
+    "file": "papers/schoof-1992.pdf",
+    "url": "https://reneschoof.github.io/CurvesF2.pdf",
+    "download_date": "2026-09-13",
+    "sha256": "354a8f3e135ee4e4a3dcc1ab3a12b2527ad225f24530e1bb667e96ca2bf56c80",
+    "bytes": 464623
+  }
+]

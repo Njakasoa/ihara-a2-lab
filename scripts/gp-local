@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+ROOT=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
+PARI_PREFIX=${PARI_PREFIX:-"$ROOT/.runtime/pari"}
+GP_BIN=${PARI_GP_BIN:-"$PARI_PREFIX/usr/bin/gp-2.15"}
+
+if [[ ! -x "$GP_BIN" ]]; then
+    if command -v gp >/dev/null 2>&1; then
+        exec gp "$@"
+    fi
+    printf 'PARI/GP not found; expected %s\n' "$GP_BIN" >&2
+    exit 127
+fi
+
+PARI_LIB="$PARI_PREFIX/usr/lib/x86_64-linux-gnu"
+if [[ -n "${LD_LIBRARY_PATH:-}" ]]; then
+    export LD_LIBRARY_PATH="$PARI_LIB:$LD_LIBRARY_PATH"
+else
+    export LD_LIBRARY_PATH="$PARI_LIB"
+fi
+
+exec "$GP_BIN" "$@"

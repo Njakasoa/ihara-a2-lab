@@ -1,0 +1,983 @@
+{
+  "automatic_best": {
+    "A": 266,
+    "C": 2260,
+    "D": 75,
+    "GS": 41,
+    "GS_margin": 41,
+    "average_conductor_degree_upper_bound": "269993/512",
+    "conductor_average": "269993/512",
+    "conductor_average_decimal": "527.33007812500000000000",
+    "conductor_cost": "269993/1024",
+    "conductor_cost_decimal": "263.66503906250000000000",
+    "constant_degree": 1,
+    "failure_reasons": [],
+    "generator_lower_bound": 75,
+    "genus": 343,
+    "genus_denominator_upper_bound": "620201/1024",
+    "genus_denominator_upper_bound_decimal": "605.66503906250000000000",
+    "geometry_obligations": [
+      "selected places must be distinct and have the displayed degrees",
+      "S must be disjoint from the t rational places in T",
+      "the constant field must remain exactly F_2",
+      "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+    ],
+    "geometry_status": "EXPLICIT PROOF OBLIGATION",
+    "inequality_passes": true,
+    "local_dimension": 266,
+    "multiplicity_vector": {
+      "10": 2,
+      "12": 1,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "5": 2,
+      "6": 16,
+      "8": 16
+    },
+    "p": 2,
+    "q": 2,
+    "ratio_lower_bound": "196608/620201",
+    "ratio_lower_bound_decimal": "0.31700690582569199340",
+    "rational_places": 192,
+    "relation_minus_generator_upper_bound": "1321",
+    "rows": [
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        6,
+        16,
+        2
+      ],
+      [
+        8,
+        16,
+        2
+      ],
+      [
+        10,
+        2,
+        2
+      ],
+      [
+        12,
+        1,
+        2
+      ]
+    ],
+    "status": "EXACT RATIONAL",
+    "t": 192,
+    "t_le_A": true,
+    "theorem_passes": true,
+    "twice_local_relation_cost": 2260,
+    "witness": [
+      2,
+      16,
+      16,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "date": "2026-09-13",
+  "dp": {
+    "partial_pruning": "only globally valid A<=a_cap and C<=global_c_cap",
+    "rebate_scale": 1073741824,
+    "retained_value": "maximal exact rebate=sum(m*d/2**d)",
+    "state_key": "(A,C)",
+    "states_per_degree": [
+      {
+        "degree": null,
+        "states": 1
+      },
+      {
+        "bounded_stock": 2,
+        "degree": 5,
+        "states": 3
+      },
+      {
+        "bounded_stock": 16,
+        "degree": 6,
+        "states": 51
+      },
+      {
+        "bounded_stock": 16,
+        "degree": 8,
+        "states": 867
+      },
+      {
+        "bounded_stock": 26,
+        "degree": 10,
+        "states": 10581
+      },
+      {
+        "bounded_stock": 22,
+        "degree": 12,
+        "states": 18195
+      },
+      {
+        "bounded_stock": 20,
+        "degree": 13,
+        "states": 41476
+      },
+      {
+        "bounded_stock": 19,
+        "degree": 14,
+        "states": 48942
+      },
+      {
+        "bounded_stock": 17,
+        "degree": 15,
+        "states": 60764
+      },
+      {
+        "bounded_stock": 16,
+        "degree": 16,
+        "states": 65245
+      },
+      {
+        "bounded_stock": 15,
+        "degree": 17,
+        "states": 69145
+      },
+      {
+        "bounded_stock": 14,
+        "degree": 18,
+        "states": 72432
+      },
+      {
+        "bounded_stock": 14,
+        "degree": 19,
+        "states": 75376
+      },
+      {
+        "bounded_stock": 13,
+        "degree": 20,
+        "states": 77781
+      },
+      {
+        "bounded_stock": 12,
+        "degree": 21,
+        "states": 79973
+      },
+      {
+        "bounded_stock": 12,
+        "degree": 22,
+        "states": 81860
+      },
+      {
+        "bounded_stock": 11,
+        "degree": 23,
+        "states": 83665
+      },
+      {
+        "bounded_stock": 11,
+        "degree": 24,
+        "states": 85078
+      },
+      {
+        "bounded_stock": 10,
+        "degree": 25,
+        "states": 86476
+      },
+      {
+        "bounded_stock": 10,
+        "degree": 26,
+        "states": 87577
+      },
+      {
+        "bounded_stock": 9,
+        "degree": 27,
+        "states": 88671
+      },
+      {
+        "bounded_stock": 9,
+        "degree": 28,
+        "states": 89506
+      },
+      {
+        "bounded_stock": 9,
+        "degree": 29,
+        "states": 90369
+      },
+      {
+        "bounded_stock": 8,
+        "degree": 30,
+        "states": 90989
+      }
+    ],
+    "stats": {
+      "bounded_counts": {
+        "10": 26,
+        "12": 22,
+        "13": 20,
+        "14": 19,
+        "15": 17,
+        "16": 16,
+        "17": 15,
+        "18": 14,
+        "19": 14,
+        "20": 13,
+        "21": 12,
+        "22": 12,
+        "23": 11,
+        "24": 11,
+        "25": 10,
+        "26": 10,
+        "27": 9,
+        "28": 9,
+        "29": 9,
+        "30": 8,
+        "5": 2,
+        "6": 16,
+        "8": 16
+      },
+      "dp_final_states": 90989,
+      "exact_nonimprovements_after_caps": 2,
+      "final_states_passing_t_minimum": 25726,
+      "globally_capped_transition_choices": 14329877,
+      "gs_or_t_upper_failures": 25724,
+      "raw_bounded_vectors_not_enumerated": 92424908105348442624000000,
+      "rebate_dominated_transitions": 1276249,
+      "states_per_degree": [
+        {
+          "degree": null,
+          "states": 1
+        },
+        {
+          "bounded_stock": 2,
+          "degree": 5,
+          "states": 3
+        },
+        {
+          "bounded_stock": 16,
+          "degree": 6,
+          "states": 51
+        },
+        {
+          "bounded_stock": 16,
+          "degree": 8,
+          "states": 867
+        },
+        {
+          "bounded_stock": 26,
+          "degree": 10,
+          "states": 10581
+        },
+        {
+          "bounded_stock": 22,
+          "degree": 12,
+          "states": 18195
+        },
+        {
+          "bounded_stock": 20,
+          "degree": 13,
+          "states": 41476
+        },
+        {
+          "bounded_stock": 19,
+          "degree": 14,
+          "states": 48942
+        },
+        {
+          "bounded_stock": 17,
+          "degree": 15,
+          "states": 60764
+        },
+        {
+          "bounded_stock": 16,
+          "degree": 16,
+          "states": 65245
+        },
+        {
+          "bounded_stock": 15,
+          "degree": 17,
+          "states": 69145
+        },
+        {
+          "bounded_stock": 14,
+          "degree": 18,
+          "states": 72432
+        },
+        {
+          "bounded_stock": 14,
+          "degree": 19,
+          "states": 75376
+        },
+        {
+          "bounded_stock": 13,
+          "degree": 20,
+          "states": 77781
+        },
+        {
+          "bounded_stock": 12,
+          "degree": 21,
+          "states": 79973
+        },
+        {
+          "bounded_stock": 12,
+          "degree": 22,
+          "states": 81860
+        },
+        {
+          "bounded_stock": 11,
+          "degree": 23,
+          "states": 83665
+        },
+        {
+          "bounded_stock": 11,
+          "degree": 24,
+          "states": 85078
+        },
+        {
+          "bounded_stock": 10,
+          "degree": 25,
+          "states": 86476
+        },
+        {
+          "bounded_stock": 10,
+          "degree": 26,
+          "states": 87577
+        },
+        {
+          "bounded_stock": 9,
+          "degree": 27,
+          "states": 88671
+        },
+        {
+          "bounded_stock": 9,
+          "degree": 28,
+          "states": 89506
+        },
+        {
+          "bounded_stock": 9,
+          "degree": 29,
+          "states": 90369
+        },
+        {
+          "bounded_stock": 8,
+          "degree": 30,
+          "states": 90989
+        }
+      ],
+      "strict_improvements_over_baseline": 0,
+      "t_minimum_failures": 65263,
+      "transition_attempts": 2681271,
+      "witness_tie_replacements": 0
+    }
+  },
+  "dp_best_state": {
+    "A": 266,
+    "C": 2260,
+    "cost": "269993/1024",
+    "independent_engine_evaluation": {
+      "A": 266,
+      "C": 2260,
+      "D": 75,
+      "GS": 41,
+      "GS_margin": 41,
+      "average_conductor_degree_upper_bound": "269993/512",
+      "conductor_average": "269993/512",
+      "conductor_cost": "269993/1024",
+      "constant_degree": 1,
+      "failure_reasons": [],
+      "generator_lower_bound": 75,
+      "genus": 343,
+      "genus_denominator_upper_bound": "620201/1024",
+      "geometry_obligations": [
+        "selected places must be distinct and have the displayed degrees",
+        "S must be disjoint from the t rational places in T",
+        "the constant field must remain exactly F_2",
+        "the p-primary T-ray tower and all theorem hypotheses require a separate proof"
+      ],
+      "geometry_status": "EXPLICIT PROOF OBLIGATION",
+      "inequality_passes": true,
+      "local_dimension": 266,
+      "multiplicity_vector": {
+        "10": 2,
+        "12": 1,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "5": 2,
+        "6": 16,
+        "8": 16
+      },
+      "p": 2,
+      "q": 2,
+      "ratio_lower_bound": "196608/620201",
+      "rational_places": 192,
+      "relation_minus_generator_upper_bound": "1321",
+      "rows": [
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          6,
+          16,
+          2
+        ],
+        [
+          8,
+          16,
+          2
+        ],
+        [
+          10,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          2
+        ]
+      ],
+      "status": "EXACT RATIONAL",
+      "t": 192,
+      "t_le_A": true,
+      "theorem_passes": true,
+      "twice_local_relation_cost": 2260,
+      "witness": [
+        2,
+        16,
+        16,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "multiplicity_vector": {
+      "10": 2,
+      "12": 1,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "5": 2,
+      "6": 16,
+      "8": 16
+    },
+    "ratio": "196608/620201",
+    "rebate": "2391/1024",
+    "rebate_scale": 1073741824,
+    "rebate_units": 2507145216,
+    "t": 192,
+    "t_minimum": 192,
+    "witness": [
+      2,
+      16,
+      16,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "experiment": "M2 extended exact compressed nu=2 degree<=30 search",
+  "historical_and_caps": {
+    "a_cap": 266,
+    "a_strict_upper_endpoint": "90787/341",
+    "baseline_ratio": "196608/620201",
+    "baseline_ratio_decimal": "0.31700690582569199340",
+    "global_c_cap": 2280,
+    "global_c_cap_attaining_A": [
+      {
+        "A": 266,
+        "C_limit": 2280,
+        "D_at_t_min": 75,
+        "t_min": 192
+      }
+    ],
+    "special_rebate_bound": "37/16",
+    "strict_cost_cap": "269993/1024",
+    "strict_cost_cap_decimal": "263.66503906250000000000",
+    "t_minimum_formula": "floor(b*(342+max(0,A-37/16-A/1024)))+1",
+    "t_minimums": [
+      109,
+      109,
+      109,
+      109,
+      109,
+      110,
+      110,
+      110,
+      111,
+      111,
+      111,
+      112,
+      112,
+      112,
+      113,
+      113,
+      113,
+      114,
+      114,
+      114,
+      115,
+      115,
+      115,
+      115,
+      116,
+      116,
+      116,
+      117,
+      117,
+      117,
+      118,
+      118,
+      118,
+      119,
+      119,
+      119,
+      120,
+      120,
+      120,
+      121,
+      121,
+      121,
+      121,
+      122,
+      122,
+      122,
+      123,
+      123,
+      123,
+      124,
+      124,
+      124,
+      125,
+      125,
+      125,
+      126,
+      126,
+      126,
+      127,
+      127,
+      127,
+      128,
+      128,
+      128,
+      128,
+      129,
+      129,
+      129,
+      130,
+      130,
+      130,
+      131,
+      131,
+      131,
+      132,
+      132,
+      132,
+      133,
+      133,
+      133,
+      134,
+      134,
+      134,
+      134,
+      135,
+      135,
+      135,
+      136,
+      136,
+      136,
+      137,
+      137,
+      137,
+      138,
+      138,
+      138,
+      139,
+      139,
+      139,
+      140,
+      140,
+      140,
+      140,
+      141,
+      141,
+      141,
+      142,
+      142,
+      142,
+      143,
+      143,
+      143,
+      144,
+      144,
+      144,
+      145,
+      145,
+      145,
+      146,
+      146,
+      146,
+      147,
+      147,
+      147,
+      147,
+      148,
+      148,
+      148,
+      149,
+      149,
+      149,
+      150,
+      150,
+      150,
+      151,
+      151,
+      151,
+      152,
+      152,
+      152,
+      153,
+      153,
+      153,
+      153,
+      154,
+      154,
+      154,
+      155,
+      155,
+      155,
+      156,
+      156,
+      156,
+      157,
+      157,
+      157,
+      158,
+      158,
+      158,
+      159,
+      159,
+      159,
+      159,
+      160,
+      160,
+      160,
+      161,
+      161,
+      161,
+      162,
+      162,
+      162,
+      163,
+      163,
+      163,
+      164,
+      164,
+      164,
+      165,
+      165,
+      165,
+      166,
+      166,
+      166,
+      166,
+      167,
+      167,
+      167,
+      168,
+      168,
+      168,
+      169,
+      169,
+      169,
+      170,
+      170,
+      170,
+      171,
+      171,
+      171,
+      172,
+      172,
+      172,
+      172,
+      173,
+      173,
+      173,
+      174,
+      174,
+      174,
+      175,
+      175,
+      175,
+      176,
+      176,
+      176,
+      177,
+      177,
+      177,
+      178,
+      178,
+      178,
+      178,
+      179,
+      179,
+      179,
+      180,
+      180,
+      180,
+      181,
+      181,
+      181,
+      182,
+      182,
+      182,
+      183,
+      183,
+      183,
+      184,
+      184,
+      184,
+      185,
+      185,
+      185,
+      185,
+      186,
+      186,
+      186,
+      187,
+      187,
+      187,
+      188,
+      188,
+      188,
+      189,
+      189,
+      189,
+      190,
+      190,
+      190,
+      191,
+      191,
+      191,
+      191,
+      192,
+      192,
+      192
+    ]
+  },
+  "input": {
+    "base_field": "F_2",
+    "degrees": [
+      {
+        "available": 2,
+        "degree": 5
+      },
+      {
+        "available": 16,
+        "degree": 6
+      },
+      {
+        "available": 16,
+        "degree": 8
+      },
+      {
+        "available": 64,
+        "degree": 10
+      },
+      {
+        "available": 208,
+        "degree": 12
+      },
+      {
+        "available": 512,
+        "degree": 13
+      },
+      {
+        "available": 1088,
+        "degree": 14
+      },
+      {
+        "available": 2240,
+        "degree": 15
+      },
+      {
+        "available": 4368,
+        "degree": 16
+      },
+      {
+        "available": 7488,
+        "degree": 17
+      },
+      {
+        "available": 16512,
+        "degree": 18
+      },
+      {
+        "available": 27584,
+        "degree": 19
+      },
+      {
+        "available": 53488,
+        "degree": 20
+      },
+      {
+        "available": 97280,
+        "degree": 21
+      },
+      {
+        "available": 190176,
+        "degree": 22
+      },
+      {
+        "available": 358144,
+        "degree": 23
+      },
+      {
+        "available": 691792,
+        "degree": 24
+      },
+      {
+        "available": 1341888,
+        "degree": 25
+      },
+      {
+        "available": 2620416,
+        "degree": 26
+      },
+      {
+        "available": 4947456,
+        "degree": 27
+      },
+      {
+        "available": 9585280,
+        "degree": 28
+      },
+      {
+        "available": 18547072,
+        "degree": 29
+      },
+      {
+        "available": 35811648,
+        "degree": 30
+      }
+    ],
+    "genus": 343,
+    "inventory": "curves/k343-place-counts-30.json",
+    "inventory_sha256": "8aaa507b68f0cf60be9786ef63ac9f411c1e413a7d830d6c8617cab110759bf7",
+    "maximum_degree": 30,
+    "q": 2,
+    "rational_place_count_N": 192
+  },
+  "proof_obligations": [
+    "the DP uses certified place counts only; each selected place still needs an explicit distinct representative",
+    "T must be an explicit set of t rational places disjoint from S",
+    "the constant field and p-primary T-ray tower hypotheses are not computed here",
+    "this finite degree<=30 box says nothing about other curves, degrees beyond 30, other depths, or global optimality",
+    "no ray-group rank or exact auxiliary ray degree is inferred"
+  ],
+  "reproducible_command": "python3 experiments/search_extended_degrees.py",
+  "scope_exclusions": [
+    "all-nu search",
+    "all-base-curve search",
+    "ternary refinement",
+    "global optimum claim"
+  ],
+  "status": "EXACT FINITE DP; GEOMETRY OBLIGATIONS OPEN"
+}

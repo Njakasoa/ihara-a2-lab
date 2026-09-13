@@ -1,0 +1,107 @@
+# Ihara A(2) Lab
+
+A reproducible research companion on curves over F₂ and class-field towers,
+maintained by [Njakasoa](https://github.com/Njakasoa).
+
+**Status: internally reviewed research manuscript. Publication priority is
+unresolved. No external peer review or journal/arXiv submission is claimed.**
+
+## Main result
+
+The manuscript proves the lower bound
+
+```text
+A(2) ≥ 196608/620201 = 0.3170069058256919934…
+```
+
+It refines the displayed estimate `24576/77527 = 0.3169992389748087763…`
+of [Duursma–Mak](https://arxiv.org/abs/1102.4127), using their same genus-343
+base and class-field-tower criterion. Two places of degree 10 are replaced
+by places of degrees 8 and 12. The denominator decreases by exactly 15/1024
+and the sufficient Golod–Shafarevich inequality retains positive margin 41.
+
+The result is a parameter refinement, with exact finite-field certificates
+and independent Sage verification. It does not determine A(2), provide a new
+general tower criterion, or establish a better binary error-correcting code.
+The exact auxiliary ray degree and group structure remain uncomputed and are
+not needed for the proved ratio. Novelty is **POSSIBLY NOVEL**, not established.
+
+- [Manuscript PDF — 4 pages](publication/main.pdf)
+- [LaTeX source](publication/main.tex) and [reproduction guide](publication/README.md)
+- [Full lower-bound proof](proofs/IMPROVED_BOUND.md) and [exact certificate](certificates/m2-tower.json)
+- [Validation](publication/VALIDATION.md), [adversarial proof review](results/ASTRA_M2_REVIEW.md), and [novelty audit](references/M2_NOVELTY_VERDICT.md)
+- [French results summary](results/FINAL_SUMMARY.md) and [research directions](NEXT.md)
+
+## Restricted obstruction and exploration
+
+A separate [verified obstruction](claims/CLAIM-0003.md) proves that the same
+fraction is the maximum of the specified conservative score on this fixed
+base, for all finite nonrational supports, conductor two everywhere, and
+1 ≤ t ≤ 192, with no initial degree cutoff. Exact caps reduce the problem to
+degrees ≤ 47; independent partition enumeration confirms zero improvements.
+This does not bound the actual ratios of all such towers or A(2) from above.
+
+The lab also reconstructs historical controls and the full zeta polynomial of
+the base, searches 373 intermediate covers and 14,112 local conductor
+variants, and retains inferior and failed sufficient-criterion cases.
+See [normalization](NORMALIZATION.md), [baseline reconstruction](proofs/DUURSMA_MAK_RECONSTRUCTION.md),
+[search results](results/M2_SEARCH.md) and [coding interpretation](codes/PHYSICAL_INTERPRETATION.md).
+
+## Reproduce
+
+Use Python 3.12 from the repository root. The core needs only the standard
+library, with no account, API key, third-party paper download or Sage install:
+
+```sh
+python3 scripts/check_public_snapshot.py
+python3 publication/reproduce.py
+```
+
+The reproduction command rebuilds the baseline, runs both exact parameter
+searches, binds the winning places, replays failed variants, verifies the
+standalone degree-12 certificate, runs 29 unit tests and checks the independent
+all-degree obstruction. These are exact computations supporting the written
+proof; they are not a proof-assistant formalization.
+
+For the extended searches or independent Sage implementations:
+
+```sh
+python3 publication/reproduce.py --extended
+python3 publication/reproduce.py --sage
+```
+
+`--sage` requires the separately installed Sage environment. The historical
+audit used SageMath 10.9; [environment setup and exact package locks](ENVIRONMENT_AUDIT.md)
+document reconstruction. The optional PDF build uses Tectonic 0.17.0.
+
+The manifest checker verifies the archived snapshot before a replay. Extended
+searches overwrite historical reports with fresh elapsed-time measurements;
+those timing changes intentionally change their file hashes. Scientific
+payloads were compared separately for the public export, as recorded in
+[PUBLIC_VALIDATION.md](PUBLIC_VALIDATION.md).
+
+## Public snapshot and provenance
+
+This repository starts from a curated source snapshot. The original Git
+history, operational settings, session notes, runtime installations and
+third-party paper copies are excluded. [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)
+records the source revision and exported file hashes. Historical scientific
+reviews are retained as dated evidence; statements in them about permission
+or public availability describe the original research session. The current
+GitHub publication is authorized, and is separate from journal submission.
+
+AI-assisted research and internal Astra/Luna review are disclosed in the
+manuscript and validation records. No external reviewer endorsement, DOI or
+arXiv identifier is invented. See [publication record](PUBLICATION.md).
+
+## License and citation
+
+Project code and technical documentation: [MIT](LICENSE), following the
+companion-laboratory format. Manuscript and third-party rights are separate:
+[rights and attribution](publication/RIGHTS.md). Citation metadata are in
+[CITATION.cff](CITATION.cff). Primary articles are [linked](papers/README.md),
+not redistributed.
+
+Related laboratories: [Quantum Max-Cut](https://github.com/Njakasoa/quantum-max-cut-lab),
+[Self-Avoiding Walk](https://github.com/Njakasoa/self-avoiding-walk-lab), and
+[Tight Knots](https://github.com/Njakasoa/tight-knots-ropelength).

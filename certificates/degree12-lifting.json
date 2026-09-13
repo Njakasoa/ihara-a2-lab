@@ -1,0 +1,230 @@
+{
+  "base": "H",
+  "field_modulus_bits": 67,
+  "H_degree6_places": [
+    {
+      "representative": [
+        2,
+        20
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        2,
+        31
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        6,
+        28
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        6,
+        32
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        7,
+        12
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        7,
+        34
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        15,
+        7
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        32,
+        50
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        32,
+        59
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        34,
+        13
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        34,
+        43
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        40,
+        23
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    },
+    {
+      "representative": [
+        40,
+        39
+      ],
+      "degree": 6,
+      "Frobenius_vector": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "residue_extension_degree_in_k": 2,
+      "places_above": 16,
+      "degree_above": 12
+    }
+  ],
+  "k_degree12_places_lower_bound": 208,
+  "reason": "Each nonzero Frobenius element in (Z/2)^5 has order2;13 distinct unramified places yield16 distinct degree12 places each.",
+  "status": "EXACT FINITE FIELD; independent Sage place check PASS; Astra lifting proof ACCEPT"
+}

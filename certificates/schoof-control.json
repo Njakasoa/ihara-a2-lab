@@ -1,0 +1,73 @@
+{
+  "norm_denominator_bits": 651,
+  "norm_degree": 9,
+  "local_residues": {
+    "4": {
+      "modulus": 19,
+      "points": [
+        {
+          "x": 8,
+          "y": 10,
+          "residue": 0
+        },
+        {
+          "x": 10,
+          "y": 15,
+          "residue": 0
+        },
+        {
+          "x": 12,
+          "y": 8,
+          "residue": 0
+        },
+        {
+          "x": 15,
+          "y": 12,
+          "residue": 0
+        }
+      ]
+    },
+    "5": {
+      "modulus": 37,
+      "points": [
+        {
+          "x": 8,
+          "y": 7,
+          "residue": 1
+        },
+        {
+          "x": 10,
+          "y": 21,
+          "residue": 1
+        },
+        {
+          "x": 14,
+          "y": 28,
+          "residue": 1
+        },
+        {
+          "x": 19,
+          "y": 24,
+          "residue": 1
+        },
+        {
+          "x": 30,
+          "y": 23,
+          "residue": 1
+        }
+      ]
+    }
+  },
+  "genus_E": 1,
+  "genus_Y": 6,
+  "Y_rational_places": 10,
+  "X_over_Y_ramified_rational_places": 8,
+  "X_genus": 19,
+  "splitting_set_size": 4,
+  "class_2_rank_lower_bound": 6,
+  "S_unit_2_rank": 3,
+  "GS_squared_margin": 0,
+  "bound": "2/9",
+  "status": "KNOWN; exact arithmetic and local model reconstruction",
+  "source_equation_note": "Schoof p13 prints T^3+1 inconsistent with five points; use T^3+T per conductor/splitting data."
+}
