@@ -20,7 +20,7 @@ base and class-field-tower criterion. Two places of degree 10 are replaced
 by places of degrees 8 and 12. The denominator decreases by exactly 15/1024
 and the sufficient Golod–Shafarevich inequality retains positive margin 41.
 
-The result is a parameter refinement, with exact finite-field certificates
+The M2 result is a parameter refinement, with exact finite-field certificates
 and independent Sage verification. It does not determine A(2), provide a new
 general tower criterion, or establish a better binary error-correcting code.
 The exact auxiliary ray degree and group structure remain uncomputed and are
@@ -47,6 +47,30 @@ variants, and retains inferior and failed sufficient-criterion cases.
 See [normalization](NORMALIZATION.md), [baseline reconstruction](proofs/DUURSMA_MAK_RECONSTRUCTION.md),
 [search results](results/M2_SEARCH.md) and [coding interpretation](codes/PHYSICAL_INTERPRETATION.md).
 
+## M3: nonuniform conductors and refined ray score
+
+The internally verified M3 supplement proves that **196608/620201 remains
+exactly the maximum of the specified refined sufficient score** on the fixed
+genus-343 base, allowing all finite ramification supports, rational ramified
+places, every conductor bound ν≥2, and all nonempty disjoint rational splitting
+sets T. This is a ceiling for that score, not for actual tower ratios or A(2).
+
+The score uses the local generator rank in the relation bound and the maximal
+elementary ray subfield for its conductor estimate. Exact inequalities reduce
+arbitrary degrees and depths to 11,384 necessary pairs; the remaining deeper
+pattern is excluded analytically. Five independent T-unit relations also
+improve the ray-order cap to **2⁷⁵ ≤ |G| ≤ 2³¹²**. The full ray group and actual
+individual inertia orders remain unknown; no better numerical A(2) bound or
+coding guarantee is claimed.
+
+- [M3 result and scope](M3_RESULT.md), [refined criterion](proofs/M3_REFINED_RAY_CRITERION.md), and [all-depth obstruction](proofs/M3_REFINED_OBSTRUCTION.md)
+- [Exact ray components](results/RAY_CLASS_STRUCTURE.md) and [claim records](claims/CLAIM-M3-0002.md)
+- [Independent validation](results/M3_INDEPENDENT_VALIDATION.md), [Astra proof review](results/M3_ASTRA_REVIEW.md), and [final scope review](results/M3_FINAL_SCOPE_REVIEW.md)
+- [Separate novelty audit](references/M3_RAY_LITERATURE.md): priority remains unresolved
+
+The four-page manuscript below documents M2; M3 is supplied in the separate
+proofs, certificates and checkers linked above.
+
 ## Reproduce
 
 Use Python 3.12 from the repository root. The core needs only the standard
@@ -59,7 +83,7 @@ python3 publication/reproduce.py
 
 The reproduction command rebuilds the baseline, runs both exact parameter
 searches, binds the winning places, replays failed variants, verifies the
-standalone degree-12 certificate, runs 29 unit tests and checks the independent
+standalone degree-12 certificate, runs 40 unit tests and checks the independent
 all-degree obstruction. These are exact computations supporting the written
 proof; they are not a proof-assistant formalization.
 
@@ -79,6 +103,25 @@ searches overwrite historical reports with fresh elapsed-time measurements;
 those timing changes intentionally change their file hashes. Scientific
 payloads were compared separately for the public export, as recorded in
 [PUBLIC_VALIDATION.md](PUBLIC_VALIDATION.md).
+
+To check the archived M3 certificates with standard-library Python:
+
+```sh
+python3 tests/independent_m3.py
+```
+
+For the complete M3 replay, configure the Sage environment as documented in
+[ENVIRONMENT_AUDIT.md](ENVIRONMENT_AUDIT.md), then run:
+
+```sh
+python3 experiments/run_m3.py
+```
+
+This executes eight validation commands, including 40 unit tests, separate
+finite-field arithmetic and nine rejected certificate mutations. It refreshes
+receipt timestamps and hashes; check the public snapshot before replaying it.
+The optional 120-second Sage maximal-order capability pilot is excluded from
+this command. [Public M3 validation](M3_PUBLIC_VALIDATION.md) records the export checks.
 
 ## Public snapshot and provenance
 

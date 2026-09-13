@@ -1,22 +1,17 @@
-# Suites possibles après la première exécution accomplie
+# Après M3 — arrêter la recherche du score obstrué
 
-M1, M2 et le résultat CLAIM-0002 sont validés. La note locale de4pages est
-compilée et relue ; les données, scripts, tests et audits sont disponibles.
+Le cycle M3 produit une obstruction pour tous les conducteurs, les supports
+rationnels et non rationnels, et les tailles de T, même après le renforcement
+du critère local et le passage au rayon élémentaire. Voir M3_RESULT.md.
+Le maximum de ce score sur k343 reste196608/620201. Ne plus rechercher une
+amélioration de ce même score par davantage d'itérations.
 
-Le moteur a trouvé196608/620201, puis examiné les conducteurs locaux et les
-373 sous-corps. La question de l'optimalité du scoreν=2 pourk343 avec tous
-degres est traitée séparément dans proofs/NU2_OBSTRUCTION.md et son audit.
+Le calcul exact fournit cinq relations T-unités et la borne |G|≤2^312,
+mais ni le groupe complet ni les inerties individuelles. Une éventuelle
+campagne future doit apporter une information nouvelle : relations globales
+supportées sur un seul bloc, rang global effectif, correction plus fine du
+théorème de relations, ou nouvelle famille de bases. Le pilote maximal-order
+Sage a été borné à120secondes ; aucune relance lourde automatique n'est prévue.
 
-Pistes ultérieures, hors des domaines déjà explorés :
-
-1. Conducteurs non uniformes au-delà du voisinage testé, avec supports
-   réoptimisés ; permettre des places rationnelles dansS en retirant celles-ci deT.
-2. Calcul effectif du2-rang des groupes de classes et des images locales de
-   rayon pour renforcer le score conservateur, plutôt que chercher encore
-   le même optimum avec les mêmes estimations.
-3. Autres courbes et autres espacesAS, au-delà des373 sous-corps déjà comparés.
-4. Vérification bibliographique de priorité plus large et revue humaine
-   indépendante de la note avant toute éventuelle soumission.
-
-Aucune publication, soumission ou prise de contact n'est autorisée par ces
-perspectives. La nouveauté reste distincte de la validité mathématique.
+La priorité bibliographique et une revue humaine restent ouvertes. M2 est
+publié sur https://github.com/Njakasoa/ihara-a2-lab ; M3 est publié comme complément scientifique dans le même dépôt. Aucune soumission ni prise de contact ne découle de ces perspectives.

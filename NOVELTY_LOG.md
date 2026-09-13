@@ -25,3 +25,12 @@ CLAIM-0003 : obstruction vérifiée pour le score conservateur nu2 sur k343,
 tous degrés. Audit distinct dans references/obstruction-novelty-audit.md :
 priorité non établie, aucune revendication de nouveauté. Cette optimalité
 restreinte ne change pas les limites des affirmations sur CLAIM-0002.
+
+## M3 validity versus novelty — 2026-09-13
+
+Three separate claims record the refined criterion, all-depth obstruction
+and finite T-unit ray-order cap. Standard class-field/local-unit ingredients
+are KNOWN. Their particular application and obstruction are POSSIBLY NOVEL;
+priority is unresolved. Current primary-source audit is references/M3_RAY_LITERATURE.md.
+No improved A(2) number was found, so the conditional new-number literature
+branch is not triggered. Internal level5 is not external peer review.

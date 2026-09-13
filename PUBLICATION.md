@@ -23,3 +23,17 @@ GitHub project publication. No researcher contact has been authorized.
 Export adaptation: the Tectonic package-list header was normalized to the
 `@EXPLICIT` format and its local installation path removed. Package URLs and
 hashes are unchanged. The reviewed mathematical source and PDF are unchanged.
+
+## M3 GitHub update — 2026-09-13
+
+The user explicitly authorized pushing the completed M3 work. This supplement
+derives from scientific commit08ae780f7422d1cc0baf63f1cd1a198463d7a95f.
+It adds the local-rank criterion, all-depth score obstruction, exact T-unit
+components and independent validation. The M2 manuscript and all ten frozen
+M2 objects remain byte-identical. M3 is documented separately from the PDF.
+
+The public export replaces private mission-file receipt inputs with the public
+M3 result notes, removes local attachment/output paths, and regenerates the
+receipts by running the public copy. No mathematical formula is changed.
+Private history, agent settings, session missions/logs and third-party papers
+remain excluded. See M3_PUBLIC_VALIDATION.md and SOURCE_MANIFEST.json.
