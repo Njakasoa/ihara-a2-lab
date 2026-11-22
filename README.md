@@ -73,9 +73,13 @@ norms to the genus-13 quadratic subfields determines the inertia orders in the
 full abelian 2-primary ray group. Each of the two degree-5 places has order
 **32**, and each of the 16 degree-6 places has order **64**. Their respective
 contributions to the mean conductor degree are 155/8 and 189. The inertia
-orders in degrees 8, 10 and 12 remain open.
+order at each of the 16 degree-8 places is **256**. Here the quadratic
+norms leave one possible nonzero jet. Descent to a single degree-four
+subfield excludes it. The degree-8 contribution to the mean conductor
+degree is exactly 255. The inertia orders in degrees 10 and 12 remain open.
 [Degree-five inertia proof and Sage replay](proofs/M3_DEGREE5_INERTIA.md) ·
 [Degree-six inertia proof and Sage replay](proofs/M3_DEGREE6_INERTIA.md) ·
+[Degree-eight inertia proof and Sage replay](proofs/M3_DEGREE8_INERTIA.md) ·
 [Quadratic T-unit search](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 
 - [M3 result and scope](M3_RESULT.md), [refined criterion](proofs/M3_REFINED_RAY_CRITERION.md), and [all-depth obstruction](proofs/M3_REFINED_OBSTRUCTION.md)

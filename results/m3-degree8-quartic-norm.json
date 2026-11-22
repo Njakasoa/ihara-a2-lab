@@ -1,0 +1,70 @@
+{
+  "sage_version": "10.9",
+  "support_sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+  "quartic_character_masks": [
+    2,
+    8
+  ],
+  "Frobenius_Q4_mask": 24,
+  "RR_degree": 12,
+  "RR_dimension": 11,
+  "A_candidates": 2048,
+  "A_basis": "1,x,...,x^6,y,xy,x^2y,x^3y divided by x*(x^5+x^2+1)",
+  "auxiliary_field_modulus_bits": 283,
+  "auxiliary_point": [
+    2,
+    197
+  ],
+  "necessary_equation": "(x+1)*A' + A^2 + A = 0",
+  "auxiliary_test_columns": [
+    195,
+    252,
+    30,
+    33,
+    165,
+    221,
+    221,
+    88,
+    92,
+    218,
+    217
+  ],
+  "surviving_A_masks": [
+    0,
+    15,
+    37,
+    42,
+    69,
+    74,
+    96,
+    111,
+    1413,
+    1418,
+    1440,
+    1455,
+    1472,
+    1487,
+    1509,
+    1514
+  ],
+  "point_over_Q4": [
+    188,
+    12
+  ],
+  "symbolic_kernel_equals_auxiliary_kernel": true,
+  "possible_A_values_at_Q4": [
+    0,
+    1,
+    12,
+    13,
+    176,
+    177,
+    188,
+    189
+  ],
+  "required_branch_values_at_Q4": [
+    92,
+    93
+  ],
+  "intersection": []
+}

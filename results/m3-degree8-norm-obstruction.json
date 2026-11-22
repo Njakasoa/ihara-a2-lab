@@ -1,0 +1,548 @@
+{
+  "sage_version": "10.9",
+  "support_sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+  "zeta_sha256": "ba6f37c928ec3e08e6eb105f5ea36d0f9984f3536dbe174b0553ea7fd6069ffc",
+  "base_class_number": 19,
+  "units": [
+    "x",
+    "x+1",
+    "y",
+    "y+1",
+    "y+x"
+  ],
+  "fibres": {
+    "6": {
+      "base_degree": 3,
+      "places": 16,
+      "shift_mask": 18
+    },
+    "8": {
+      "base_degree": 4,
+      "places": 16,
+      "shift_mask": 24
+    }
+  },
+  "ramified_base_units": [
+    {
+      "point": [
+        2,
+        17
+      ],
+      "jets": [
+        18,
+        28,
+        3,
+        30,
+        26
+      ],
+      "reduced_poles": [
+        23,
+        19,
+        12,
+        30,
+        15
+      ],
+      "trace_syndromes": [
+        16,
+        24,
+        25,
+        14,
+        2
+      ]
+    },
+    {
+      "point": [
+        2,
+        26
+      ],
+      "jets": [
+        18,
+        28,
+        13,
+        2,
+        26
+      ],
+      "reduced_poles": [
+        23,
+        19,
+        12,
+        5,
+        3
+      ],
+      "trace_syndromes": [
+        16,
+        24,
+        25,
+        14,
+        2
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "mask": 0,
+      "jet_Q3": 0,
+      "jet_Q4": 0,
+      "jets_Q5": [
+        0,
+        0
+      ],
+      "syndromes_Q5": [
+        0,
+        0
+      ]
+    },
+    {
+      "mask": 1,
+      "jet_Q3": 0,
+      "jet_Q4": 189,
+      "jets_Q5": [
+        18,
+        18
+      ],
+      "syndromes_Q5": [
+        16,
+        16
+      ]
+    },
+    {
+      "mask": 2,
+      "jet_Q3": 0,
+      "jet_Q4": 188,
+      "jets_Q5": [
+        28,
+        28
+      ],
+      "syndromes_Q5": [
+        24,
+        24
+      ]
+    },
+    {
+      "mask": 3,
+      "jet_Q3": 0,
+      "jet_Q4": 1,
+      "jets_Q5": [
+        14,
+        14
+      ],
+      "syndromes_Q5": [
+        8,
+        8
+      ]
+    },
+    {
+      "mask": 4,
+      "jet_Q3": 24,
+      "jet_Q4": 93,
+      "jets_Q5": [
+        3,
+        13
+      ],
+      "syndromes_Q5": [
+        25,
+        25
+      ]
+    },
+    {
+      "mask": 5,
+      "jet_Q3": 24,
+      "jet_Q4": 224,
+      "jets_Q5": [
+        17,
+        31
+      ],
+      "syndromes_Q5": [
+        9,
+        9
+      ]
+    },
+    {
+      "mask": 6,
+      "jet_Q3": 24,
+      "jet_Q4": 225,
+      "jets_Q5": [
+        31,
+        17
+      ],
+      "syndromes_Q5": [
+        1,
+        1
+      ]
+    },
+    {
+      "mask": 7,
+      "jet_Q3": 24,
+      "jet_Q4": 92,
+      "jets_Q5": [
+        13,
+        3
+      ],
+      "syndromes_Q5": [
+        17,
+        17
+      ]
+    },
+    {
+      "mask": 8,
+      "jet_Q3": 14,
+      "jet_Q4": 176,
+      "jets_Q5": [
+        30,
+        2
+      ],
+      "syndromes_Q5": [
+        14,
+        14
+      ]
+    },
+    {
+      "mask": 9,
+      "jet_Q3": 14,
+      "jet_Q4": 13,
+      "jets_Q5": [
+        12,
+        16
+      ],
+      "syndromes_Q5": [
+        30,
+        30
+      ]
+    },
+    {
+      "mask": 10,
+      "jet_Q3": 14,
+      "jet_Q4": 12,
+      "jets_Q5": [
+        2,
+        30
+      ],
+      "syndromes_Q5": [
+        22,
+        22
+      ]
+    },
+    {
+      "mask": 11,
+      "jet_Q3": 14,
+      "jet_Q4": 177,
+      "jets_Q5": [
+        16,
+        12
+      ],
+      "syndromes_Q5": [
+        6,
+        6
+      ]
+    },
+    {
+      "mask": 12,
+      "jet_Q3": 22,
+      "jet_Q4": 237,
+      "jets_Q5": [
+        29,
+        15
+      ],
+      "syndromes_Q5": [
+        23,
+        23
+      ]
+    },
+    {
+      "mask": 13,
+      "jet_Q3": 22,
+      "jet_Q4": 80,
+      "jets_Q5": [
+        15,
+        29
+      ],
+      "syndromes_Q5": [
+        7,
+        7
+      ]
+    },
+    {
+      "mask": 14,
+      "jet_Q3": 22,
+      "jet_Q4": 81,
+      "jets_Q5": [
+        1,
+        19
+      ],
+      "syndromes_Q5": [
+        15,
+        15
+      ]
+    },
+    {
+      "mask": 15,
+      "jet_Q3": 22,
+      "jet_Q4": 236,
+      "jets_Q5": [
+        19,
+        1
+      ],
+      "syndromes_Q5": [
+        31,
+        31
+      ]
+    },
+    {
+      "mask": 16,
+      "jet_Q3": 15,
+      "jet_Q4": 1,
+      "jets_Q5": [
+        26,
+        26
+      ],
+      "syndromes_Q5": [
+        2,
+        2
+      ]
+    },
+    {
+      "mask": 17,
+      "jet_Q3": 15,
+      "jet_Q4": 188,
+      "jets_Q5": [
+        8,
+        8
+      ],
+      "syndromes_Q5": [
+        18,
+        18
+      ]
+    },
+    {
+      "mask": 18,
+      "jet_Q3": 15,
+      "jet_Q4": 189,
+      "jets_Q5": [
+        6,
+        6
+      ],
+      "syndromes_Q5": [
+        26,
+        26
+      ]
+    },
+    {
+      "mask": 19,
+      "jet_Q3": 15,
+      "jet_Q4": 0,
+      "jets_Q5": [
+        20,
+        20
+      ],
+      "syndromes_Q5": [
+        10,
+        10
+      ]
+    },
+    {
+      "mask": 20,
+      "jet_Q3": 23,
+      "jet_Q4": 92,
+      "jets_Q5": [
+        25,
+        23
+      ],
+      "syndromes_Q5": [
+        27,
+        27
+      ]
+    },
+    {
+      "mask": 21,
+      "jet_Q3": 23,
+      "jet_Q4": 225,
+      "jets_Q5": [
+        11,
+        5
+      ],
+      "syndromes_Q5": [
+        11,
+        11
+      ]
+    },
+    {
+      "mask": 22,
+      "jet_Q3": 23,
+      "jet_Q4": 224,
+      "jets_Q5": [
+        5,
+        11
+      ],
+      "syndromes_Q5": [
+        3,
+        3
+      ]
+    },
+    {
+      "mask": 23,
+      "jet_Q3": 23,
+      "jet_Q4": 93,
+      "jets_Q5": [
+        23,
+        25
+      ],
+      "syndromes_Q5": [
+        19,
+        19
+      ]
+    },
+    {
+      "mask": 24,
+      "jet_Q3": 1,
+      "jet_Q4": 177,
+      "jets_Q5": [
+        4,
+        24
+      ],
+      "syndromes_Q5": [
+        12,
+        12
+      ]
+    },
+    {
+      "mask": 25,
+      "jet_Q3": 1,
+      "jet_Q4": 12,
+      "jets_Q5": [
+        22,
+        10
+      ],
+      "syndromes_Q5": [
+        28,
+        28
+      ]
+    },
+    {
+      "mask": 26,
+      "jet_Q3": 1,
+      "jet_Q4": 13,
+      "jets_Q5": [
+        24,
+        4
+      ],
+      "syndromes_Q5": [
+        20,
+        20
+      ]
+    },
+    {
+      "mask": 27,
+      "jet_Q3": 1,
+      "jet_Q4": 176,
+      "jets_Q5": [
+        10,
+        22
+      ],
+      "syndromes_Q5": [
+        4,
+        4
+      ]
+    },
+    {
+      "mask": 28,
+      "jet_Q3": 25,
+      "jet_Q4": 236,
+      "jets_Q5": [
+        7,
+        21
+      ],
+      "syndromes_Q5": [
+        21,
+        21
+      ]
+    },
+    {
+      "mask": 29,
+      "jet_Q3": 25,
+      "jet_Q4": 81,
+      "jets_Q5": [
+        21,
+        7
+      ],
+      "syndromes_Q5": [
+        5,
+        5
+      ]
+    },
+    {
+      "mask": 30,
+      "jet_Q3": 25,
+      "jet_Q4": 80,
+      "jets_Q5": [
+        27,
+        9
+      ],
+      "syndromes_Q5": [
+        13,
+        13
+      ]
+    },
+    {
+      "mask": 31,
+      "jet_Q3": 25,
+      "jet_Q4": 237,
+      "jets_Q5": [
+        9,
+        27
+      ],
+      "syndromes_Q5": [
+        29,
+        29
+      ]
+    }
+  ],
+  "kernel_Q3_and_Q5": [
+    0
+  ],
+  "common_root_tests": [
+    {
+      "candidate_class": 0,
+      "target_jet": 0,
+      "syndromes_Q5": [
+        0,
+        0
+      ],
+      "common_root_classes": [
+        0
+      ]
+    },
+    {
+      "candidate_class": 1,
+      "target_jet": 189,
+      "syndromes_Q5": [
+        16,
+        16
+      ],
+      "common_root_classes": []
+    },
+    {
+      "candidate_class": 2,
+      "target_jet": 188,
+      "syndromes_Q5": [
+        24,
+        24
+      ],
+      "common_root_classes": [
+        2
+      ]
+    },
+    {
+      "candidate_class": 3,
+      "target_jet": 1,
+      "syndromes_Q5": [
+        8,
+        8
+      ],
+      "common_root_classes": []
+    }
+  ],
+  "surviving_nonzero_jets": [
+    188
+  ],
+  "isolated_jet_dimension_upper_bound": 1
+}
