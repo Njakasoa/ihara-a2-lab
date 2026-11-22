@@ -165,8 +165,9 @@ la décomposition de $T$. La suite exacte du rayon complet donne ainsi
 [Suite exacte, unités et ordre de la jacobienne](M3_RAY_DUALITY.md)
 
 Pour la place de degré 12, l’espace des jets isolés a dimension au plus
-un. Déterminer si sa direction possible est réalisée par une $T$-unité
-reste nécessaire pour choisir entre les ordres d’inertie 2 048 et 4 096.
+un. Le calcul laisse les ordres 2 048 et 4 096 possibles. La
+[preuve de réalisation en degré 12](M3_DEGREE12_INERTIA.md) construit
+la différentielle d’une $T$-unité de jet 1043 et établit l’ordre 2 048.
 
 ## Reproduire avec Sage 10.9
 

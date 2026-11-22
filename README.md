@@ -8,13 +8,19 @@ unresolved. No external peer review or journal/arXiv submission is claimed.**
 
 ## Main result
 
-The manuscript proves the lower bound
+The exact mean conductor of the full M2 ray field on the genus-343 base gives
 
 ```text
-A(2) ≥ 196608/620201 = 0.3170069058256919934…
+A(2) ≥ 98304/310099 = 0.3170084392403716…
 ```
 
-It refines the displayed estimate `24576/77527 = 0.3169992389748087763…`
+The M2 manuscript first obtained `196608/620201 = 0.3170069058256919934…`.
+The exact-inertia calculation determines all 37 inertia orders. At the
+degree-12 place, one isolated T-unit relation lowers the mean conductor
+degree by exactly 3/512 and gives the bound above.
+[Degree-12 proof, conductor table and Sage replay](proofs/M3_DEGREE12_INERTIA.md)
+
+The manuscript refines the displayed estimate `24576/77527 = 0.3169992389748087763…`
 of [Duursma–Mak](https://arxiv.org/abs/1102.4127), using their same genus-343
 base and class-field-tower criterion. Two places of degree 10 are replaced
 by places of degrees 8 and 12. The denominator decreases by exactly 15/1024
@@ -80,12 +86,13 @@ subfield excludes it. The degree-8 contribution to the mean conductor
 degree is exactly 255. The two degree-10 places each have inertia order
 **1,024**. Once the jets vanish at the 34 places of degrees 5, 6 and 8,
 a trace calculation and the logarithmic-derivative identity force the two
-degree-10 jets to agree. The sole remaining place, of degree 12, has
-inertia order either 2,048 or 4,096.
+degree-10 jets to agree. The degree-12 place has inertia order **2,048**.
+The exact mean conductor degree of the full ray field is **134995/256**.
 [Degree-five inertia proof and Sage replay](proofs/M3_DEGREE5_INERTIA.md) ·
 [Degree-six inertia proof and Sage replay](proofs/M3_DEGREE6_INERTIA.md) ·
 [Degree-eight inertia proof and Sage replay](proofs/M3_DEGREE8_INERTIA.md) ·
 [Degree-ten inertia, T-unit rank and Sage replay](proofs/M3_DEGREE10_INERTIA.md) ·
+[Degree-twelve isolated jet and full conductor](proofs/M3_DEGREE12_INERTIA.md) ·
 [Quadratic T-unit search](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 
 - [M3 result and scope](M3_RESULT.md), [refined criterion](proofs/M3_REFINED_RAY_CRITERION.md), and [all-depth obstruction](proofs/M3_REFINED_OBSTRUCTION.md)

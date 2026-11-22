@@ -57,8 +57,8 @@
       "bytes": 4400
     },
     "NEXT.md": {
-      "sha256": "bfee00c128f12746578a0f2977194b3afc343abfd462215e45c7a059cbc99e5c",
-      "bytes": 2265
+      "sha256": "ff789adf26069445a406e98ca3d43c04abb371542884a15e1ecc2f9141064178",
+      "bytes": 2419
     },
     "NORMALIZATION.md": {
       "sha256": "514dcb095d366c3ee2c3ae96c797b5070ba4f00353127154be111c4a3e3e40bb",
@@ -77,8 +77,8 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "b6e4754949fb25a63c468c4e3ce46dc099e29352450214df3246f9195da96dc7",
-      "bytes": 10070
+      "sha256": "7c8dc437b2eccc51c4c1e81f2b7dfbc723a7807368c47d1ad7070a5a80d46cde",
+      "bytes": 10595
     },
     "STATE_OF_THE_ART.md": {
       "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
@@ -207,6 +207,10 @@
     "experiments/m3_degree10_norm_obstruction.py": {
       "sha256": "c7f2881da3addd306759d731c29685ee2bed3d69114663a9b60f5d45f88fd263",
       "bytes": 7851
+    },
+    "experiments/m3_degree12_unit.py": {
+      "sha256": "b9e2a531482aed985a093e7c44d6f84f18cceccde5d49833a61d2ce9bec19681",
+      "bytes": 9852
     },
     "experiments/m3_degree5_norm_obstruction.py": {
       "sha256": "fbb2de886bb7a1baa18035f2692296806f1b7baf40c10e35cc3e3615e3721b82",
@@ -389,8 +393,12 @@
       "bytes": 5347
     },
     "proofs/M3_DEGREE10_INERTIA.md": {
-      "sha256": "fbb08aed636d3aa1e2c6fa12bceb8ff813fde8b42291b5810e76c383b1e41d05",
-      "bytes": 9853
+      "sha256": "9ca54a83eae57c038e3756bea06175f3e1f8b7c09a247ac50004b0dcce408409",
+      "bytes": 9914
+    },
+    "proofs/M3_DEGREE12_INERTIA.md": {
+      "sha256": "2ed6e2a5fd3dd9dc2b3f597dc07fa055af3a9846d839f0533b9c28ca94354ee7",
+      "bytes": 7225
     },
     "proofs/M3_DEGREE5_INERTIA.md": {
       "sha256": "69f929a0765bf84e6df57d29304a10fe5bd9f7b45ea3d7b717a616c5d091dd07",
@@ -449,8 +457,8 @@
       "bytes": 2990
     },
     "publication/README.md": {
-      "sha256": "03d5cc651b67564abe633f246407cc5397e5d81999a1b5734bb4aa420424baa1",
-      "bytes": 1589
+      "sha256": "fb4b0c4f174650b59a78b75c1de5ac502a4527ed6e4e7ce97a2d175e88314872",
+      "bytes": 1794
     },
     "publication/RIGHTS.md": {
       "sha256": "a4bf14b2190071a6619767cc5957db14596726ef95f02b7d29dba4e960a43424",
@@ -631,6 +639,10 @@
     "results/m3-degree10-norm-obstruction.json": {
       "sha256": "5940dc95b337231e9b96be48e3b3a47bafc99ea8e6c59764b502af9d12cee50f",
       "bytes": 1449
+    },
+    "results/m3-degree12-unit.json": {
+      "sha256": "e59caa92d09a4e68927cbe010a9d564d1343a94b28274eb418667641091ef832",
+      "bytes": 5804
     },
     "results/m3-degree5-norm-obstruction.json": {
       "sha256": "dcdbd0c1ad557ec47cb282293ddfe46ab018cc61ac54c30189a92c117c0f5e03",
@@ -878,5 +890,13 @@
     "proof": "proofs/M3_DEGREE10_INERTIA.md",
     "geometry_certificate": "results/m3-degree10-norm-obstruction.json",
     "cartier_certificate": "results/m3-degree10-cartier.json"
+  },
+  "degree_twelve_inertia": {
+    "date": "2026-11-22",
+    "parent_public_commit": "51206233c64bf166f8f7d2a676033ad375ad807c",
+    "proof": "proofs/M3_DEGREE12_INERTIA.md",
+    "certificate": "results/m3-degree12-unit.json",
+    "full_ray_mean_conductor_degree": "134995/256",
+    "genus_343_tower_lower_bound": "98304/310099"
   }
 }

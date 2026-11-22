@@ -9,6 +9,10 @@ L’[addendum du 22 novembre 2026](THEOREM_6_1_M3.md) reproduit le théorème 6.
 de Ma, Xing et Xing et compare son score au plafond M3 sur k343. Le PDF daté
 de septembre fait partie du certificat M2 archivé.
 
+Le [complément sur l’inertie et le conducteur exact](../proofs/M3_DEGREE12_INERTIA.md)
+porte la borne de cette tour de genre 343 à $98304/310099$ et fournit le
+rejeu Sage sur les 37 places du module.
+
 Depuis la racine du laboratoire :
 
 ```sh

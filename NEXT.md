@@ -19,14 +19,16 @@ contribuent ensemble pour 5115/128 au degré moyen du conducteur.
 L’évaluation sur les 37 blocs donne en outre le rang exact 191 de l’image
 des jets de T-unités, d’où 2^75 ≤ |G| ≤ 2^126.
 
-En degré 12, une seule direction de jet isolé reste possible. L’existence
-d’une T-unité qui la réalise départagerait les ordres 2 048 et 4 096.
+En degré 12, une T-unité réalise l’unique direction de jet isolé.
+L’inertie y a ordre 2 048. Le degré moyen du conducteur est désormais
+exact sur les 37 places et donne la borne 98304/310099 sur la base de genre 343.
 L’ordre exact du groupe de rayon et ses facteurs cycliques, le raffinement
 du théorème de relations et les nouvelles bases restent à étudier.
 [Inerties de degré 5](proofs/M3_DEGREE5_INERTIA.md) ·
 [Inerties de degré 6](proofs/M3_DEGREE6_INERTIA.md) ·
 [Inerties de degré 8](proofs/M3_DEGREE8_INERTIA.md) ·
 [Inerties de degré 10 et rang des jets](proofs/M3_DEGREE10_INERTIA.md) ·
+[Jet isolé de degré 12 et conducteur moyen](proofs/M3_DEGREE12_INERTIA.md) ·
 [Relations indépendantes](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 Le pilote maximal-order
 Sage a été borné à120secondes ; aucune relance lourde automatique n'est prévue.
