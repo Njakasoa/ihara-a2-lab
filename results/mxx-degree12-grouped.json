@@ -1,0 +1,84 @@
+{
+  "sage_version": "10.9",
+  "support_receipt_sha256": "7f5d99478a04aa69cae3f3f40aa8585c33b0790dcfaf248ae7b9d693fb3866a0",
+  "theorem_6_1_baseline_sha256": "b215d718ae7240bd885c9e864a621e85a479a29a000047b23041be82d362899e",
+  "basis_size": 770,
+  "rank_of_logarithmic_identity": 702,
+  "kernel_before_degree10": 68,
+  "kernel_after_grouped_degree10": 1,
+  "kernel_after_mixed_degree10": 1,
+  "grouped_degree10_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    16,
+    17,
+    18,
+    19
+  ],
+  "survivor_numerator_terms": {
+    "0": [
+      1341628902,
+      3347338846
+    ],
+    "4": [
+      2802548,
+      7813815
+    ],
+    "16": [
+      26746098,
+      47491250
+    ],
+    "20": [
+      96686,
+      247597
+    ]
+  },
+  "ramification": {
+    "quartic_character_masks": [
+      4,
+      16
+    ],
+    "v_P3_norm_of_B": -14,
+    "v_P7_norm_of_B": -7,
+    "relative_e_and_different_k_over_quartic": {
+      "P3": [
+        2,
+        2
+      ],
+      "P7": [
+        8,
+        14
+      ]
+    }
+  },
+  "grouped_degree12_jet": 3400,
+  "degree12_jets_for_alternative_labels_in_same_fibre": {
+    "0": 3400,
+    "1": 3400,
+    "4": 1097,
+    "5": 1097,
+    "8": 3400,
+    "9": 3400,
+    "12": 1097,
+    "13": 1097,
+    "16": 1227,
+    "17": 1227,
+    "20": 1187,
+    "21": 1187,
+    "24": 1227,
+    "25": 1227,
+    "28": 1187,
+    "29": 1187
+  },
+  "grouped_degree12_elementary_inertia_order": 2048,
+  "original_bound": "65536/206231",
+  "new_denominator_upper_bound": "309345/512",
+  "new_mean_conductor_degree_upper_bound": "138849/256",
+  "tower_ratio_lower_bound": "32768/103115"
+}

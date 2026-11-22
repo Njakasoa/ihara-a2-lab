@@ -4,6 +4,12 @@
 
 ## Reconstruction de la base
 
+Le [complément sur la place de degré 12](../proofs/MXX_GENUS334_DEGREE12.md)
+reprend la base de genre 334 et fixe les relèvements utilisés dans le
+support. L’inertie élémentaire d’ordre 2 048 y donne la borne
+$32768/103115$. Les calculs ci-dessous reproduisent la fraction du texte
+original.
+
 Les deux constructions partent du corps de genre deux défini sur le corps à deux éléments par
 
 ```text

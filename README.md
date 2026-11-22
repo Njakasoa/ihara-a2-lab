@@ -8,6 +8,22 @@ unresolved. No external peer review or journal/arXiv submission is claimed.**
 
 ## Main result
 
+On the genus-334 base of Ma, Xing and Xing, an isolated local relation at
+the chosen degree-12 place gives
+
+```text
+A(2) ≥ 32768/103115 = 0.3177811181690346…
+```
+
+For an explicit support in the fibres cited in Theorem 6.1, the degree-12
+inertia in the elementary ray field has order **2,048**. This lowers the
+upper bound on the mean conductor degree by **3/512** and improves the
+authors’ fraction **65536/206231** by about **0.000001541**.
+[Genus-334 proof, support and Sage replay](proofs/MXX_GENUS334_DEGREE12.md) ·
+[Ma–Xing–Xing, Theorem 6.1](https://arxiv.org/html/2610.33649v2#S6.SS1)
+
+## Genus-343 base
+
 The exact mean conductor of the full M2 ray field on the genus-343 base gives
 
 ```text
@@ -32,8 +48,8 @@ general tower criterion, or establish a better binary error-correcting code.
 The exact auxiliary ray degree and group structure remain uncomputed and are
 not needed for the proved ratio. Novelty is **POSSIBLY NOVEL**, not established.
 
-**Update, 22 November 2026.** Ma, C. Xing and Z. Xing obtain the stronger
-global lower bound `A(2) ≥ 65536/206231 = 0.3177795772701485…` in
+Ma, C. Xing and Z. Xing obtain
+`A(2) ≥ 65536/206231 = 0.3177795772701485…` in
 Theorem 6.1 of their October preprint. The Sage replay reconstructs their
 genus-334 field and checks the tower criterion. With precisely their support
 degrees and multiplicities, the score on the laboratory’s genus-343 base is
@@ -48,8 +64,8 @@ degrees and multiplicities, the score on the laboratory’s genus-343 base is
 
 ## Restricted obstruction and exploration
 
-A separate [verified obstruction](claims/CLAIM-0003.md) proves that the same
-fraction is the maximum of the specified conservative score on this fixed
+A separate [verified obstruction](claims/CLAIM-0003.md) proves that
+196608/620201 is the maximum of the specified conservative score on this genus-343
 base, for all finite nonrational supports, conductor two everywhere, and
 1 ≤ t ≤ 192, with no initial degree cutoff. Exact caps reduce the problem to
 degrees ≤ 47; independent partition enumeration confirms zero improvements.

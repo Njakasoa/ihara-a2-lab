@@ -30,6 +30,13 @@ du théorème de relations et les nouvelles bases restent à étudier.
 [Inerties de degré 10 et rang des jets](proofs/M3_DEGREE10_INERTIA.md) ·
 [Jet isolé de degré 12 et conducteur moyen](proofs/M3_DEGREE12_INERTIA.md) ·
 [Relations indépendantes](results/M3_QUADRATIC_TUNIT_SEARCH.md).
+
+Sur la base de **genre 334** de Ma, Xing et Xing, la place de degré 12
+du support explicite a une inertie d’ordre 2 048 dans le rayon
+élémentaire. La borne de cette tour passe à 32768/103115. La moyenne
+globale du conducteur y est encore majorée aux autres places.
+[Preuve et contrôle indépendant sous Sage](proofs/MXX_GENUS334_DEGREE12.md)
+
 Le pilote maximal-order
 Sage a été borné à120secondes ; aucune relance lourde automatique n'est prévue.
 

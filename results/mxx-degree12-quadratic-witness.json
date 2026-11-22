@@ -1,0 +1,135 @@
+{
+  "sage_version": "10.9",
+  "selected_support": "mixed_degree_ten",
+  "quadratic_character_mask": 8,
+  "witness": "f=A+B*w_3; dlog(f)=f*dx",
+  "binary_polynomials": {
+    "A": "(x*p245396*y+p1305095)/p6809118",
+    "B": "(p65*y+p8085)/p8429"
+  },
+  "ramified_pullback": [
+    {
+      "base_place_degree": 3,
+      "relative_index": 4,
+      "relative_different": 6,
+      "dlog_order_at_least": 2
+    },
+    {
+      "base_place_degree": 7,
+      "relative_index": 16,
+      "relative_different": 30,
+      "dlog_order_at_least": 14
+    }
+  ],
+  "degree_six_elementary_jets": [
+    0,
+    0
+  ],
+  "regular_place_jets": [
+    {
+      "degree": 8,
+      "base_point_bits": [
+        188,
+        12
+      ],
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "jets": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": 10,
+      "base_point_bits": [
+        15,
+        315
+      ],
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        16,
+        17,
+        18,
+        19
+      ],
+      "jets": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": 10,
+      "base_point_bits": [
+        314,
+        770
+      ],
+      "labels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "jets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": 12,
+      "base_point_bits": [
+        32,
+        2409
+      ],
+      "labels": [
+        0
+      ],
+      "jets": [
+        2467
+      ]
+    }
+  ],
+  "degree_twelve_elementary_inertia_order_upper_bound": 2048,
+  "mean_conductor_degree_upper_bound": "138849/256",
+  "tower_ratio_lower_bound": "32768/103115"
+}

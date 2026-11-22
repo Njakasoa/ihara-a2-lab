@@ -57,8 +57,8 @@
       "bytes": 4400
     },
     "NEXT.md": {
-      "sha256": "ff789adf26069445a406e98ca3d43c04abb371542884a15e1ecc2f9141064178",
-      "bytes": 2419
+      "sha256": "6d8730799951ba80a03657b7d9aed0e0c7500522f7907b16424590761006f0d5",
+      "bytes": 2771
     },
     "NORMALIZATION.md": {
       "sha256": "514dcb095d366c3ee2c3ae96c797b5070ba4f00353127154be111c4a3e3e40bb",
@@ -77,8 +77,8 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "7c8dc437b2eccc51c4c1e81f2b7dfbc723a7807368c47d1ad7070a5a80d46cde",
-      "bytes": 10595
+      "sha256": "1a99afeaf3db61e615940c9613999f00c589a3541e29633200b8983a80863efd",
+      "bytes": 11156
     },
     "STATE_OF_THE_ART.md": {
       "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
@@ -256,6 +256,22 @@
       "sha256": "dfb99e6a244c5c8741c53cbaa9e2b9d7551b7b2b7f6ae23485f6acacdd6086a1",
       "bytes": 1498
     },
+    "experiments/mxx_degree12_grouped.py": {
+      "sha256": "58dedfd04f000b4c63734f557786236933eede8add5859e21abe7dacef90c021",
+      "bytes": 12497
+    },
+    "experiments/mxx_degree12_independent.py": {
+      "sha256": "3e3c45e4b22d5658afb2f8d87794fae1199681aae889656d55bdb000cd10999c",
+      "bytes": 4616
+    },
+    "experiments/mxx_degree12_quadratic_witness.py": {
+      "sha256": "b7a5d6d873d579300907d26e1841a37f2941e393b6df397de46b2bf868f2709c",
+      "bytes": 5831
+    },
+    "experiments/mxx_degree12_support.py": {
+      "sha256": "ca6cc25c893dabdedb26a2d93e014f5ca38d17cd6ddbc86a1f113746319d6ad2",
+      "bytes": 6476
+    },
     "experiments/mxx_genus334_sage.py": {
       "sha256": "a1075879fe6de18dbaf973311b75626c7feebe1448bd3c379b9864da9dc0b856",
       "bytes": 5735
@@ -428,6 +444,10 @@
       "sha256": "6e85a4abc2b0c36199fd709ba8b9a3ea544ced2c1d246179a39d7005f7e9b48f",
       "bytes": 4917
     },
+    "proofs/MXX_GENUS334_DEGREE12.md": {
+      "sha256": "8fd8f9659fb76cfb79c5c247911a8d97c5144bb2a88dbfa8de0d2b4d9db072b4",
+      "bytes": 12077
+    },
     "proofs/NONUNIFORM_CONDUCTOR_LOCAL_THEORY.md": {
       "sha256": "2c8b666e0522565fea424aeb2fab39dabcd89ccbf581244b2fd5a3f644519874",
       "bytes": 9687
@@ -465,8 +485,8 @@
       "bytes": 991
     },
     "publication/THEOREM_6_1_M3.md": {
-      "sha256": "6874ed7568c4cc10b41f334eaa724919f877418693df90a193e54a37572314ba",
-      "bytes": 5756
+      "sha256": "824f699329d2ca901f6bcdb46d5886104c19054e100b512dc8972741090f4b94",
+      "bytes": 6059
     },
     "publication/VALIDATION.md": {
       "sha256": "df3cf23819d700dc56a063602fec8fa001527c651547480a6e79ae4dc8839724",
@@ -732,6 +752,18 @@
       "sha256": "43c71dfb8e9378d52e42d3a073a6f32fbe4b8153e32f02c5679d373ef99248f4",
       "bytes": 1547
     },
+    "results/mxx-degree12-grouped.json": {
+      "sha256": "dc2128a39d06f96ea23c10e2a86c5ab6a512ff2b61232b5cc814055ad2d126e7",
+      "bytes": 1607
+    },
+    "results/mxx-degree12-quadratic-witness.json": {
+      "sha256": "79a0775600c0be4f76fa375730375b5075e1b91911e3dbcc69f2c2c546b21894",
+      "bytes": 2008
+    },
+    "results/mxx-degree12-support.json": {
+      "sha256": "7f5d99478a04aa69cae3f3f40aa8585c33b0790dcfaf248ae7b9d693fb3866a0",
+      "bytes": 3720
+    },
     "results/reference-nu2-search.json": {
       "sha256": "4630136df32e8a92a88c1b5bf936ed15ebe99b898c12598c5ecfaeb222c5d289",
       "bytes": 1048
@@ -898,5 +930,16 @@
     "certificate": "results/m3-degree12-unit.json",
     "full_ray_mean_conductor_degree": "134995/256",
     "genus_343_tower_lower_bound": "98304/310099"
+  },
+  "genus_334_degree_twelve": {
+    "date": "2026-11-22",
+    "parent_public_commit": "a6de84d3196ca307134933ff3c08324ef4ccd279",
+    "proof": "proofs/MXX_GENUS334_DEGREE12.md",
+    "support_certificate": "results/mxx-degree12-support.json",
+    "grouped_certificate": "results/mxx-degree12-grouped.json",
+    "quadratic_witness_certificate": "results/mxx-degree12-quadratic-witness.json",
+    "independent_replay": "experiments/mxx_degree12_independent.py",
+    "elementary_ray_inertia_order": 2048,
+    "tower_lower_bound": "32768/103115"
   }
 }
