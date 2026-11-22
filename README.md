@@ -69,10 +69,12 @@ arbitrary degrees and depths to 11,384 necessary pairs; the remaining deeper
 pattern is excluded analytically. A subsequent Sage search certifies 31
 independent T-unit relations and tightens the ray-order bound to
 **2⁷⁵ ≤ |G| ≤ 2²⁸⁶**. For the fixed M2 modulus and splitting set, descent by
-norms to the genus-13 quadratic subfields proves that all 16 places of
-degree 6 have inertia order **64** in the full abelian 2-primary ray group.
-Their exact mean-conductor contribution is 189. The full ray group and the
-inertia orders at the other places remain open.
+norms to the genus-13 quadratic subfields determines the inertia orders in the
+full abelian 2-primary ray group. Each of the two degree-5 places has order
+**32**, and each of the 16 degree-6 places has order **64**. Their respective
+contributions to the mean conductor degree are 155/8 and 189. The inertia
+orders in degrees 8, 10 and 12 remain open.
+[Degree-five inertia proof and Sage replay](proofs/M3_DEGREE5_INERTIA.md) ·
 [Degree-six inertia proof and Sage replay](proofs/M3_DEGREE6_INERTIA.md) ·
 [Quadratic T-unit search](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 

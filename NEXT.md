@@ -9,11 +9,13 @@ amélioration de ce même score par davantage d'itérations.
 La recherche dans les sous-corps quadratiques porte le rang certifié des
 relations de T-unités à 31 et donne |G|≤2^286. Pour le module M2 fixé, la
 descente par les normes prouve que l’inertie dans le groupe 2-primaire
-complet a ordre 64 en chacune des seize places de degré 6. La recherche
-d’une relation isolée en un de ces blocs est donc close. Les inerties aux
-autres degrés, le rang global effectif, le raffinement du théorème de
+complet a ordre 32 en chacune des deux places de degré 5 et ordre 64
+en chacune des seize places de degré 6. La recherche d’une relation isolée
+en un de ces blocs est donc close. Les inerties des degrés 8, 10 et 12,
+le rang global effectif, le raffinement du théorème de
 relations et les nouvelles bases restent des pistes.
-[Preuve et contrôles Sage](proofs/M3_DEGREE6_INERTIA.md) ·
+[Inerties de degré 5](proofs/M3_DEGREE5_INERTIA.md) ·
+[Inerties de degré 6](proofs/M3_DEGREE6_INERTIA.md) ·
 [Relations indépendantes](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 Le pilote maximal-order
 Sage a été borné à120secondes ; aucune relance lourde automatique n'est prévue.

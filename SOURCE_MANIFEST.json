@@ -57,8 +57,8 @@
       "bytes": 4400
     },
     "NEXT.md": {
-      "sha256": "cd489da0111f00014cf40d4bfa16defa557f21b90cbb49fb65d23111099c6914",
-      "bytes": 1434
+      "sha256": "7ec3580bebe59923af41d23d5efbf176cb2d80faa2fa197d8b7121cb23f8fdf4",
+      "bytes": 1541
     },
     "NORMALIZATION.md": {
       "sha256": "514dcb095d366c3ee2c3ae96c797b5070ba4f00353127154be111c4a3e3e40bb",
@@ -77,8 +77,8 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "ff38e3755b1735d0a99fed0cacac3020a5eab382fdad129cc4d5e02d9af64990",
-      "bytes": 9210
+      "sha256": "f6ed37b9395d8327c2471689e724fae7eb76f9d76e208dea5f60ffc4baa9f7f2",
+      "bytes": 9368
     },
     "STATE_OF_THE_ART.md": {
       "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
@@ -199,6 +199,10 @@
     "experiments/bind_candidate.py": {
       "sha256": "1a5ac4a05b9bc9744fff019366891f8c1d54f8d503abf86cdeda90aeb5727f2b",
       "bytes": 726
+    },
+    "experiments/m3_degree5_norm_obstruction.py": {
+      "sha256": "fbb2de886bb7a1baa18035f2692296806f1b7baf40c10e35cc3e3615e3721b82",
+      "bytes": 7651
     },
     "experiments/m3_degree6_descent.py": {
       "sha256": "a3e1c8a8cc52f84243620eae1b977005008250fdaf7d1ff58e8d3573e3fe7ebe",
@@ -367,6 +371,10 @@
     "proofs/INTERMEDIATE_COVERS.md": {
       "sha256": "7e16e7400703bc1e88a56fb32b671d08c7ab133b97e8e6935008bd4d35d17877",
       "bytes": 5347
+    },
+    "proofs/M3_DEGREE5_INERTIA.md": {
+      "sha256": "69f929a0765bf84e6df57d29304a10fe5bd9f7b45ea3d7b717a616c5d091dd07",
+      "bytes": 6737
     },
     "proofs/M3_DEGREE6_INERTIA.md": {
       "sha256": "acdb661164b044e6ffa48b44c7ef8997709175c3f283fde91b85735042d9924b",
@@ -592,6 +600,10 @@
       "sha256": "88335db8bc793329d3f0a6848c94499a0f4f7f348f521581a08f687af90ae8f7",
       "bytes": 8760
     },
+    "results/m3-degree5-norm-obstruction.json": {
+      "sha256": "dcdbd0c1ad557ec47cb282293ddfe46ab018cc61ac54c30189a92c117c0f5e03",
+      "bytes": 28400
+    },
     "results/m3-degree6-descent.json": {
       "sha256": "9896c697475cea3e4138693ad837e78ec92311d743355ff5ca927000d79301bf",
       "bytes": 1839
@@ -806,5 +818,11 @@
     "parent_public_commit": "302cd6afaa85314b536da23cce9416ca6cc24083",
     "proof": "proofs/M3_DEGREE6_INERTIA.md",
     "certificate": "results/m3-degree6-norm-obstruction.json"
+  },
+  "degree_five_inertia": {
+    "date": "2026-11-22",
+    "parent_public_commit": "97f1dea9bca80a5da82e80338bbe29a7614efcd2",
+    "proof": "proofs/M3_DEGREE5_INERTIA.md",
+    "certificate": "results/m3-degree5-norm-obstruction.json"
   }
 }
