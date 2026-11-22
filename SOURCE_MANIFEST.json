@@ -57,8 +57,8 @@
       "bytes": 4400
     },
     "NEXT.md": {
-      "sha256": "0bc70a3c772996612889a46e80acc668942921389d8a84fa979a77c4c17f68f3",
-      "bytes": 1890
+      "sha256": "bfee00c128f12746578a0f2977194b3afc343abfd462215e45c7a059cbc99e5c",
+      "bytes": 2265
     },
     "NORMALIZATION.md": {
       "sha256": "514dcb095d366c3ee2c3ae96c797b5070ba4f00353127154be111c4a3e3e40bb",
@@ -77,8 +77,8 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "621de7fdf0209dddcaf597b46d36c39e8cf6383fe9f8a87e97ffc57bb9b39bbd",
-      "bytes": 9689
+      "sha256": "b6e4754949fb25a63c468c4e3ce46dc099e29352450214df3246f9195da96dc7",
+      "bytes": 10070
     },
     "STATE_OF_THE_ART.md": {
       "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
@@ -199,6 +199,14 @@
     "experiments/bind_candidate.py": {
       "sha256": "1a5ac4a05b9bc9744fff019366891f8c1d54f8d503abf86cdeda90aeb5727f2b",
       "bytes": 726
+    },
+    "experiments/m3_degree10_cartier.py": {
+      "sha256": "fec47a7fff942bcfc0c14dcb6bcc7b58c094d715008cef9e382ca21d3b4a2676",
+      "bytes": 9641
+    },
+    "experiments/m3_degree10_norm_obstruction.py": {
+      "sha256": "c7f2881da3addd306759d731c29685ee2bed3d69114663a9b60f5d45f88fd263",
+      "bytes": 7851
     },
     "experiments/m3_degree5_norm_obstruction.py": {
       "sha256": "fbb2de886bb7a1baa18035f2692296806f1b7baf40c10e35cc3e3615e3721b82",
@@ -379,6 +387,10 @@
     "proofs/INTERMEDIATE_COVERS.md": {
       "sha256": "7e16e7400703bc1e88a56fb32b671d08c7ab133b97e8e6935008bd4d35d17877",
       "bytes": 5347
+    },
+    "proofs/M3_DEGREE10_INERTIA.md": {
+      "sha256": "fbb08aed636d3aa1e2c6fa12bceb8ff813fde8b42291b5810e76c383b1e41d05",
+      "bytes": 9853
     },
     "proofs/M3_DEGREE5_INERTIA.md": {
       "sha256": "69f929a0765bf84e6df57d29304a10fe5bd9f7b45ea3d7b717a616c5d091dd07",
@@ -611,6 +623,14 @@
     "results/m2-search.json": {
       "sha256": "88335db8bc793329d3f0a6848c94499a0f4f7f348f521581a08f687af90ae8f7",
       "bytes": 8760
+    },
+    "results/m3-degree10-cartier.json": {
+      "sha256": "96298039764244aba3d6dc059df1e688de2c601248ede1792353911e76bf19d1",
+      "bytes": 1805
+    },
+    "results/m3-degree10-norm-obstruction.json": {
+      "sha256": "5940dc95b337231e9b96be48e3b3a47bafc99ea8e6c59764b502af9d12cee50f",
+      "bytes": 1449
     },
     "results/m3-degree5-norm-obstruction.json": {
       "sha256": "dcdbd0c1ad557ec47cb282293ddfe46ab018cc61ac54c30189a92c117c0f5e03",
@@ -851,5 +871,12 @@
     "proof": "proofs/M3_DEGREE8_INERTIA.md",
     "quadratic_certificate": "results/m3-degree8-norm-obstruction.json",
     "quartic_certificate": "results/m3-degree8-quartic-norm.json"
+  },
+  "degree_ten_inertia": {
+    "date": "2026-11-22",
+    "parent_public_commit": "4a30229c5e032e94cdaab09a70378fe7f8932851",
+    "proof": "proofs/M3_DEGREE10_INERTIA.md",
+    "geometry_certificate": "results/m3-degree10-norm-obstruction.json",
+    "cartier_certificate": "results/m3-degree10-cartier.json"
   }
 }

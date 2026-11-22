@@ -1,0 +1,67 @@
+{
+  "sage_version": "10.9",
+  "support_sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+  "complete_zero_fibres": {
+    "6": {
+      "base_degree": 3,
+      "places": 16,
+      "shift_mask": 18
+    },
+    "8": {
+      "base_degree": 4,
+      "places": 16,
+      "shift_mask": 24
+    }
+  },
+  "degree_ten": {
+    "base_point": [
+      15,
+      315
+    ],
+    "field_modulus_bits": 1033,
+    "base_degree": 5,
+    "frobenius": 21,
+    "second_translation": 16,
+    "total_closed_places": 16,
+    "selected_places": [
+      "k343-d10-001",
+      "k343-d10-002"
+    ],
+    "unselected_places": 14
+  },
+  "quadratic_minimum_zero_degree": 48,
+  "quadratic_available_zero_degree": 36,
+  "geometric_fibre_norm_tests": [
+    {
+      "max_subfield_degree_over_H": 2,
+      "vanishing_moment_count": 6,
+      "binary_rank": 30,
+      "binary_kernel_dimension": 130,
+      "binary_projection_rank_on_two_selected_places": 20
+    },
+    {
+      "max_subfield_degree_over_H": 4,
+      "vanishing_moment_count": 16,
+      "binary_rank": 80,
+      "binary_kernel_dimension": 80,
+      "binary_projection_rank_on_two_selected_places": 20
+    }
+  ],
+  "explicit_global_unit": {
+    "unit": "(x+1)*c*w_6",
+    "recipe_for_c_times_w_6": [
+      6,
+      1,
+      0,
+      0,
+      4,
+      4
+    ],
+    "zero_jet_count": 34,
+    "nonzero_jets": {
+      "k343-d10-001": 315,
+      "k343-d10-002": 315,
+      "k343-d12-001": 3433
+    }
+  }
+}

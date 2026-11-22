@@ -1,0 +1,119 @@
+{
+  "sage_version": "10.9",
+  "support_sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+  "complete_fibres": {
+    "6": {
+      "base_degree": 3,
+      "places": 16,
+      "shift_mask": 18
+    },
+    "8": {
+      "base_degree": 4,
+      "places": 16,
+      "shift_mask": 24
+    }
+  },
+  "reference_differential": "dlog((x+1)*(x^5+x^2+1))",
+  "coefficient_space_dimension": 583,
+  "auxiliary_modulus_bits": 4105,
+  "auxiliary_H_points": [
+    [
+      32,
+      2409
+    ],
+    [
+      32,
+      2304
+    ],
+    [
+      33,
+      1258
+    ],
+    [
+      33,
+      163
+    ],
+    [
+      105,
+      3563
+    ],
+    [
+      105,
+      72
+    ],
+    [
+      163,
+      2336
+    ],
+    [
+      163,
+      32
+    ]
+  ],
+  "translations_per_point": 32,
+  "binary_rows": 3072,
+  "cumulative_ranks": [
+    166,
+    316,
+    423,
+    508,
+    544,
+    567,
+    573,
+    575
+  ],
+  "necessary_kernel_dimension": 8,
+  "AS_monomial_masks_in_kernel": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "base_y_powers_in_kernel": [
+    0
+  ],
+  "target_place_ids": [
+    "k343-d10-001",
+    "k343-d10-002"
+  ],
+  "target_fibre_translation_mask": 16,
+  "degree_ten_jets_by_place_on_kernel_basis": [
+    [
+      797,
+      184,
+      1,
+      527,
+      771,
+      56,
+      40,
+      387
+    ],
+    [
+      797,
+      184,
+      1,
+      527,
+      771,
+      56,
+      40,
+      387
+    ]
+  ],
+  "degree_ten_evaluation_rank_on_necessary_kernel": 7,
+  "remaining_place": "k343-d12-001",
+  "degree_twelve_quotient_value_on_degree_ten_kernel_line": 1173,
+  "degree_twelve_jet_on_degree_ten_kernel_line": 1043,
+  "degree_ten_and_twelve_joint_evaluation_rank": 8,
+  "isolated_jet_dimensions": [
+    0,
+    0
+  ],
+  "inertia_orders_full_2_primary_ray_group": [
+    1024,
+    1024
+  ]
+}

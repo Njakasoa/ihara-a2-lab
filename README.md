@@ -66,9 +66,10 @@ sets T. This is a ceiling for that score, not for actual tower ratios or A(2).
 The score uses the local generator rank in the relation bound and the maximal
 elementary ray subfield for its conductor estimate. Exact inequalities reduce
 arbitrary degrees and depths to 11,384 necessary pairs; the remaining deeper
-pattern is excluded analytically. A subsequent Sage search certifies 31
-independent T-unit relations and tightens the ray-order bound to
-**2⁷⁵ ≤ |G| ≤ 2²⁸⁶**. For the fixed M2 modulus and splitting set, descent by
+pattern is excluded analytically. A Sage search constructs 31 independent
+T-unit relations. The degree-10 calculation below proves that the full
+T-unit jet image has **rank 191**, giving **2⁷⁵ ≤ |G| ≤ 2¹²⁶**.
+For the fixed M2 modulus and splitting set, descent by
 norms to the genus-13 quadratic subfields determines the inertia orders in the
 full abelian 2-primary ray group. Each of the two degree-5 places has order
 **32**, and each of the 16 degree-6 places has order **64**. Their respective
@@ -76,10 +77,15 @@ contributions to the mean conductor degree are 155/8 and 189. The inertia
 order at each of the 16 degree-8 places is **256**. Here the quadratic
 norms leave one possible nonzero jet. Descent to a single degree-four
 subfield excludes it. The degree-8 contribution to the mean conductor
-degree is exactly 255. The inertia orders in degrees 10 and 12 remain open.
+degree is exactly 255. The two degree-10 places each have inertia order
+**1,024**. Once the jets vanish at the 34 places of degrees 5, 6 and 8,
+a trace calculation and the logarithmic-derivative identity force the two
+degree-10 jets to agree. The sole remaining place, of degree 12, has
+inertia order either 2,048 or 4,096.
 [Degree-five inertia proof and Sage replay](proofs/M3_DEGREE5_INERTIA.md) ·
 [Degree-six inertia proof and Sage replay](proofs/M3_DEGREE6_INERTIA.md) ·
 [Degree-eight inertia proof and Sage replay](proofs/M3_DEGREE8_INERTIA.md) ·
+[Degree-ten inertia, T-unit rank and Sage replay](proofs/M3_DEGREE10_INERTIA.md) ·
 [Quadratic T-unit search](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 
 - [M3 result and scope](M3_RESULT.md), [refined criterion](proofs/M3_REFINED_RAY_CRITERION.md), and [all-depth obstruction](proofs/M3_REFINED_OBSTRUCTION.md)
