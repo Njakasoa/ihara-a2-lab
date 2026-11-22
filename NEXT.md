@@ -6,11 +6,16 @@ du critère local et le passage au rayon élémentaire. Voir M3_RESULT.md.
 Le maximum de ce score sur k343 reste196608/620201. Ne plus rechercher une
 amélioration de ce même score par davantage d'itérations.
 
-Le calcul exact fournit cinq relations T-unités et la borne |G|≤2^312,
-mais ni le groupe complet ni les inerties individuelles. Une éventuelle
-campagne future doit apporter une information nouvelle : relations globales
-supportées sur un seul bloc, rang global effectif, correction plus fine du
-théorème de relations, ou nouvelle famille de bases. Le pilote maximal-order
+La recherche dans les sous-corps quadratiques porte le rang certifié des
+relations de T-unités à 31 et donne |G|≤2^286. Pour le module M2 fixé, la
+descente par les normes prouve que l’inertie dans le groupe 2-primaire
+complet a ordre 64 en chacune des seize places de degré 6. La recherche
+d’une relation isolée en un de ces blocs est donc close. Les inerties aux
+autres degrés, le rang global effectif, le raffinement du théorème de
+relations et les nouvelles bases restent des pistes.
+[Preuve et contrôles Sage](proofs/M3_DEGREE6_INERTIA.md) ·
+[Relations indépendantes](results/M3_QUADRATIC_TUNIT_SEARCH.md).
+Le pilote maximal-order
 Sage a été borné à120secondes ; aucune relance lourde automatique n'est prévue.
 
 La priorité bibliographique et une revue humaine restent ouvertes. M2 est

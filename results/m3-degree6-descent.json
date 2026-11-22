@@ -1,0 +1,74 @@
+{
+  "fixed_field": {
+    "annihilating_character_basis": [
+      1,
+      4,
+      8,
+      18
+    ],
+    "degree6_frobenius_mask": 18,
+    "degree6_orbit_labels": [
+      0,
+      8,
+      4,
+      12,
+      2,
+      10,
+      6,
+      14,
+      1,
+      9,
+      5,
+      13,
+      3,
+      11,
+      7,
+      15
+    ],
+    "degree_over_H": 16,
+    "pair_indicator_binary_rank": 15,
+    "proper_subfields": "Their dlog vectors on the 16 aligned lifts to the fixed field sum to zero in F8: translation by a nonzero involution pairs equal entries. This also holds for products from any of these proper subfields."
+  },
+  "local_jets": {
+    "full_rank_including_five_base_units": 5,
+    "single_block_dimensions_degree6": {
+      "k343-d6-001": 0,
+      "k343-d6-002": 0,
+      "k343-d6-003": 0,
+      "k343-d6-004": 0,
+      "k343-d6-005": 0,
+      "k343-d6-006": 0,
+      "k343-d6-007": 0,
+      "k343-d6-008": 0,
+      "k343-d6-009": 0,
+      "k343-d6-010": 0,
+      "k343-d6-011": 0,
+      "k343-d6-012": 0,
+      "k343-d6-013": 0,
+      "k343-d6-014": 0,
+      "k343-d6-015": 0,
+      "k343-d6-016": 0
+    }
+  },
+  "sage_version": "10.9",
+  "scope": "The degree-16 primitive search is bounded. Only the cancellation for proper subfields of this fixed field is universal.",
+  "search": {
+    "A_basis": [
+      "1",
+      "x",
+      "x^2",
+      "x^3",
+      "x^4",
+      "y",
+      "xy",
+      "x^2y"
+    ],
+    "A_count": 256,
+    "certified_T_units": [],
+    "criterion": "Integral at all finite places; norm to F2(x) has support in x,x+1. Every point over 0,1,infinity is in T.",
+    "independent_control": "One full-degree candidate checked by multiplication of 16 conjugates, then by a polynomial resultant.",
+    "ordered_character_bases": 20160,
+    "shape": "A + sum l_i*c*w_{h_i}, l=(1,x,x^2,y)",
+    "tested": 5160960
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "sage_version": "10.9",
+  "support_sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
+  "fibres": {
+    "6": {
+      "base_degree": 3,
+      "places": 16,
+      "shift_mask": 18
+    },
+    "8": {
+      "base_degree": 4,
+      "places": 16,
+      "shift_mask": 24
+    }
+  },
+  "proper_subfields_by_fibre_size": {
+    "1": 1,
+    "2": 45,
+    "4": 175,
+    "8": 135,
+    "16": 17
+  },
+  "units": [
+    "x",
+    "x+1",
+    "y",
+    "y+1",
+    "y+x"
+  ],
+  "unit_rank": 5,
+  "base_jets": {
+    "6": [
+      0,
+      0,
+      24,
+      14,
+      15
+    ],
+    "8": [
+      189,
+      188,
+      93,
+      176,
+      1
+    ]
+  },
+  "norm_candidates": [
+    {
+      "mask": 19,
+      "degree6_jet": 15
+    }
+  ],
+  "ramified_local_norm_tests": [
+    {
+      "point": [
+        2,
+        17
+      ],
+      "reduced_poles": [
+        23,
+        19,
+        12,
+        30,
+        15
+      ],
+      "candidate_jet": 20,
+      "traces": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "trace_mask": 10
+    },
+    {
+      "point": [
+        2,
+        26
+      ],
+      "reduced_poles": [
+        23,
+        19,
+        12,
+        5,
+        3
+      ],
+      "candidate_jet": 20,
+      "traces": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "trace_mask": 10
+    }
+  ],
+  "required_tensor": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "off_diagonal_witness": {
+    "m_1_3": 1,
+    "m_3_1": 0
+  },
+  "quadratic_quotients": {
+    "genus": 13,
+    "rational_places": 12,
+    "different_exponent_at_each_ramified_place": 2,
+    "degree_of_q4_fibre": 8,
+    "degree_of_two_ramified_places": 10,
+    "available_zero_degree": 36,
+    "required_zero_degree": 36,
+    "remaining_zero_degree": 0,
+    "characters": [
+      {
+        "mask": 1,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 2,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 3,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 4,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 5,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 6,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 7,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 8,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 9,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 10,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 11,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 12,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 13,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 14,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 15,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 16,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 17,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 18,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 19,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 20,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 21,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 1,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 22,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 23,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 1,
+          "place_degree": 8
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 24,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 25,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 26,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 27,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 28,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 29,
+        "degree3_fibre": {
+          "count": 1,
+          "place_degree": 6
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 1,
+        "required_trace_bit": 1
+      },
+      {
+        "mask": 30,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      },
+      {
+        "mask": 31,
+        "degree3_fibre": {
+          "count": 2,
+          "place_degree": 3
+        },
+        "degree4_fibre": {
+          "count": 2,
+          "place_degree": 4
+        },
+        "epsilon": 0,
+        "required_trace_bit": 0
+      }
+    ],
+    "nonadditivity_witness": {
+      "masks": [
+        8,
+        16,
+        24
+      ],
+      "required_bits": [
+        0,
+        0,
+        1
+      ]
+    }
+  }
+}

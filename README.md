@@ -66,10 +66,15 @@ sets T. This is a ceiling for that score, not for actual tower ratios or A(2).
 The score uses the local generator rank in the relation bound and the maximal
 elementary ray subfield for its conductor estimate. Exact inequalities reduce
 arbitrary degrees and depths to 11,384 necessary pairs; the remaining deeper
-pattern is excluded analytically. Five independent T-unit relations also
-improve the ray-order cap to **2⁷⁵ ≤ |G| ≤ 2³¹²**. The full ray group and actual
-individual inertia orders remain unknown; no better numerical A(2) bound or
-coding guarantee is claimed.
+pattern is excluded analytically. A subsequent Sage search certifies 31
+independent T-unit relations and tightens the ray-order bound to
+**2⁷⁵ ≤ |G| ≤ 2²⁸⁶**. For the fixed M2 modulus and splitting set, descent by
+norms to the genus-13 quadratic subfields proves that all 16 places of
+degree 6 have inertia order **64** in the full abelian 2-primary ray group.
+Their exact mean-conductor contribution is 189. The full ray group and the
+inertia orders at the other places remain open.
+[Degree-six inertia proof and Sage replay](proofs/M3_DEGREE6_INERTIA.md) ·
+[Quadratic T-unit search](results/M3_QUADRATIC_TUNIT_SEARCH.md).
 
 - [M3 result and scope](M3_RESULT.md), [refined criterion](proofs/M3_REFINED_RAY_CRITERION.md), and [all-depth obstruction](proofs/M3_REFINED_OBSTRUCTION.md)
 - [Exact ray components](results/RAY_CLASS_STRUCTURE.md) and [claim records](claims/CLAIM-M3-0002.md)
