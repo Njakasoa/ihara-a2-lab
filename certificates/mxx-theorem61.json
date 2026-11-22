@@ -1,0 +1,108 @@
+{
+  "source": "https://arxiv.org/html/2610.33649v2#S6.SS1",
+  "geometry": {
+    "genus_H": 2,
+    "degree_over_H": 32,
+    "genus_k": 334,
+    "character_conductor_degree_counts": {
+      "14": 3,
+      "20": 28
+    },
+    "P3_unramified_nonzero_masks": [
+      11,
+      19,
+      24
+    ],
+    "P3_inert_masks": [
+      19,
+      24
+    ],
+    "ramification_index_and_residue_degree": {
+      "3": [
+        8,
+        2
+      ],
+      "7": [
+        32,
+        1
+      ]
+    },
+    "point_counts_1_to_12": [
+      192,
+      192,
+      192,
+      192,
+      192,
+      204,
+      199,
+      320,
+      192,
+      1152,
+      192,
+      3084
+    ],
+    "place_counts_1_to_12": [
+      192,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      16,
+      0,
+      96,
+      0,
+      240
+    ]
+  },
+  "support": [
+    {
+      "degree": 6,
+      "exponent": 2,
+      "count": 1,
+      "rank": 6,
+      "mean_exponent_upper_bound": "63/32"
+    },
+    {
+      "degree": 6,
+      "exponent": 3,
+      "count": 1,
+      "rank": 6,
+      "mean_exponent_upper_bound": "63/32"
+    },
+    {
+      "degree": 8,
+      "exponent": 2,
+      "count": 16,
+      "rank": 8,
+      "mean_exponent_upper_bound": "255/128"
+    },
+    {
+      "degree": 10,
+      "exponent": 2,
+      "count": 12,
+      "rank": 10,
+      "mean_exponent_upper_bound": "1023/512"
+    },
+    {
+      "degree": 12,
+      "exponent": 2,
+      "count": 1,
+      "rank": 12,
+      "mean_exponent_upper_bound": "4095/2048"
+    }
+  ],
+  "splitting_places": 192,
+  "rank_sum": 272,
+  "generator_lower_bound": 81,
+  "quadratic_coefficient": 1628,
+  "tau": "1/40",
+  "P(tau)": "-3/400",
+  "mean_conductor_degree_upper_bound": "277701/512",
+  "genus_denominator_upper_bound": "618693/1024",
+  "bound": "65536/206231",
+  "same_support_on_k343": "65536/209303",
+  "M3_optimum_on_k343": "196608/620201",
+  "gain_over_M3": "98828288/127904672431"
+}

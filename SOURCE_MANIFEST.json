@@ -25,8 +25,8 @@
   ],
   "files": {
     ".gitattributes": {
-      "sha256": "f8ba04d5acadef6adaf517b504346e2d193c814d75001d7e02388e194bedbf10",
-      "bytes": 25
+      "sha256": "3131783d82f971e1a661deab7c0888410a6cdf225968b5a0989816e70a1878c6",
+      "bytes": 32
     },
     ".gitignore": {
       "sha256": "d1349d4c2752d57211c78bf19434a96f6851daaec745eeabdc8009f8989fd98f",
@@ -77,12 +77,12 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "21f66008dd22170640e136086df03927bf31ac4da94f883b9fdfd1fa04bb8383",
-      "bytes": 7622
+      "sha256": "aaa6b8c4f5ff3e1be8fcc8e2a9627c7ce06ae6b2d315e05a54a1838368da7cd9",
+      "bytes": 8340
     },
     "STATE_OF_THE_ART.md": {
-      "sha256": "aa1b64df97a04a1eca4b996cef4da5375b62ffe093ead74fe35a02b72b194c76",
-      "bytes": 11176
+      "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
+      "bytes": 11561
     },
     "certificates/FORMAT.md": {
       "sha256": "a5c03898c380e62744164c0b6c841933627dceb6698100e068de29f69589c4f0",
@@ -115,6 +115,10 @@
     "certificates/m2-tower.json": {
       "sha256": "46b0438a4e29c725f724fbd56f7752e235c2ec86d3c097745ec0c2fd671848e7",
       "bytes": 19778
+    },
+    "certificates/mxx-theorem61.json": {
+      "sha256": "b215d718ae7240bd885c9e864a621e85a479a29a000047b23041be82d362899e",
+      "bytes": 1901
     },
     "certificates/published-bound-arithmetic.json": {
       "sha256": "3422d72aaf25379e8d59fc97ae65220b221d1ff3fbb9c7b2b25007f37d7657fd",
@@ -216,6 +220,10 @@
       "sha256": "dfb99e6a244c5c8741c53cbaa9e2b9d7551b7b2b7f6ae23485f6acacdd6086a1",
       "bytes": 1498
     },
+    "experiments/mxx_genus334_sage.py": {
+      "sha256": "a1075879fe6de18dbaf973311b75626c7feebe1448bd3c379b9864da9dc0b856",
+      "bytes": 5735
+    },
     "experiments/record_failures.py": {
       "sha256": "5245207053707bb39bd591901053e1dbd51630e62f5ff54c495df587b379dace",
       "bytes": 1677
@@ -227,6 +235,10 @@
     "experiments/reference_nu2_search.py": {
       "sha256": "f144eb71e0c395a1fc4afef9e2a928f9f4a93cd0635eacbff2390dd3952545db",
       "bytes": 2614
+    },
+    "experiments/reproduce_mxx_theorem61.py": {
+      "sha256": "e99c8812dc4a3e90d0a1e8a9cc369f9a842ff2ecfafd3ded554bbe2ce10acfd0",
+      "bytes": 4510
     },
     "experiments/run_m3.py": {
       "sha256": "1ffdb04edb2ea20370e58cce8b7465a192218bab5e017829535b0c06cc209d4c",
@@ -333,12 +345,16 @@
       "bytes": 2990
     },
     "publication/README.md": {
-      "sha256": "e5759fe203b838a28cb81de005b5d51ea48f91ca13e70505b7d802c8291bf239",
-      "bytes": 1339
+      "sha256": "03d5cc651b67564abe633f246407cc5397e5d81999a1b5734bb4aa420424baa1",
+      "bytes": 1589
     },
     "publication/RIGHTS.md": {
       "sha256": "a4bf14b2190071a6619767cc5957db14596726ef95f02b7d29dba4e960a43424",
       "bytes": 991
+    },
+    "publication/THEOREM_6_1_M3.md": {
+      "sha256": "e9cd970f2b1d9eba8bf4edca38269e8142e4f9b6e4be5b6107028cab62c66188",
+      "bytes": 5582
     },
     "publication/VALIDATION.md": {
       "sha256": "df3cf23819d700dc56a063602fec8fa001527c651547480a6e79ae4dc8839724",
@@ -357,8 +373,8 @@
       "bytes": 11220
     },
     "publication/reproduce.py": {
-      "sha256": "e145a35dd51d6289bb6e5a9fa64c6892e4fabc4f27a8cd0a056517ed67512190",
-      "bytes": 1970
+      "sha256": "43c1bed24f5d7ef7edb199a206e34382fcde0d968077c01c878aeade33fc0eb8",
+      "bytes": 2077
     },
     "publication/requirements-lock.txt": {
       "sha256": "7a5adc713036c5c81c135d04dac647221b575415b5453094979aa42594b02388",
@@ -684,5 +700,11 @@
     "Private mission inputs in local-unit and independent-checker receipts replaced with M3_RESULT.md.",
     "Default local-unit output path made repository-relative; public-copy receipts regenerated.",
     "Historical optional Sage pilot evidence retained with original-science provenance."
-  ]
+  ],
+  "public_addendum": {
+    "date": "2026-11-22",
+    "parent_public_commit": "2ec6ba7fc4edd47d44159c2b6ee3a6bcd3115f99",
+    "source": "arXiv:2610.33649v2, Theorem 6.1",
+    "certificate": "certificates/mxx-theorem61.json"
+  }
 }

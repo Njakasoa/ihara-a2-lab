@@ -5,6 +5,10 @@ compilée de quatre pages. Elle décrit le raffinement 196608/620201, sans
 revendication de priorité. Le dépôt GitHub est public ; aucune soumission
 à une revue ou à arXiv ni revue externe n’est annoncée.
 
+L’[addendum du 22 novembre 2026](THEOREM_6_1_M3.md) reproduit le théorème 6.1
+de Ma, Xing et Xing et compare son score au plafond M3 sur k343. Le PDF daté
+de septembre fait partie du certificat M2 archivé.
+
 Depuis la racine du laboratoire :
 
 ```sh
@@ -16,7 +20,7 @@ scripts/tectonic-local --keep-logs publication/main.tex
 
 Le premier reconstruit les données et tests essentiels, ainsi que le contrôle
 indépendant de l'obstruction annexe ; --sage ajoute les deux implémentations
-Sage indépendantes. --extended ajoute les recherches annexes,
+Sage indépendantes et la reproduction du théorème 6.1. --extended ajoute les recherches annexes,
 sans être nécessaire à la preuve de la borne. L'environnement local doit être
 installé selon ENVIRONMENT_AUDIT.md. Les listes exactes de paquets sont dans
 environment/. Le petit checker de l'existence d'une place de degré12 est

@@ -26,6 +26,14 @@ general tower criterion, or establish a better binary error-correcting code.
 The exact auxiliary ray degree and group structure remain uncomputed and are
 not needed for the proved ratio. Novelty is **POSSIBLY NOVEL**, not established.
 
+**Update, 22 November 2026.** Ma, C. Xing and Z. Xing obtain the stronger
+global lower bound `A(2) ≥ 65536/206231 = 0.3177795772701485…` in
+Theorem 6.1 of their October preprint. The Sage replay reconstructs their
+genus-334 field and checks the tower criterion. With precisely their support
+degrees and multiplicities, the score on the laboratory’s genus-343 base is
+`65536/209303`, below its M3 maximum. [Worked comparison and replay](publication/THEOREM_6_1_M3.md)
+· [Preprint, v2](https://arxiv.org/abs/2610.33649v2).
+
 - [Manuscript PDF — 4 pages](publication/main.pdf)
 - [LaTeX source](publication/main.tex) and [reproduction guide](publication/README.md)
 - [Full lower-bound proof](proofs/IMPROVED_BOUND.md) and [exact certificate](certificates/m2-tower.json)
@@ -97,6 +105,9 @@ python3 publication/reproduce.py --sage
 `--sage` requires the separately installed Sage environment. The historical
 audit used SageMath 10.9; [environment setup and exact package locks](ENVIRONMENT_AUDIT.md)
 document reconstruction. The optional PDF build uses Tectonic 0.17.0.
+
+For the genus-334 result alone, run `sage -python experiments/reproduce_mxx_theorem61.py`
+from the repository root. It recomputes the [exact certificate](certificates/mxx-theorem61.json).
 
 The manifest checker verifies the archived snapshot before a replay. Extended
 searches overwrite historical reports with fresh elapsed-time measurements;

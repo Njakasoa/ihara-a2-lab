@@ -1,8 +1,14 @@
 # État de l’art de $A(2)$
 
-**Date de consultation : 13 septembre 2026.** Ce document est une photographie
-bibliographique arrêtée à cette date. Les dates de publication ou de résultat
-sont indiquées séparément de cette date de consultation.
+**Mise à jour du 22 novembre 2026.** Le théorème 6.1 de la prépublication de
+Ma, C. Xing et Z. Xing (v2 du 27 octobre) donne
+**65536/206231 ≤ A(2) ≤ √2−1**, en combinant leur borne inférieure avec la
+borne supérieure de Drinfeld–Vlăduţ. Le corps de genre 334 et la marge du
+critère de tour ont été recalculés dans Sage. Le maximum M3 se rapporte à
+la base de genre 343. [Addendum et reproduction](publication/THEOREM_6_1_M3.md)
+· [Texte des auteurs](https://arxiv.org/html/2610.33649v2#S6.SS1).
+
+Les sections suivantes conservent l’état bibliographique du **13 septembre 2026**.
 
 ## Convention et encadrement
 
