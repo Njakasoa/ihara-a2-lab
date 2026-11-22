@@ -77,8 +77,8 @@
       "bytes": 1895
     },
     "README.md": {
-      "sha256": "aaa6b8c4f5ff3e1be8fcc8e2a9627c7ce06ae6b2d315e05a54a1838368da7cd9",
-      "bytes": 8340
+      "sha256": "c974bd578aa8a23aa707f507d72774e52936849f553fa98c8ef8d7b2d19e43fb",
+      "bytes": 8842
     },
     "STATE_OF_THE_ART.md": {
       "sha256": "590132a9be4a71db2f8a262d16cfe4e10896489ff0a0dbd8a2301c9fc5fb4b9e",
@@ -260,6 +260,62 @@
       "sha256": "3572e111e0a1de217340239d9c85e77f11c8003794f790df5eb42912866a7b1c",
       "bytes": 17075
     },
+    "formal/.gitignore": {
+      "sha256": "b3ad09fc93f83fdbd0bee771258dd4a58d3798fd7e6048611dde5a804bb43f1e",
+      "bytes": 7
+    },
+    "formal/IharaM3.lean": {
+      "sha256": "6b3e1e3f0842feefc96dfb5e12e242a7a92f334fa189bb9a4dfaa1564d230e3b",
+      "bytes": 21
+    },
+    "formal/IharaM3/Audit.lean": {
+      "sha256": "28d943d5004f0b901923c79922af93ae80fb4c28af3c0f33cec69b7f5d8558bc",
+      "bytes": 812
+    },
+    "formal/IharaM3/Maximum.lean": {
+      "sha256": "c8d29ebf6e5e61e2a5fb1123a88f91b803a57564e6491c841652a2c29a8f40b3",
+      "bytes": 5609
+    },
+    "formal/IharaM3/Pairs.lean": {
+      "sha256": "16ed5ac53c80f7ad4fcd0b9bd0f795b5ac16d0f37fb8cdbe56607461ecef62ad",
+      "bytes": 3806
+    },
+    "formal/IharaM3/Reduction.lean": {
+      "sha256": "5d043c76e77aa159a9ff9292abb7b63da37ad76d163b44f082cfdb0b2ac84020",
+      "bytes": 7475
+    },
+    "formal/IharaM3/Support.lean": {
+      "sha256": "41698d0f3cd51e70cc261bbae916a4633612d8016103762337555285e126b7ec",
+      "bytes": 1541
+    },
+    "formal/IharaM3/Terminal.lean": {
+      "sha256": "cde21d598977c586836ab73664128ff4322e071980b8085fd4d69ebac9139f8c",
+      "bytes": 7062
+    },
+    "formal/IharaM3/Theorem61.lean": {
+      "sha256": "3199e16ff68c2104bc3a3db04fef5acf4de607c00e62d34f27d6b0995d96a503",
+      "bytes": 2305
+    },
+    "formal/README.md": {
+      "sha256": "06e248d18b967e98f3cf474216d608561c0577612b37bbf3ebbecd77928cddd0",
+      "bytes": 4417
+    },
+    "formal/check_certificates.py": {
+      "sha256": "78edf8a47eb155acd0f0d121c02dcb8ed56c6ad4eb685c87cba5b89a1b242a0e",
+      "bytes": 2420
+    },
+    "formal/lake-manifest.json": {
+      "sha256": "b040ce3387db8ed2c4d4770149e6992e674a038682382becd71fa0cdd885cb10",
+      "bytes": 3542
+    },
+    "formal/lakefile.toml": {
+      "sha256": "f3f5ca36fe3edc1eb074cfb1bacbaa8128f9003689cc0c63949188abdc21ff70",
+      "bytes": 236
+    },
+    "formal/lean-toolchain": {
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "bytes": 25
+    },
     "papers/README.md": {
       "sha256": "5c55924d5b0b24f06d1087de5d58026c9c2e090de73a0ecb9f25ef9b18092218",
       "bytes": 647
@@ -353,8 +409,8 @@
       "bytes": 991
     },
     "publication/THEOREM_6_1_M3.md": {
-      "sha256": "e9cd970f2b1d9eba8bf4edca38269e8142e4f9b6e4be5b6107028cab62c66188",
-      "bytes": 5582
+      "sha256": "6874ed7568c4cc10b41f334eaa724919f877418693df90a193e54a37572314ba",
+      "bytes": 5756
     },
     "publication/VALIDATION.md": {
       "sha256": "df3cf23819d700dc56a063602fec8fa001527c651547480a6e79ae4dc8839724",
@@ -706,5 +762,11 @@
     "parent_public_commit": "2ec6ba7fc4edd47d44159c2b6ee3a6bcd3115f99",
     "source": "arXiv:2610.33649v2, Theorem 6.1",
     "certificate": "certificates/mxx-theorem61.json"
+  },
+  "lean_formalization": {
+    "date": "2026-11-22",
+    "parent_public_commit": "1b588db235f157894f2872f263f301bc97650d96",
+    "theorem": "IharaM3.genus343_maximum",
+    "project": "formal/lakefile.toml"
   }
 }

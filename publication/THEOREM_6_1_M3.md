@@ -68,3 +68,5 @@ Avec l’environnement conda du laboratoire, la commande équivalente est
 `scripts/sage-python experiments/reproduce_mxx_theorem61.py`.
 
 La commande reconstruit la géométrie, évalue les deux formules de l’article, compare les contributions locales avec l’implémentation M3 et vérifie le résultat champ par champ contre le certificat archivé. L’option `--write-certificate` régénère le JSON. [Programme de reproduction](../experiments/reproduce_mxx_theorem61.py) · [Certificat exact](../certificates/mxx-theorem61.json)
+
+La [formalisation Lean 4](../formal/README.md) vérifie aussi les calculs du théorème 6.1 et démontre l’exhaustivité du maximum de M3 sur l’inventaire de genre 343.

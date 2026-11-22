@@ -79,6 +79,14 @@ coding guarantee is claimed.
 The four-page manuscript below documents M2; M3 is supplied in the separate
 proofs, certificates and checkers linked above.
 
+**Lean 4 formalization (22 November 2026).** The kernel checks that every
+admissible finite support has elementary-ray score at most `196608/620201`
+on the genus-343 inventory and that the M2 witness attains it. The proof
+allows arbitrary stocks above degree 12. It also checks the arithmetic of
+Ma–Xing–Xing's Theorem 6.1 on the genus-334 base. The geometry is supplied by
+the Sage certificates. [Build instructions and scope](formal/README.md) ·
+[Maximum theorem](formal/IharaM3/Maximum.lean).
+
 ## Reproduce
 
 Use Python 3.12 from the repository root. The core needs only the standard
